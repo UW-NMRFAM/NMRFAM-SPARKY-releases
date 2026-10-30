@@ -1,0 +1,588 @@
+!
+! NMRFAM-SPARKY Localization - Farsi / Persian
+! Contributed by Mehdi Rahimi (Lee group @ NMRFAM)
+!
+! Menus
+!
+Sparky*fileMenuButton.text:      فایل
+Sparky*viewMenuButton.text:      نما
+Sparky*peakMenuButton.text:      پیک
+Sparky*windowsMenuButton.text:   پنجره‌ها
+Sparky*extensionMenuButton.text: افزونه‌ها
+Sparky*helpMenuButton.text:      کمک
+
+Sparky*cmdMenu*openLabel:        گشودن...
+Sparky*cmdMenu*saveLabel:        ذخیره
+Sparky*cmdMenu*saveAsLabel:      ذخیره به عنوان...
+Sparky*cmdMenu*projHeadingLabel: پروژه
+Sparky*cmdMenu*projOpenLabel:    گشودن...
+Sparky*cmdMenu*projSaveLabel:    عنوان
+Sparky*cmdMenu*projSaveAsLabel:  ذخیره به عنوان...
+Sparky*cmdMenu*projCloseLabel:  بستن
+Sparky*cmdMenu*printLabel:      چاپ...
+Sparky*cmdMenu*preferencesLabel: تنظیمات...
+Sparky*cmdMenu*iconifyLabel:    کوجک‌کردن همه‌ی پنجره‌ها
+Sparky*cmdMenu*quitLabel:        خروج
+
+Sparky*cmdMenu*toolsCascadeLabel: ابزارها
+Sparky*cmdMenu*assignLabel:      اختصاص...
+Sparky*cmdMenu*acopymodeLabel:  حالت کپی...
+Sparky*cmdMenu*assignguessLabel: اختصاص حدسی...
+Sparky*cmdMenu*assigntableLabel: جدول اختصاص...
+Sparky*cmdMenu*contourLabel:    سطوح کانتور...
+Sparky*cmdMenu*midasLabel:      Midas...
+Sparky*cmdMenu*newlistLabel:    لیست جدید پیک‌ها...
+Sparky*cmdMenu*noteLabel:        یادداشت...
+Sparky*cmdMenu*ornamentLabel:    تزئینات...
+Sparky*cmdMenu*overlayLabel:    نما‌های روی هم...
+Sparky*cmdMenu*peaklistLabel:    لیست پیک‌ها...
+Sparky*cmdMenu*peakpickLabel:    انتخاب...
+Sparky*cmdMenu*crosshairLabel:  انتخاب...
+Sparky*cmdMenu*predefinedLabel:  رزونانس‌های از پیش تعریف شده...
+Sparky*cmdMenu*projectviewsLabel: لیست نما...
+Sparky*cmdMenu*reslistLabel:    لیسا رزونانس...
+Sparky*cmdMenu*renameresonLabel: تغییر نام رزونانس...
+Sparky*cmdMenu*spectrumLabel:    طیف...
+Sparky*cmdMenu*synchronizeLabel: هماهنگ‌سازی...
+
+Sparky*cmdMenu*axesCascadeLabel: بردارها
+Sparky*cmdMenu*ppmLabel:       نمایش واحد ppm
+Sparky*cmdMenu*hzLabel:         نمایش واحد فرکانس
+Sparky*cmdMenu*dataLabel:        نمایش واحد شاخص
+Sparky*cmdMenu*atomsLabel:      نمایش نوع هسته
+Sparky*cmdMenu*rollLabel:        محور گردش
+Sparky*cmdMenu*transposeLabel:  محورهای ترانهاده
+Sparky*cmdMenu*originLabel:      تنظیم مبدا ppm
+Sparky*cmdMenu*shiftaxesLabel:  حرکت محور ppm...
+
+Sparky*cmdMenu*crosshairsCascadeLabel: انتخاب
+Sparky*cmdMenu*xhairLabel:      انتخاب
+Sparky*cmdMenu*transxhairLabel:  انتخاب ترانهاده
+Sparky*cmdMenu*otherxhairLabel:  انتخاب نماهای دیگر
+
+Sparky*cmdMenu*regionCascadeLabel: منطقه‌ها
+Sparky*cmdMenu*gotoCascadeLabel: برو به
+Sparky*cmdMenu*centerviewLabel:  قرار دادن مرکز بر روی پیک
+Sparky*cmdMenu*gotoLabel:        رفتن به منطقه خاص
+Sparky*cmdMenu*regionLabel:      نامگذاری منطقه‌ها...
+
+Sparky*cmdMenu*resonanceCascadeLabel: رزونانس‌ها
+Sparky*cmdMenu*viewCascadeLabel: نماها
+Sparky*cmdMenu*edgePanelsCascadeLabel: صفحه نمایش لبه‌ها
+Sparky*cmdMenu*resonanceLabel:  رزونانس‌ها
+Sparky*cmdMenu*resfilterLabel:  فیلتر رزونانس
+Sparky*cmdMenu*sliceLabel:      برش‌ها
+Sparky*cmdMenu*slicescaleLabel:  برش‌های مقیاس خودکار
+Sparky*cmdMenu*slicesubtractLabel: برازش اختلاف برش
+Sparky*cmdMenu*peakinfoLabel:    اطلاعات پیک
+Sparky*cmdMenu*contourscaleLabel: مقیاس کانتور
+Sparky*cmdMenu*axisscaleLabel:  مقیاس محورها
+Sparky*cmdMenu*inversebgcolorLabel: معکوس رنگ پس زمینه 
+Sparky*cmdMenu*curposLabel: فرکانس‌ها بر روی مکان‌نما
+Sparky*cmdMenu*scrollbarsLabel:  نوار‌های پیمایش
+
+Sparky*cmdMenu*selectCascadeLabel: انتخاب
+Sparky*cmdMenu*selectallLabel:  انتخاب همه‌ی پیک‌ها
+Sparky*cmdMenu*selectfassignLabel: انتخاب اختصاص‌های کامل
+Sparky*cmdMenu*selectpassignLabel: انتخاب اختصاص‌های ناقص
+Sparky*cmdMenu*selectuassignLabel: انتخاب اختصاص‌ نشده‌ها
+Sparky*cmdMenu*selectcolorLabel: انتخاب پیک بر اساس رنگ
+Sparky*cmdMenu*selectinvertLabel: معکوس انتخاب پیک
+Sparky*cmdMenu*selectaliasedLabel: انتخاب پیک‌های نامگذاری شده
+Sparky*cmdMenu*selectintraLabel: انتخاب باقیمانده‌های داخلی
+Sparky*cmdMenu*selectseqLabel:  انتخاب توالی
+Sparky*cmdMenu*selectmediumLabel: انتخاب رنج متوسط
+Sparky*cmdMenu*selectlongLabel:  انتخاب پیک‌های رنج بالا
+
+Sparky*cmdMenu*showCascadeLabel: نمایش
+Sparky*cmdMenu*showallLabel:    همه‌ی تزئینات
+Sparky*cmdMenu*showpeakLabel:    پیک‌ها
+Sparky*cmdMenu*showpeakgpLabel:  گروه‌های پیک
+Sparky*cmdMenu*showgridLabel:    شبکه
+Sparky*cmdMenu*showlabelLabel:  برچسب‌ها
+Sparky*cmdMenu*showlineLabel:    خط‌ها
+
+Sparky*cmdMenu*dupviewLabel:    کپی
+Sparky*cmdMenu*hideviewLabel:    پنهان‌کردن نما
+Sparky*cmdMenu*deleteviewLabel:  حذف نما
+Sparky*cmdMenu*refreshLabel:    نمایش مجدد نما
+Sparky*cmdMenu*renumberLabel:    شماره‌گذاری مجدد نما
+Sparky*cmdMenu*viewLabel:        تنظینات نما...
+Sparky*cmdMenu*viewdepthLabel:  عمق قابل مشاهده...
+Sparky*cmdMenu*pointerModesLabel: حالت‌های اشاره‌گر...
+
+
+Sparky*cmdMenu*subtractfitLabel: اختلاف برازش پیک‌ها
+Sparky*cmdMenu*orthoLabel:      نماهای اریب
+Sparky*cmdMenu*unoverlapLabel:  جایگذاری برچسب‌ها
+Sparky*cmdMenu*rightlabelsLabel: فاصله از راست برچسب‌ها
+Sparky*cmdMenu*centerlabelsLabel: انتقال برچسب‌ها به مرکز
+
+Sparky*cmdMenu*zoomCascadeLabel: بزرگ‌نمایی
+Sparky*cmdMenu*zoomfullLabel:    نمایش کامل
+Sparky*cmdMenu*zoominLabel:      بزرگ‌نمایی
+Sparky*cmdMenu*zoomoutLabel:    کوچک‌نمایی
+Sparky*cmdMenu*zoomdownLabel:    صفحه پایین
+Sparky*cmdMenu*zoomupLabel:      صفحه بالا
+Sparky*cmdMenu*zoomprevLabel:    قبلی
+Sparky*cmdMenu*zoomnextLabel:    بعدی
+Sparky*cmdMenu*zoomrememberLabel: حافظه
+Sparky*cmdMenu*zoomwheelLabel:   فعال یا غیرفعال کردن بزرگ‌نمایی چرخ ماوس
+
+Sparky*cmdMenu*aliasCascadeLabel: نامگذاری
+Sparky*cmdMenu*aliasaddw1Label:  افزودن w1 sweepwidth
+Sparky*cmdMenu*aliasaddw2Label:  افزودن w2 sweepwidth
+Sparky*cmdMenu*aliasaddw3Label:  افزودن w3 sweepwidth
+Sparky*cmdMenu*aliasaddw4Label:  افزودن w4 sweepwidth
+Sparky*cmdMenu*aliassubw1Label:  تفریق w1 sweepwidth
+Sparky*cmdMenu*aliassubw2Label:  تفریق w2 sweepwidth
+Sparky*cmdMenu*aliassubw3Label:  تفریق w3 sweepwidth
+Sparky*cmdMenu*aliassubw4Label:  تفریق w4 sweepwidth
+Sparky*cmdMenu*aliasdownw1Label:   پایین‌دست w1 بازتاب
+Sparky*cmdMenu*aliasdownw2Label: پایین‌دست w2 بازتاب
+Sparky*cmdMenu*aliasdownw3Label: پایین‌دست w3 بازتاب
+Sparky*cmdMenu*aliasdownw4Label: پایین‌دست w4 بازتاب
+Sparky*cmdMenu*aliasupw1Label:   بالادست w1 بازتاب
+Sparky*cmdMenu*aliasupw2Label:  بالادست w2 بازتاب
+Sparky*cmdMenu*aliasupw3Label:  بالادست w3 بازتاب
+Sparky*cmdMenu*aliasupw4Label:  بالادست w4 بازتاب
+Sparky*cmdMenu*unaliasLabel:    حذف نامگذاری
+
+Sparky*cmdMenu*assignmentCascadeLabel: اختصاص‌ها
+Sparky*cmdMenu*assigncopyLabel:  کپی از اختصاص
+Sparky*cmdMenu*assigndeleteLabel: حذف اختصاص
+Sparky*cmdMenu*assignpasteLabel: چسباندن اختصاص
+Sparky*cmdMenu*assignpastelabelLabel: چسباندن و برچسب
+Sparky*cmdMenu*xdiagassigncopyLabel: کپی اختصاص اریب
+Sparky*cmdMenu*assignLabel:      اختصاص...
+Sparky*cmdMenu*labelpeaksLabel:  برچسب پیک‌های انتخاب‌شده
+Sparky*cmdMenu*unlabelpeaksLabel: حذف برچسب پیک‌های انتخاب‌شده
+
+Sparky*cmdMenu*deleteresLabel:  حذف رزنانس‌های اختصاص نشده
+Sparky*cmdMenu*resonancew1Label: w1 پیک‌های رزونانس
+Sparky*cmdMenu*resonancew2Label: w2 پیک‌های رزونانس
+Sparky*cmdMenu*resonancew3Label: w3 پیک‌های رزونانس
+Sparky*cmdMenu*resonancew4Label: w4 پیک‌های رزونانس
+Sparky*cmdMenu*resassignLabel:  اختصاص رزونانس...
+
+Sparky*cmdMenu*integrateCascadeLabel: ادغام
+Sparky*cmdMenu*integrateLabel:  ادغام...
+Sparky*cmdMenu*boxLabel:        جمع روش جعبه
+Sparky*cmdMenu*ellipseLabel:    جمع روش بیضی
+Sparky*cmdMenu*gaussianLabel:    برازش گاوسی
+Sparky*cmdMenu*lorentzianLabel:  برازش لورنزی
+Sparky*cmdMenu*voigtLabel:        برازش شبه-گاوسی
+Sparky*cmdMenu*integpeakLabel:  ادغام پیک‌های انتخاب‌شده
+Sparky*cmdMenu*unintegrateLabel: جداسازی پیک‌ها
+
+Sparky*cmdMenu*editCascadeLabel: ویرایش
+Sparky*cmdMenu*copyCascadeLabel: کپی
+Sparky*cmdMenu*ocopyLabel:      کپی تزئینات
+Sparky*cmdMenu*opasteLabel:      چسباندن تزئینات
+Sparky*cmdMenu*xocopyLabel:      کپی مورب از تزئینات
+
+Sparky*cmdMenu*peakCascadeLabel: پیک
+Sparky*cmdMenu*centerLabel:      مرکز پیک
+Sparky*cmdMenu*colorLabel:      رنگ تزئینات
+Sparky*cmdMenu*linewidthLabel:  حدس عرض پیک
+Sparky*cmdMenu*groupLabel:      گروه کردن پیک‌ها
+Sparky*cmdMenu*heightLabel:      آپدیت ارتفاع‌ها
+Sparky*cmdMenu*labelpeakLabel:  برچسب پیک
+Sparky*cmdMenu*listselectedLabel: لیست پیک‌های انتخاب شده
+Sparky*cmdMenu*lockLabel:        قفل‌کردن پیک‌ها
+Sparky*cmdMenu*osizeLabel:      اندازه تزئینات
+Sparky*cmdMenu*unlockLabel:      بازکردن قفل پیک‌ها
+Sparky*cmdMenu*undoLabel:        لغو آخرین دستور
+
+Sparky*cmdMenu*moreCascadeLabel: بیشتر
+Sparky*cmdMenu*extensionsCascadeLabel: افزونه‌ها
+
+Sparky*cmdMenu*popupHeadingLabel: منوی نما
+
+Sparky*helpMenu.manualLabel:    نمایش کتابچه راهنما
+Sparky*helpMenu.introLabel:      معرفی
+Sparky*helpMenu.filesLabel:      فایل‌ها
+Sparky*helpMenu.spectraLabel:    نماهای طیف
+Sparky*helpMenu.peaksLabel:      پیک‌ها و اختصاص‌ها
+Sparky*helpMenu.extensionsLabel: افزونه‌ها در پایتون
+Sparky*helpMenu.nmrfamLabel:      NMRFAM افزونه‌های
+Sparky*helpMenu.commandidxLabel:  دستورات میانبر
+
+!
+! View window configuration.
+!
+Sparky*View.peakPanel.text.text: مقعیت، ارتفاع و عرض پیک
+
+!
+! General dialog properties
+!
+Sparky*controls.ok.text:       اوکی
+Sparky*controls.apply.text:     اعمال
+Sparky*controls.update.text:   به روز رسانی
+Sparky*controls.save.text:     ذخیره...
+Sparky*controls.load.text:     بارگذاری...
+Sparky*controls.close.text:     بستن
+Sparky*controls.help.text:     کمک
+
+!
+! View/Spectrum/Molecule/Condition/Resonance selection
+!
+Sparky*viewMenu.label.text:  نما: 
+Sparky*spectrumMenu.label.text:  طیف: 
+Sparky*resField.resEdit.title.text: رزونانس: 
+Sparky*resField.resMolCond.title.text: مولکول / وضعیت: 
+
+!
+! Pointer Mode dialog
+!
+Sparky.mode.title:                      حالت اشاره گر
+Sparky.mode.buttons.select.text:        F1    حالت انتخاب
+Sparky.mode.buttons.center.text:        F2    یافتن مرکز
+Sparky.mode.buttons.addGridBoth.text:   F3    افزودن خطوط افقی و عمودی
+Sparky.mode.buttons.addGridHorz.text:   F4    افزودن خطوط عمودی
+Sparky.mode.buttons.addGridVert.text:   F5    افزودن خطوط افقی
+Sparky.mode.buttons.addLabel.text:      F6    افزودن برچسب
+Sparky.mode.buttons.addLine.text:       F7    افزودن خط
+Sparky.mode.buttons.findAddPeak.text:   F8    یافتن یا افزودن پیک
+Sparky.mode.buttons.integrate.text:     F10   ادغام
+Sparky.mode.buttons.zoom.text:          F11   بزرگنمایی
+Sparky.mode.buttons.duplicateZoom.text: F12   کپی و بزرگنمایی
+Sparky.mode.buttons.assignCopy.text:    sh-F1 کپی اختصاص‌ها
+Sparky.mode.buttons.assignGuess.text:   sh-F2 حدس اختصاص‌ها
+
+!
+! Label dialog
+!
+Sparky.labelDialog.title:            برچسب
+Sparky.labelDialog*type.label.text:   نوع: 
+Sparky.labelDialog*label.title.text: برچسب: 
+
+!
+! View settings dialog
+!
+Sparky.viewDialog.aspect.title.text:              مقیاس (ppm): 
+Sparky.viewDialog.assignFormat.title.text:         فرمت اختصاص‌ها: 
+Sparky.viewDialog.depth.text:                     تنظیم عمق قابل مشاهده (vz) ...
+Sparky.viewDialog*units.label.text:                واحد بردار:
+Sparky.viewDialog.switches.ornaments.text:         تزئینات (os)
+Sparky.viewDialog.switches.labels.text:            برچسب‌ها (ls)
+Sparky.viewDialog.switches.peaks.text:            پیک‌ها (ps)
+Sparky.viewDialog.switches.peakGroups.text:         گروه‌های پیک (xs)
+Sparky.viewDialog.switches.grids.text:            شبکه‌ها (gs)
+Sparky.viewDialog.switches.lines.text:            خط‌ها (is)
+Sparky.viewDialog.switches.atomNames.text:         نام‌های اتمی محورها (xa)
+Sparky.viewDialog.switches.crosshair.text:         انتخاب (hh)
+Sparky.viewDialog.switches.transposeCrosshair.text: انتخاب ترانهاده (ht)
+Sparky.viewDialog.switches.crosshairOther.text:     انتخاب از نماهای دیگر (ho)
+Sparky.viewDialog.switches.scales.text:            مقیاس های محور (vs)
+Sparky.viewDialog.switches.scrollbars.text:         نوار‌های پیمایش (vb)
+Sparky.viewDialog.switches.resonancePanels.text:     صفحه نمایش رزنانس (vR)
+Sparky.viewDialog.switches.resFilter.text:         صفحه نمایش فیلتر رزنانس (rf)
+Sparky.viewDialog.switches.slicePanels.text:       صفحه نمایش برش (vS)
+Sparky.viewDialog.switches.scaleSlices.text:       برش مقیاس خودکار (sa)
+Sparky.viewDialog.switches.sliceSubtract.text:     تفریق پیک‌ها در برش (sf)
+Sparky.viewDialog.switches.peakInfo.text:           صفحه نمایش اطلاعات پیک (vp)
+Sparky.viewDialog.switches.contourScale.text:       مقیاس کانتور (vC)
+Sparky.viewDialog.switches.subtractPeaks.text:     تفریق پیک‌های برازش شده (vf)
+Sparky.viewDialog.switches.inversebgcolor.text:     رنگ پس زمینه معکوس (ci)
+Sparky.viewDialog.switches.curpos.text:     نمایش فرکانس روی مکان‌نما (fc)
+
+
+!
+! Peak List dialog
+!
+Sparky.PeakListDialog.search.title.text:     جستجو برای: 
+Sparky.PeakListDialog.controls.options.text: گزینه ها...
+
+!
+! Peak List Options dialog
+!
+Sparky.peakListOptionsDialog.switches.assignmentName.text:  اختصاص
+Sparky.peakListOptionsDialog.switches.userName.text:       برچسب کاربر
+Sparky.peakListOptionsDialog.switches.frequency.text:       فرکانس (ppm)
+Sparky.peakListOptionsDialog.switches.frequencyHz.text:     فرکانس (Hz)
+Sparky.peakListOptionsDialog.switches.resonanceDev.text:    انحراف رزنانس
+Sparky.peakListOptionsDialog.switches.volume.text:         حجم
+Sparky.peakListOptionsDialog.switches.volumeError.text:     خطای حجم
+Sparky.peakListOptionsDialog.switches.transVolume.text:     ترانهاده حجم
+Sparky.peakListOptionsDialog.switches.fitResidual.text:     برازش باقیمانده
+Sparky.peakListOptionsDialog.switches.fitHeight.text:       برازش ارتفاع
+Sparky.peakListOptionsDialog.switches.dataHeight.text:     نمایش ارتفاع داده
+Sparky.peakListOptionsDialog.switches.noise.text:           سیگنال به نویز
+Sparky.peakListOptionsDialog.switches.linewidth.text:       عرض پیک
+Sparky.peakListOptionsDialog.switches.resFreq.text:         فرکانس محور رزنانس
+Sparky.peakListOptionsDialog.switches.resDev.text:         انحراف محور رزنانس
+Sparky.peakListOptionsDialog.switches.spectrumName.text:    نام طیف
+Sparky.peakListOptionsDialog.switches.assignmentDistance.text: فاصله‌ی اختصاص
+Sparky.peakListOptionsDialog.switches.mardigras.text:       Mardigras فرمت
+Sparky.peakListOptionsDialog.switches.diana.text:           Dyana فرمت
+Sparky.peakListOptionsDialog.switches.note.text:           یادداشت
+Sparky.peakListOptionsDialog.sortBy.label.text:            مرتب سازی بر اساس: 
+Sparky.peakListOptionsDialog.sortAxis.title.text:           مرتب‌سازی محور: 
+Sparky.peakListOptionsDialog.sortPairX.text:               جفت کردن پیک‌های اریب?
+Sparky.peakListOptionsDialog.assignFormat.title.text:       فرمت اختصاص‌ها: 
+Sparky.peakListOptionsDialog*noSortLabel:                  هیچ
+Sparky.peakListOptionsDialog*assignmentNameSortLabel:       اختصاص
+Sparky.peakListOptionsDialog*userNameSortLabel:            برچسب کاربر
+Sparky.peakListOptionsDialog*frequencySortLabel:           فرکانس
+Sparky.peakListOptionsDialog*resonanceNameSortLabel:       نام رزنانس
+Sparky.peakListOptionsDialog*volumeSortLabel:              حجم
+Sparky.peakListOptionsDialog*dataHeightSortLabel:          نمایش ارتفاع داده
+Sparky.peakListOptionsDialog*noteSortLabel:                 یادداشت
+Sparky.peakListOptionsDialog*assignmentDistanceSortLabel:   فاصله‌ی اختصاص
+
+!
+! Resonance List dialog
+!
+Sparky.resonanceListDialog.condition.label.text: مولکول / شرایط: 
+
+!
+! Contour dialog
+!
+Sparky.contourDialog.title:            سطوح کانتور
+Sparky.contourDialog.levels.r0c1.text: پایین‌ترین
+Sparky.contourDialog.levels.r0c2.text: سطوح
+Sparky.contourDialog.levels.r0c3.text: ضریب
+Sparky.contourDialog.levels.r0c4.text: رنگ
+Sparky.contourDialog.levels.r1c0.text: مثبت 
+Sparky.contourDialog.levels.r2c0.text: منفی 
+
+!
+! Region dialog
+!
+Sparky.regionDialog.name.title.text:         نام 
+Sparky.regionDialog.accel.title.text:         شتاب دهنده 
+Sparky.regionDialog.ranges.r0c1.text:         بالادست
+Sparky.regionDialog.ranges.r0c2.text:         پایین‌دست
+Sparky.regionDialog.curWor.current.text:     کنونی
+Sparky.regionDialog.curWor.world.text:       همه‌ی طیف
+Sparky.regionDialog*listHeading.text:         نامگذاری منطقه‌ها
+Sparky.regionDialog.addDel.add.text:         افزودن
+Sparky.regionDialog.addDel.delete.text:       حذف
+Sparky.regionDialog.controls.applyMode.text: اعمال حالت
+Sparky.regionDialog.controls.goto.text:       برو به
+
+!
+! Assignment dialog
+!
+Sparky.assignDialog.axes.r0c0.text:       محور
+Sparky.assignDialog.axes.r0c1.text:       گروه
+Sparky.assignDialog.axes.r0c2.text:       اتم
+Sparky.assignDialog.axes.r0c3.text:       رزنانس
+Sparky.assignDialog.axes.r0c4.text:       پیک  
+Sparky.assignDialog.resList.listHeading.text: رزنانس‌ها
+Sparky.assignDialog.resPeaks.text:      پیک‌های رزنانس ... 
+Sparky.assignDialog.guess.guessOpt.text: در حال حدس زدن ... 
+Sparky.assignDialog.guess.guesses.text:  حدس‌ها
+
+!
+! Assignment copy dialog
+!
+Sparky.assignCopyDialog.pmHeading.text:  حالت مکان‌نمای کپی اختصاص
+Sparky.assignCopyDialog.copyFrom.label.text: کپی از طیف: 
+
+!
+! Assignment guessing options dialog
+!
+Sparky.resonanceTableDialog.title:                     جدول اختصاص
+Sparky.resonanceTableDialog.condition.label.text:       مولکول / شرایط: 
+Sparky.resonanceTableDialog.switches.chemShifts.text:  نمایش تغییر مکان شیمیایی؟
+Sparky.resonanceTableDialog.switches.standardDev.text: نمایش انحراف معیارها؟
+Sparky.resonanceTableDialog.switches.counts.text:       نمایش تعداد اختصاص‌ها؟
+Sparky.resonanceTableDialog.switches.predefined.text:   نمایش رزنانس‌های از پیش اختصاص شده
+
+!
+! Assignment guessing options dialog
+!
+Sparky.guessDialog.settings.r0c1.text:  گروه
+Sparky.guessDialog.settings.r0c2.text:  اتم
+Sparky.guessDialog.settings.r0c3.text:  دامنه (ppm)
+Sparky.guessDialog.useFilter.text:      استفاده از فیلتر اختصاص‌ها؟ 
+Sparky.guessDialog.filterFile.title.text: فایل فیلتر اختصاص‌ها 
+Sparky.guessDialog.settings*menu.noneLabel: هیچ
+Sparky.guessDialog.settings*menu.anyLabel: همه
+
+!
+! Print dialog
+!
+Sparky.printDialog.table.r0c2.text: پایین‌دست
+Sparky.printDialog.table.r0c3.text: بالادست
+Sparky.printDialog.table.r0c4.text: صفحات
+Sparky.printDialog.table.r0c5.text: ppm / cm
+Sparky.printDialog.table.r0c6.text: فاصله برچسب (ppm)
+Sparky.printDialog.settings.peakGroups.text: گروه‌های پیک
+Sparky.printDialog.settings.blackLabels.text: برچسب‌های سیاه
+Sparky.printDialog.settings.landscape.text: صفحه افقی
+Sparky.printDialog.settings.banner.text: سرصفحه
+Sparky.printDialog.settings.grids.text:  شبکه‌ها
+Sparky.printDialog.settings.peaks.text:  پیک‌ها
+Sparky.printDialog.printCommand.title.text: دستور چاپ 
+Sparky.printDialog.filename.title.text:  نام فایل 
+Sparky.printDialog.bannerTitle.title.text: عنوان سرصفحه 
+Sparky.printDialog.controls.print.text:  چاپ
+Sparky.printDialog.controls.preview.text: پیش‌نمایش
+
+!
+! Ornament Properties dialog
+!
+Sparky.ornamentDialog.title:                      ویژگی‌های تزئینات
+Sparky.ornamentDialog.peakProps.r0c0.text: 
+Sparky.ornamentDialog.peakProps.r1c0.text:         موقعیت 
+Sparky.ornamentDialog.peakProps.r2c0.text:         عرض پیک
+Sparky.ornamentDialog.peakProps.r3c0.text:         حجم
+Sparky.ornamentDialog.peakProps.r4c0.text:         درصد خطای حجم
+Sparky.ornamentDialog.lock.text:                  قفل کردن موقعیت
+Sparky.ornamentDialog.properties.color.text:       رنگ ...
+Sparky.ornamentDialog.properties.note.text:         یادداشت ...
+Sparky.ornamentDialog.properties.sizes.text:       اندازه‌ها ...
+Sparky.ornamentDialog.properties.planes.text:       عمق قابل مشاهده ...	
+
+!
+! Ornament Properties dialog
+!
+Sparky.ornamentSizeDialog.heading.text:             اندازه تزئینات در واحد w1 ppm
+Sparky.ornamentSizeDialog.labelSize.title.text:     اندازه برچسب: 
+Sparky.ornamentSizeDialog.peakSize.title.text:     اندازه پیک: 
+Sparky.ornamentSizeDialog.peakGroupSize.title.text: اندازه گروه پیک: 
+Sparky.ornamentSizeDialog.lineSize.title.text:     ضخامت خط: 
+
+!
+! View depth dialog
+!
+Sparky.viewDepthDialog.heading.text: صفحه‌های قابل‌دید اضافی
+
+!
+! Ornament color dialog
+!
+Sparky.colorDialog.title:           رنگ تزئینات
+
+!
+! Ornament note dialog
+!
+Sparky.noteDialog.title:            یادداشت برای تزئینات
+Sparky.noteDialog.note.title.text:   یادداشت 
+
+!
+! Peak picking dialog
+!
+Sparky.pickDialog.linewidthtitle.text:               حداقل عرض پیک (hz)
+
+!
+! Integration methods dialog
+!
+Sparky.integrationDialog.method.label.text:           روش انتگرال: 
+Sparky.integrationDialog.switches.allowMotion.text:   حرکت پیک مجاز است؟
+Sparky.integrationDialog.switches.adjustLinewidths.text: تنظیم عرض پیک؟
+Sparky.integrationDialog.switches.baselineFit.text:  بایاس برای برازش؟
+Sparky.integrationDialog.switches.subtractPeaks.text: تفریق پیک‌های برازش‌شده؟
+Sparky.integrationDialog.switches.contouredData.text: استفاده از داده‌های بالاتر از کمترین کانتور؟
+Sparky.integrationDialog.switches.rectangleData.text: استفاده از داده‌های داخل مستطیل؟
+Sparky.integrationDialog.switches.contourGroup.text:  گروه کردن پیک‌ها در مرز کانتور؟
+Sparky.integrationDialog.switches.distanceGroup.text: گروه کردن پیک‌های نزدیک
+Sparky.integrationDialog.ranges.r1c0.text:       حداکثر حرکت (ppm)
+Sparky.integrationDialog.ranges.r2c0.text:       حداقل عرض پیک (Hz)
+Sparky.integrationDialog.ranges.r3c0.text:       حداکثر عرض پیک (Hz)
+Sparky.integrationDialog.ranges.r4c0.text:       محدوده‌ی گروه‌بندی (Hz)
+Sparky.integrationDialog.maxStep.title.text:     حداکثر پله‌های کمینه‌سازی
+Sparky.integrationDialog.tolerance.title.text:   تلرانس کمینه‌سازی (%) 
+Sparky.integrationDialog.voigtMixing.title.text: ترکیب گاوسی-Voigt (%) 
+!
+! Spectrum dialog
+!
+Sparky.spectrumDialog.rename.title.text: تغییر نام: 
+Sparky.spectrumDialog.noise.title.text:  تخمین نویز: 
+Sparky.spectrumDialog*noisebutton.text:  محاسبه مجدد
+Sparky.spectrumDialog*noisecount.title.text: نویز به عنوان میانه
+Sparky.spectrumDialog.recomplabel.text: نمونه‌گیری تصادفی از ارتفاع مطلق داده ها.
+
+!
+! Synchronize views dialog
+!
+Sparky.syncDialog.title:              همگام‌سازی نماها
+Sparky.syncDialog.viewTable.r0c1.text: w1  
+Sparky.syncDialog.viewTable.r0c2.text: w2  
+Sparky.syncDialog.viewTable.r0c3.text: w3  
+Sparky.syncDialog.viewTable.r0c4.text: w4  
+Sparky.syncDialog.controls.synchronize.text: همگام‌سازی
+Sparky.syncDialog.controls.unsynchronize.text: لغو همگام‌سازی
+
+!
+! Database dialog
+!
+Sparky.databaseDialog.title:   ورودی‌های پایگاه داده
+
+!
+! Project views dialog
+!
+Sparky.viewListDialog.title:             لیست نماها
+Sparky.viewListDialog.controls.show.text:  نمایش
+Sparky.viewListDialog.controls.hide.text:  پنهان کردن
+
+!
+! Predefined resonances dialog
+!
+Sparky.predefinedResonanceDialog.title:                   رزنانس‌های از پیش اختصاص شده
+Sparky.predefinedResonanceDialog.fromMolCond.label.text:  از مولکول / شرایط: 
+Sparky.predefinedResonanceDialog.toMolCond.label.text:    تا مولکول / شرایط: 
+Sparky.predefinedResonanceDialog.controls.copy.text:      کپی
+
+!
+! Preferences dialog
+!
+Sparky.preferenceDialog.title:                    ترجیحات
+Sparky.preferenceDialog.switches.savePrompt.text:   هشدار هنگام نوشتن روی فایل‌های موجود؟
+Sparky.preferenceDialog.switches.resizeViews.text:  تغییر اندازه‌ی پنجره‌ی نما هنگام افزودن صفحه نمایش رزنانس؟
+Sparky.preferenceDialog.switches.disregardBorders.text: نادیده گرفتن اندازه کناره‌ی پنجره برای تنظیمات نما؟
+
+Sparky.preferenceDialog.switches.contourGraying.text: خاکستری‌کردن طیف در هنگام نمایش خطوط کانتور؟
+Sparky.preferenceDialog.autoBackup.title.text:  بطور خودکار از فایلهای پشتیبان تهیه کردن (هر چند دقیقه): 
+Sparky.preferenceDialog.keyTimeout.title.text:  حداکثر زمان بین کلیدهای شتاب دهنده (ثانیه): 
+Sparky.preferenceDialog.cacheSize.title.text:   NMR اندازه حافظه موقت داده (مگابایت): 
+
+!
+! Rename resonances dialog
+!
+Sparky.renameDialog.title:              تغییر نام رزنانس
+Sparky.renameDialog.gaTable.r0c1.text:   گروه
+Sparky.renameDialog.gaTable.r0c2.text:   اتم
+Sparky.renameDialog.gaTable.r1c0.text:   از: 
+Sparky.renameDialog.gaTable.r2c0.text:   تا:
+Sparky.renameDialog.controls.rename.text: تغییر نام
+Sparky.renameDialog.controls.merge.text: ادغام
+Sparky.renameDialog.controls.swap.text:  تعویض
+
+!
+! Change data location dialog
+!
+Sparky.dataLocationDialog.title:               تغییر مسیر داده‌ها
+Sparky.dataLocationDialog.file.title.text:    میر داده جدید: 
+Sparky.dataLocationDialog.controls.browse.text: انخاب فایل...
+Sparky.dataLocationDialog.controls.cancel.text: لغو بارگذاری
+
+!
+! View overlay dialog
+!
+Sparky.overlayDialog.title:               نماهای روی هم
+Sparky.overlayDialog*listHeading.text:    تا نمای              از نمای
+Sparky.overlayDialog.fromView.label.text: از نمای: 
+Sparky.overlayDialog.ontoView.label.text: تا نمای: 
+Sparky.overlayDialog.controls.add.text:      افزودن
+Sparky.overlayDialog.controls.remove.text:    حذف کردن
+
+!
+! Midas molecular display dialog
+!
+Sparky.midasDialog.colors.label.text: رنگ خط: 
+Sparky.midasDialog.switches.allAssignments.text: نمایش همه‌ی اختصاص‌ها؟
+Sparky.midasDialog.pdbFile.title.text: PDB فایل: 
+Sparky.midasDialog.controls.file.text: PDB فایل
+
+!
+! Choice dialog (implements queries, warnings, wait messages
+! Query dialog
+! Working dialog
+! Warning dialog
+!
+Sparky.queryDialog.title:  سوال
+Sparky.workingDialog.title:  در حال کار ...
+Sparky.warningDialog.title:  اخطار

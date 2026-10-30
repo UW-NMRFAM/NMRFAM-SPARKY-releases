@@ -1,0 +1,2354 @@
+<sparky save file>
+<version 3.133>
+<user>
+set mode 0
+set saveprompt 0
+set saveinterval 0
+set resizeViews 0
+set keytimeout 3000
+set cachesize 4
+set contourgraying 1
+default print command lpr
+default print file 
+default print options 2 27 1.000000 1.000000
+<end user>
+<spectrum>
+molecule 1H_Reference
+name 1H_Reference
+pathname ../data/ref_1H_empty.ucsf
+dimension 2
+shift 0.000000 0.000000
+points 200 200
+assignMultiAxisGuess 3
+assignGuessThreshold 0.000000
+assignRelation 1 1 
+assignRelation 2 1 
+assignRange 1 0.000000
+assignRange 2 0.000000
+assignFormat %a1-%a2
+listTool sortBy label
+listTool nameType assignment
+listTool sortAxis w1
+listTool showFlags frequency
+integrate.overlapped_sep 30.000 30.000
+integrate.methods 1 0 1
+integrate.allow_motion 1
+integrate.adjust_linewidths 1
+integrate.motion_range 0.010 0.010
+integrate.min_linewidth 0.0200 0.0200
+integrate.max_linewidth 2.0000 2.0000
+integrate.fit_baseline 0
+integrate.subtract_peaks 0
+integrate.contoured_data 1
+integrate.rectangle_data 0
+integrate.maxiterations 10000
+integrate.tolerance 0.001000
+integrate.pseudo_voigt_mixing 0.500000
+peak.pick 0.000000 0.000000 0.000000 0.000000 0
+peak.pick-minimum-linewidth 0.000000 0.000000
+peak.pick-minimum-dropoff 0.00
+noise.sigma 1.000000
+ornament.label.size 2.500000
+ornament.line.size 0.400000
+ornament.peak.size 0.000200
+ornament.grid.size 0.400000
+ornament.peakgroup.size 0.800000
+ornament.selectsize 0.500000
+ornament.pointersize 0.500000
+ornament.lineendsize 0.500000
+<attached data>
+<end attached data>
+<view>
+name 1H_Reference
+precision 0
+precision_by_units 0 0 0
+viewmode 0
+show 1 label line peak grid peakgroup
+axistype 2
+flags crosshair crosshair2 noscales inversebgcolor
+contour.pos 0 1e+07 1.400000 0.000000 red
+contour.neg 14 -10 1.400000 0.000000 green
+<params>
+orientation 1 0
+location 486 134
+size 659 678
+offset 28.230372 51.140860
+scale 1.000000 1.000000
+zoom 6.809424
+flags 0
+<end params>
+<params>
+orientation 1 0
+location 486 134
+size 659 678
+offset 28.230372 51.140860
+scale 1.000000 1.000000
+zoom 6.809424
+flags 0
+<end params>
+<params>
+orientation 1 0
+location 486 134
+size 659 678
+offset 28.230372 51.140860
+scale 1.000000 1.000000
+zoom 6.809424
+flags 0
+<end params>
+<end view>
+<ornament>
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 4.250 0.250
+label HA
+xy 4.250,0.175 0.225,4.221
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 3.820 0.325
+tr 4.680 0.325
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 3.820 0.325
+tr 3.820 0.175
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 4.680 0.325
+tr 4.680 0.175
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 1.360 0.250
+label HB
+xy 1.360,0.175 0.215,1.360
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 1.110 0.325
+tr 1.610 0.325
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 1.110 0.325
+tr 1.110 0.175
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 1.610 0.325
+tr 1.610 0.175
+ends 0
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 4.290 0.750
+label HA
+xy 4.290,0.675 0.723,4.276
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 3.830 0.825
+tr 4.750 0.825
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 3.830 0.825
+tr 3.830 0.675
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 4.750 0.825
+tr 4.750 0.675
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 1.780 0.750
+label HB2/3
+xy 1.780,0.675 0.658,2.163
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 1.510 0.825
+tr 2.050 0.825
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 1.510 0.825
+tr 1.510 0.675
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 2.050 0.825
+tr 2.050 0.675
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 1.560 0.600
+label HG2/3
+xy 1.560,0.525 0.660,1.160
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 1.280 0.675
+tr 1.840 0.675
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 1.280 0.675
+tr 1.280 0.525
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 1.840 0.675
+tr 1.840 0.525
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 3.110 0.750
+label HD2/3
+xy 3.110,0.675 0.598,3.107
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 2.860 0.825
+tr 3.360 0.825
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 2.860 0.825
+tr 2.860 0.675
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 3.360 0.825
+tr 3.360 0.675
+ends 0
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 4.590 1.250
+label HA
+xy 4.590,1.175 1.199,4.600
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 4.270 1.325
+tr 4.910 1.325
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 4.270 1.325
+tr 4.270 1.175
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 4.910 1.325
+tr 4.910 1.175
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 2.690 1.250
+label HB2/3
+xy 2.690,1.175 1.103,2.678
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 2.410 1.325
+tr 2.970 1.325
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 2.410 1.325
+tr 2.410 1.175
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 2.970 1.325
+tr 2.970 1.175
+ends 0
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 4.660 1.750
+label HA
+xy 4.660,1.675 1.720,4.644
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 4.300 1.825
+tr 5.020 1.825
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 4.300 1.825
+tr 4.300 1.675
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 5.020 1.825
+tr 5.020 1.675
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 2.780 1.750
+label HB2/3
+xy 2.780,1.675 1.623,2.767
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 2.450 1.825
+tr 3.110 1.825
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 2.450 1.825
+tr 2.450 1.675
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 3.110 1.825
+tr 3.110 1.675
+ends 0
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 4.650 2.250
+label HA
+xy 4.650,2.175 2.203,4.620
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 4.100 2.325
+tr 5.200 2.325
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 4.100 2.325
+tr 4.100 2.175
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 5.200 2.325
+tr 5.200 2.175
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 2.920 2.250
+label HB2/3
+xy 2.920,2.175 2.114,2.896
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 2.460 2.325
+tr 3.380 2.325
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 2.460 2.325
+tr 2.460 2.175
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 3.380 2.325
+tr 3.380 2.175
+ends 0
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 4.250 2.750
+label HA
+xy 4.250,2.675 2.711,4.234
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 3.840 2.825
+tr 4.660 2.825
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 3.840 2.825
+tr 3.840 2.675
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 4.660 2.825
+tr 4.660 2.675
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 2.010 2.750
+label HB2/3
+xy 2.010,2.675 2.600,1.911
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 1.790 2.825
+tr 2.230 2.825
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 1.790 2.825
+tr 1.790 2.675
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 2.230 2.825
+tr 2.230 2.675
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 2.260 2.600
+label HG2/3
+xy 2.260,2.525 2.459,2.380
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 2.040 2.675
+tr 2.480 2.675
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 2.040 2.675
+tr 2.040 2.525
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 2.480 2.675
+tr 2.480 2.525
+ends 0
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 4.260 3.250
+label HA
+xy 4.260,3.175 3.206,4.370
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 3.830 3.325
+tr 4.690 3.325
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 3.830 3.325
+tr 3.830 3.175
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 4.690 3.325
+tr 4.690 3.175
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 2.040 3.250
+label HB2/3
+xy 2.040,3.175 3.098,1.862
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 1.770 3.325
+tr 2.310 3.325
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 1.770 3.325
+tr 1.770 3.175
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 2.310 3.325
+tr 2.310 3.175
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 2.310 3.100
+label HG2/3
+xy 2.310,3.025 2.954,2.485
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 2.020 3.175
+tr 2.600 3.175
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 2.020 3.175
+tr 2.020 3.025
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 2.600 3.175
+tr 2.600 3.025
+ends 0
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 3.940 3.750
+label HA2/3
+xy 3.940,3.675 3.627,3.963
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 3.550 3.825
+tr 4.330 3.825
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 3.550 3.825
+tr 3.550 3.675
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 4.330 3.825
+tr 4.330 3.675
+ends 0
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 4.600 4.250
+label HA
+xy 4.600,4.175 4.190,4.616
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 4.170 4.325
+tr 5.030 4.325
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 4.170 4.325
+tr 4.170 4.175
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 5.030 4.325
+tr 5.030 4.175
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 3.080 4.250
+label HB2/3
+xy 3.080,4.175 4.110,3.069
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 2.680 4.325
+tr 3.480 4.325
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 2.680 4.325
+tr 2.680 4.175
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 3.480 4.325
+tr 3.480 4.175
+ends 0
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 4.170 4.750
+label HA
+xy 4.170,4.675 4.694,4.175
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 3.610 4.825
+tr 4.730 4.825
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 3.610 4.825
+tr 3.610 4.675
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 4.730 4.825
+tr 4.730 4.675
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 1.780 4.750
+label HB
+xy 1.780,4.675 4.706,1.892
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 1.490 4.825
+tr 2.070 4.825
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 1.490 4.825
+tr 1.490 4.675
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 2.070 4.825
+tr 2.070 4.675
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 1.250 4.600
+label HG1
+xy 1.250,4.525 4.496,1.330
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 0.830 4.675
+tr 1.670 4.675
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 0.830 4.675
+tr 0.830 4.525
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 1.670 4.675
+tr 1.670 4.525
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 0.770 4.750
+label HG2
+xy 0.770,4.675 4.814,0.436
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 0.500 4.825
+tr 1.040 4.825
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 0.500 4.825
+tr 0.500 4.675
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 1.040 4.825
+tr 1.040 4.675
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 0.680 4.600
+label HD1
+xy 0.680,4.525 4.512,0.637
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 0.390 4.675
+tr 0.970 4.675
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 0.390 4.675
+tr 0.390 4.525
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 0.970 4.675
+tr 0.970 4.525
+ends 0
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 4.310 5.250
+label HA
+xy 4.310,5.175 5.202,4.292
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 3.850 5.325
+tr 4.770 5.325
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 3.850 5.325
+tr 3.850 5.175
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 4.770 5.325
+tr 4.770 5.175
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 1.560 5.250
+label HB2/3
+xy 1.560,5.175 5.169,2.047
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 1.170 5.325
+tr 1.950 5.325
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 1.170 5.325
+tr 1.170 5.175
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 1.950 5.325
+tr 1.950 5.175
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 1.510 5.100
+label HG
+xy 1.510,5.025 5.052,1.517
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 1.180 5.175
+tr 1.840 5.175
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 1.180 5.175
+tr 1.180 5.025
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 1.840 5.175
+tr 1.840 5.025
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 0.740 5.250
+label HD1/2
+xy 0.740,5.175 5.101,0.724
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 0.450 5.325
+tr 1.030 5.325
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 0.450 5.325
+tr 0.450 5.175
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 1.029 5.323
+tr 1.029 5.173
+ends 0
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 4.260 5.750
+label HA
+xy 4.260,5.675 9.696,4.167
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 3.830 5.825
+tr 4.690 5.825
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 3.830 5.825
+tr 3.830 5.675
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 4.690 5.825
+tr 4.690 5.675
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 1.770 5.750
+label HB2/3
+xy 1.770,5.675 5.603,1.890
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 1.480 5.825
+tr 2.060 5.825
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 1.480 5.825
+tr 1.480 5.675
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 2.060 5.825
+tr 2.060 5.675
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 1.360 5.600
+label HG2/3
+xy 1.360,5.525 5.505,1.180
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 1.080 5.675
+tr 1.640 5.675
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 1.080 5.675
+tr 1.080 5.525
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 1.640 5.675
+tr 1.640 5.525
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 1.610 5.900
+label HD2/3
+xy 1.610,5.825 5.934,1.306
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 1.380 5.975
+tr 1.840 5.975
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 1.380 5.975
+tr 1.380 5.825
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 1.840 5.975
+tr 1.840 5.825
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 2.910 5.750
+label HE2/3
+xy 2.910,5.675 5.629,2.903
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 2.710 5.825
+tr 3.110 5.825
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 2.710 5.825
+tr 2.710 5.675
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 3.110 5.825
+tr 3.110 5.675
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 3.930 6.325
+tr 4.870 6.325
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 3.930 6.325
+tr 3.930 6.175
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 4.870 6.325
+tr 4.870 6.175
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 2.010 6.250
+label HB2/3
+xy 2.010,6.175 6.124,1.930
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 1.640 6.325
+tr 2.380 6.325
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 1.640 6.325
+tr 1.640 6.175
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 2.380 6.325
+tr 2.380 6.175
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 2.410 6.100
+label HG2/3
+xy 2.410,6.025 5.947,2.394
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 2.030 6.175
+tr 2.790 6.175
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 2.030 6.175
+tr 2.030 6.025
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 2.790 6.175
+tr 2.790 6.025
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 1.890 6.400
+label HE
+xy 1.890,6.325 6.353,1.537
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 1.430 6.475
+tr 2.350 6.475
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 1.430 6.475
+tr 1.430 6.325
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 2.350 6.475
+tr 2.350 6.325
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 4.050 6.825
+tr 5.190 6.825
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 4.050 6.825
+tr 4.050 6.675
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 5.190 6.825
+tr 5.190 6.675
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 2.970 6.750
+label HB2/3
+xy 2.970,6.675 6.605,2.958
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 2.550 6.825
+tr 3.390 6.825
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 2.550 6.825
+tr 2.550 6.675
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 3.390 6.825
+tr 3.390 6.675
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 4.060 7.325
+tr 4.720 7.325
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 4.060 7.325
+tr 4.060 7.175
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 4.720 7.325
+tr 4.720 7.175
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 2.040 7.250
+label HB2/3
+xy 2.040,7.175 7.110,2.344
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 1.640 7.325
+tr 2.440 7.325
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 1.640 7.325
+tr 1.640 7.175
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 2.440 7.325
+tr 2.440 7.175
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 1.920 7.100
+label HG2/3
+xy 1.920,7.025 6.932,1.947
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 1.580 7.175
+tr 2.260 7.175
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 1.580 7.175
+tr 1.580 7.025
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 2.260 7.175
+tr 2.260 7.025
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 3.630 7.250
+label HD2/3
+xy 3.630,7.175 7.099,3.615
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 3.220 7.325
+tr 4.040 7.325
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 3.220 7.325
+tr 3.220 7.175
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 4.040 7.325
+tr 4.040 7.175
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 4.070 7.825
+tr 4.870 7.825
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 4.070 7.825
+tr 4.070 7.675
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 4.870 7.825
+tr 4.870 7.675
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 3.870 7.600
+label HB2/3
+xy 3.870,7.525 7.484,3.866
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 3.580 7.675
+tr 4.160 7.675
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 3.580 7.675
+tr 3.580 7.525
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 4.160 7.675
+tr 4.160 7.525
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 3.970 8.325
+tr 4.930 8.325
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 3.970 8.325
+tr 3.970 8.175
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 4.930 8.325
+tr 4.930 8.175
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 4.170 8.100
+label HB
+xy 4.170,8.025 8.056,4.185
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 3.840 8.175
+tr 4.500 8.175
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 3.840 8.175
+tr 3.840 8.025
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 4.500 8.175
+tr 4.500 8.025
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 1.140 8.250
+label HG2
+xy 1.140,8.175 8.158,1.141
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 0.920 8.325
+tr 1.360 8.325
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 0.920 8.325
+tr 0.920 8.175
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 1.360 8.325
+tr 1.360 8.175
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 4.140 8.825
+tr 5.180 8.825
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 4.140 8.825
+tr 4.140 8.675
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 5.180 8.825
+tr 5.180 8.675
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 3.160 8.750
+label HB2/3
+xy 3.160,8.675 8.594,3.134
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 2.770 8.825
+tr 3.550 8.825
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 2.770 8.825
+tr 2.770 8.675
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 3.550 8.825
+tr 3.550 8.675
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 4.050 9.325
+tr 5.170 9.325
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 4.050 9.325
+tr 4.050 9.175
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 5.170 9.325
+tr 5.170 9.175
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 2.870 9.250
+label HB2/3
+xy 2.870,9.175 9.100,2.846
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 2.450 9.325
+tr 3.290 9.325
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 2.450 9.325
+tr 2.450 9.175
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 3.290 9.325
+tr 3.290 9.175
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 3.590 9.825
+tr 3.590 9.675
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 4.750 9.825
+tr 4.750 9.825
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 1.980 9.750
+label HB
+xy 1.980,9.675 9.709,1.981
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 1.660 9.825
+tr 2.300 9.825
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 1.660 9.825
+tr 1.660 9.675
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 2.300 9.825
+tr 2.300 9.675
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 0.820 9.750
+label HG1/2
+xy 0.820,9.675 9.615,0.827
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 0.520 9.825
+tr 1.120 9.825
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 0.520 9.825
+tr 0.520 9.675
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 1.120 9.825
+tr 1.120 9.675
+ends 0
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label A
+id 1
+pos 1.611 0.258
+height 0.000 63057.363
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 1.611 0.258
+label A
+xy 1.611,-0.042 0.254,1.850
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label A
+id 2
+pos 4.683 0.231
+height 0.000 11558.313
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 4.683 0.231
+label A
+xy 3.820,-0.052 0.242,5.145
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label R
+id 3
+pos 3.368 0.747
+height 0.000 147908.656
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 3.368 0.747
+label R
+xy 3.368,0.447 0.764,3.602
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label R
+id 4
+pos 3.831 0.755
+height 0.000 30353.277
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 3.831 0.755
+label R
+xy 3.831,0.455 0.763,3.601
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label R
+id 5
+pos 1.759 0.821
+height 0.000 287836.781
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 1.759 0.821
+label R
+xy 1.759,0.521 0.726,1.938
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label R
+id 6
+pos 1.687 0.677
+height 0.000 307508.000
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 1.687 0.677
+label R
+xy 1.687,0.377 0.726,1.939
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label D
+id 7
+pos 2.972 1.261
+height 0.000 89184.227
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 2.972 1.261
+label D
+xy 2.972,0.961 1.189,3.185
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label D
+id 8
+pos 4.914 1.234
+height 0.000 40227.285
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 4.914 1.234
+label D
+xy 4.264,0.953 1.222,5.249
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+id 9
+pos 4.304 1.746
+height 0.000 30729.260
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label N
+id 10
+pos 5.032 1.737
+height 0.000 32003.961
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 5.032 1.737
+label N
+xy 4.307,1.456 1.735,5.411
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label N
+id 11
+pos 3.110 1.756
+height 0.000 63869.660
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 3.110 1.756
+label N
+xy 3.110,1.456 1.696,3.358
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label C
+id 12
+pos 4.099 2.264
+height 0.000 14324.452
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 4.099 2.264
+label C
+xy 4.099,1.964 2.262,3.766
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label C
+id 13
+pos 3.372 2.246
+height 0.000 44948.637
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 3.372 2.246
+label C
+xy 3.372,1.946 2.259,3.765
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label E
+id 14
+pos 4.665 2.737
+height 0.000 20794.537
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 4.665 2.737
+label E
+xy 3.844,2.450 2.741,5.042
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label E
+id 15
+pos 2.240 2.672
+height 0.000 325672.062
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 2.240 2.672
+label E
+xy 2.240,2.372 2.507,2.195
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label Q
+id 16
+pos 2.311 3.175
+height 0.000 224271.438
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 2.311 3.175
+label Q
+xy 2.311,2.875 3.337,2.556
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label Q
+id 17
+pos 4.691 3.233
+height 0.000 17645.424
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 4.691 3.233
+label Q
+xy 3.840,2.946 3.249,5.045
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label G
+id 18
+pos 4.335 3.755
+height 0.000 47174.977
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 4.335 3.755
+label G
+xy 4.335,3.455 3.764,4.621
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label H
+id 19
+pos 5.025 4.260
+height 0.000 29796.699
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 5.025 4.260
+label H
+xy 5.025,3.960 4.236,5.268
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label H
+id 20
+pos 2.680 4.244
+height 0.000 24615.457
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 2.680 4.244
+label H
+xy 2.680,3.944 4.244,2.380
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label I
+id 21
+pos 4.734 4.759
+height 0.000 16523.102
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 4.734 4.759
+label I
+xy 4.734,4.459 4.751,5.036
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label I
+id 22
+pos 1.490 4.678
+height 0.000 144534.172
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 1.490 4.678
+label I
+xy 1.490,4.378 4.769,1.234
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label I
+id 23
+pos 0.783 4.676
+height 0.000 223267.484
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 0.783 4.676
+label I
+xy 0.740,4.455 4.771,1.233
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label L
+id 24
+pos 4.770 5.249
+height 0.000 17579.105
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 4.770 5.249
+label L
+xy 4.770,4.949 5.263,5.015
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label L
+id 25
+pos 1.364 5.172
+height 0.000 90891.148
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 1.364 5.172
+label L
+xy 1.364,4.872 5.063,1.052
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label L
+id 26
+pos 0.454 5.245
+height 0.000 44217.953
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 0.454 5.245
+label L
+xy 1.030,4.946 5.249,0.238
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label K
+id 27
+pos 4.688 5.752
+height 0.000 20192.209
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 4.688 5.752
+label K
+xy 4.688,5.452 5.737,4.917
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label M
+id 28
+pos 4.879 6.274
+height 0.000 15945.543
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 4.879 6.274
+label M
+xy 4.879,5.974 6.237,5.284
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label F
+id 29
+pos 5.202 6.752
+height 0.000 26439.570
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 5.202 6.752
+label F
+xy 5.202,6.452 6.744,5.512
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label P
+id 30
+pos 1.582 7.088
+height 0.000 56661.418
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 1.582 7.088
+label P
+xy 4.724,6.966 7.065,1.258
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label S
+id 31
+pos 3.573 7.587
+height 0.000 40741.289
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 3.573 7.587
+label S
+xy 4.879,7.437 7.600,3.243
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label T
+id 32
+pos 1.360 8.247
+height 0.000 67638.844
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 1.360 8.247
+label T
+xy 4.937,7.966 8.225,1.588
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label W
+id 33
+pos 2.772 8.745
+height 0.000 45779.957
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 2.772 8.745
+label W
+xy 5.195,8.444 8.671,2.499
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label Y
+id 34
+pos 2.450 9.243
+height 0.000 36226.594
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 2.450 9.243
+label Y
+xy 5.195,8.944 9.222,1.952
+]
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 4.260 5.750
+label HA
+xy 4.260,5.675 5.699,4.266
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 4.260 5.750
+label HA
+xy 4.260,5.675 6.193,4.401
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 4.260 5.750
+label HA
+xy 4.260,5.675 6.709,4.618
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 4.260 5.750
+label HA
+xy 4.260,5.675 7.190,4.415
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 4.260 5.750
+label HA
+xy 4.260,5.675 7.698,4.476
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 4.260 5.750
+label HA
+xy 4.260,5.675 8.200,4.693
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 4.260 5.750
+label HA
+xy 4.260,5.675 8.708,4.679
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 4.260 5.750
+label HA
+xy 4.260,5.675 9.203,4.605
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label V
+id 35
+pos 4.754 9.754
+height 0.000 28194.031
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 4.754 9.754
+label V
+xy 4.754,9.454 9.756,5.144
+]
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 3.590 9.825
+tr 4.750 9.825
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 4.750 9.825
+tr 4.750 9.675
+ends 0
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label V
+id 36
+pos 1.123 9.740
+height 0.000 108586.094
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 1.123 9.740
+label V
+xy 4.754,9.454 9.745,1.382
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label V
+id 37
+pos 1.660 9.740
+height 0.000 17014.336
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 1.660 9.740
+label V
+xy 4.754,9.454 9.745,1.382
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label Y
+id 38
+pos 5.195 9.244
+height 0.000 16530.297
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 5.195 9.244
+label Y
+xy 5.195,8.944 9.253,5.470
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label W
+id 39
+pos 5.195 8.744
+height 0.000 16391.326
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 5.195 8.744
+label W
+xy 5.195,8.444 8.741,5.522
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label T
+id 40
+pos 4.937 8.266
+height 0.000 24725.693
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 4.937 8.266
+label T
+xy 4.937,7.966 8.259,5.297
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label S
+id 41
+pos 4.879 7.737
+height 0.000 21438.166
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 4.879 7.737
+label S
+xy 4.879,7.437 7.758,5.176
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label P
+id 42
+pos 4.724 7.266
+height 0.000 27115.316
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 4.724 7.266
+label P
+xy 4.724,6.966 7.235,5.039
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label P
+id 43
+pos 3.226 7.242
+height 0.000 30345.438
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 3.226 7.242
+label P
+xy 4.724,6.966 7.339,2.805
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label P
+id 44
+pos 2.438 7.251
+height 0.000 108056.398
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 2.438 7.251
+label P
+xy 4.724,6.966 7.339,2.805
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label F
+id 45
+pos 2.549 6.752
+height 0.000 32460.281
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 2.549 6.752
+label F
+xy 2.549,6.452 6.752,2.249
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label M
+id 46
+pos 2.786 6.107
+height 0.000 71100.109
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 2.786 6.107
+label M
+xy 2.786,5.807 6.129,3.075
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label M
+id 47
+pos 1.434 6.376
+height 0.000 30410.982
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 1.434 6.376
+label M
+xy 1.434,6.076 6.242,1.298
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label M
+id 48
+pos 1.628 6.239
+height 0.000 44829.648
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 1.628 6.239
+label M
+xy 1.628,5.939 6.242,1.297
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label K
+id 49
+pos 3.128 5.741
+height 0.000 72168.602
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 3.128 5.741
+label K
+xy 3.128,5.441 5.683,3.348
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label K
+id 50
+pos 1.738 5.824
+height 0.000 500730.531
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 1.738 5.824
+label K
+xy 1.738,5.524 5.896,1.533
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label K
+id 51
+pos 1.085 5.596
+height 0.000 46154.668
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 1.085 5.596
+label K
+xy 1.478,5.379 5.640,0.822
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label K
+id 52
+pos 1.451 5.965
+height 0.000 353001.344
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 1.451 5.965
+label K
+xy 1.451,5.665 5.896,1.533
+]
+<end ornament>
+<end spectrum>

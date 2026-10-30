@@ -1,0 +1,589 @@
+!
+! NMRFAM-SPARKY Localization - Vietnamese
+! Contributed by Huong Thai-Thanh Nguyen (Lee group @ NMRFAM)
+!
+! Menus
+!
+
+Sparky*fileMenuButton.text:      Hồ Sơ
+Sparky*viewMenuButton.text:      Cách Nhìn
+Sparky*peakMenuButton.text:      Đỉnh 
+Sparky*windowsMenuButton.text:   Windows
+Sparky*extensionMenuButton.text: Mở Thêm
+Sparky*helpMenuButton.text:      Giúp
+
+Sparky*cmdMenu*openLabel:        Mở...
+Sparky*cmdMenu*saveLabel:        Lưu
+Sparky*cmdMenu*saveAsLabel:      Lưu Thành...
+Sparky*cmdMenu*projHeadingLabel: Dự Án
+Sparky*cmdMenu*projOpenLabel:    Mở...
+Sparky*cmdMenu*projSaveLabel:    Lưu
+Sparky*cmdMenu*projSaveAsLabel:  Lưu Thành...
+Sparky*cmdMenu*projCloseLabel:  Đóng
+Sparky*cmdMenu*printLabel:      In...
+Sparky*cmdMenu*preferencesLabel: Sự Ưa...
+Sparky*cmdMenu*iconifyLabel:    Biểu Tượng
+Sparky*cmdMenu*quitLabel:        Thoát
+
+Sparky*cmdMenu*toolsCascadeLabel: Dụng Cụ
+Sparky*cmdMenu*assignLabel:      Định...
+Sparky*cmdMenu*acopymodeLabel:  Chế Độ Chép...
+Sparky*cmdMenu*assignguessLabel: Đoán Chí Định...
+Sparky*cmdMenu*assigntableLabel: Bảng Chỉ Định...
+Sparky*cmdMenu*contourLabel:    Mức Nét...
+Sparky*cmdMenu*midasLabel:      Midas...
+Sparky*cmdMenu*newlistLabel:    Danh Sách Đỉnh Mới...
+Sparky*cmdMenu*noteLabel:        Ghi...
+Sparky*cmdMenu*ornamentLabel:    Ornament...
+Sparky*cmdMenu*overlayLabel:    Nhìn Lớp Phủ...
+Sparky*cmdMenu*peaklistLabel:    Danh Sách Đỉnh...
+Sparky*cmdMenu*peakpickLabel:    Chọn...
+Sparky*cmdMenu*crosshairLabel:  Crosshairs...
+Sparky*cmdMenu*predefinedLabel:  Cộng Hưởng Xác Định Trước...
+Sparky*cmdMenu*projectviewsLabel: Xem Danh Sách...
+Sparky*cmdMenu*reslistLabel:    Danh Sách Cộng Hưởng...
+Sparky*cmdMenu*renameresonLabel: Đổi Tên Cộng Hưởng...
+Sparky*cmdMenu*spectrumLabel:    Quang Phổ...
+Sparky*cmdMenu*synchronizeLabel: Đồng Bộ...
+
+Sparky*cmdMenu*axesCascadeLabel: Trục
+Sparky*cmdMenu*ppmLabel:        Hiện ppm đơn vị
+Sparky*cmdMenu*hzLabel:         Hiện Hertz đơn vị
+Sparky*cmdMenu*dataLabel:        Hiện index đơn vị
+Sparky*cmdMenu*atomsLabel:      Hiện loại hạt nhân
+Sparky*cmdMenu*rollLabel:       Trục Roll 
+Sparky*cmdMenu*transposeLabel:  Hoán vị trục
+Sparky*cmdMenu*originLabel:      Đặt gốc ppm 
+Sparky*cmdMenu*shiftaxesLabel:  Chuyển trục ppm...
+
+Sparky*cmdMenu*crosshairsCascadeLabel: Crosshairs
+Sparky*cmdMenu*xhairLabel:      Crosshair
+Sparky*cmdMenu*transxhairLabel:  Hoán vị crosshair
+Sparky*cmdMenu*otherxhairLabel:  Xem khác crosshair
+
+Sparky*cmdMenu*regionCascadeLabel: Vùng
+Sparky*cmdMenu*gotoCascadeLabel: Đi đến
+Sparky*cmdMenu*centerviewLabel:  Xem trung tâm đỉnh
+Sparky*cmdMenu*gotoLabel:        Đi đến khu X
+Sparky*cmdMenu*regionLabel:      Đặt tên khu...
+
+Sparky*cmdMenu*resonanceCascadeLabel: Cộng Hưởng
+Sparky*cmdMenu*viewCascadeLabel: Nhìn
+Sparky*cmdMenu*edgePanelsCascadeLabel: Tấm Cạnh
+Sparky*cmdMenu*resonanceLabel:  Cộng Hưởng
+Sparky*cmdMenu*resfilterLabel:  Lọc cộng hưởng
+Sparky*cmdMenu*sliceLabel:      Lát
+Sparky*cmdMenu*slicescaleLabel:  Tự chia độ lát
+Sparky*cmdMenu*slicesubtractLabel: Lát trừ hợp
+Sparky*cmdMenu*peakinfoLabel:    Thông tin đỉnh
+Sparky*cmdMenu*contourscaleLabel: Quy mô nét
+Sparky*cmdMenu*axisscaleLabel:  Quy mô trục
+Sparky*cmdMenu*inversebgcolorLabel: Màu nền ngược 
+Sparky*cmdMenu*curposLabel: Tần số trên trỏ
+Sparky*cmdMenu*scrollbarsLabel:  Thanh cuộn
+
+Sparky*cmdMenu*selectCascadeLabel: Chọn
+Sparky*cmdMenu*selectallLabel:  Chọn hết đỉnh
+Sparky*cmdMenu*selectfassignLabel: Chọn phân công đầy
+Sparky*cmdMenu*selectpassignLabel: Chọn phân công hụt
+Sparky*cmdMenu*selectuassignLabel: Chọn chưa định
+Sparky*cmdMenu*selectcolorLabel: Chọn đỉnh theo màu
+Sparky*cmdMenu*selectinvertLabel: Lựa chọn đỉnh ngược
+Sparky*cmdMenu*selectaliasedLabel: Chọn đỉnh răng cưa
+Sparky*cmdMenu*selectintraLabel: Chọn intra-residue
+Sparky*cmdMenu*selectseqLabel:  Chọn tuần tự
+Sparky*cmdMenu*selectmediumLabel: Chọn vực trung
+Sparky*cmdMenu*selectlongLabel:  Chọn đỉnh tầm xa
+
+Sparky*cmdMenu*showCascadeLabel: Hiện
+Sparky*cmdMenu*showallLabel:    Tất cả ornaments
+Sparky*cmdMenu*showpeakLabel:    Đỉnh
+Sparky*cmdMenu*showpeakgpLabel:  Nhóm đỉnh
+Sparky*cmdMenu*showgridLabel:    Sách cực
+Sparky*cmdMenu*showlabelLabel:  nhãn
+Sparky*cmdMenu*showlineLabel:    Đường
+
+Sparky*cmdMenu*dupviewLabel:    Chép lại
+Sparky*cmdMenu*hideviewLabel:    Ẩn cảnh
+Sparky*cmdMenu*deleteviewLabel:  Xóa cảnh
+Sparky*cmdMenu*refreshLabel:    Vẽ lại cảnh
+Sparky*cmdMenu*renumberLabel:    Báo số lại cảnh
+Sparky*cmdMenu*viewLabel:        Tùy chọn cảnh...
+Sparky*cmdMenu*viewdepthLabel:  Độ sâu thấy...
+Sparky*cmdMenu*pointerModesLabel: Pointer modes...
+
+
+Sparky*cmdMenu*subtractfitLabel: Trừ đỉnh phù hợp
+Sparky*cmdMenu*orthoLabel:      Quan điểm trực giao
+Sparky*cmdMenu*unoverlapLabel:  Xóa nhãn lấn
+Sparky*cmdMenu*rightlabelsLabel: Nhãn bù phải
+Sparky*cmdMenu*centerlabelsLabel: Chuyển nhãn đến giữa đỉnh 
+
+Sparky*cmdMenu*zoomCascadeLabel: Phóng
+Sparky*cmdMenu*zoomfullLabel:    Xem tòan bộ
+Sparky*cmdMenu*zoominLabel:      Vào
+Sparky*cmdMenu*zoomoutLabel:    Ra
+Sparky*cmdMenu*zoomdownLabel:    Xuống mặt
+Sparky*cmdMenu*zoomupLabel:      Lên mặt
+Sparky*cmdMenu*zoomprevLabel:    Trước
+Sparky*cmdMenu*zoomnextLabel:    Tiếp
+Sparky*cmdMenu*zoomrememberLabel: Nhớ
+Sparky*cmdMenu*zoomwheelLabel:   Bật/tắt phóng bằng chuột 
+
+Sparky*cmdMenu*aliasCascadeLabel: Bí danh
+Sparky*cmdMenu*aliasaddw1Label:  Thêm w1 sweepwidth
+Sparky*cmdMenu*aliasaddw2Label:  Thêm w2 sweepwidth
+Sparky*cmdMenu*aliasaddw3Label:  Thêm w3 sweepwidth
+Sparky*cmdMenu*aliasaddw4Label:  Thêm w4 sweepwidth
+Sparky*cmdMenu*aliassubw1Label:  Trừ w1 sweepwidth
+Sparky*cmdMenu*aliassubw2Label:  Trừ w2 sweepwidth
+Sparky*cmdMenu*aliassubw3Label:  Trừ w3 sweepwidth
+Sparky*cmdMenu*aliassubw4Label:  Trừ w4 sweepwidth
+Sparky*cmdMenu*aliasdownw1Label: Phản chiếu w1 hướng dưới
+Sparky*cmdMenu*aliasdownw2Label: Phản chiếu w2 hướng dưới
+Sparky*cmdMenu*aliasdownw3Label: Phản chiếu w3 hướng dưới
+Sparky*cmdMenu*aliasdownw4Label: Phản chiếu w4 hướng dưới
+Sparky*cmdMenu*aliasupw1Label:  Phản chiếu w1 hướng trên
+Sparky*cmdMenu*aliasupw2Label:  Phản chiếu w2 hướng trên
+Sparky*cmdMenu*aliasupw3Label:  Phản chiếu w3 hướng trên
+Sparky*cmdMenu*aliasupw4Label:  Phản chiếu w4 hướng trên
+Sparky*cmdMenu*unaliasLabel:    Xóa bí danh đỉnh
+
+Sparky*cmdMenu*assignmentCascadeLabel: Vật chỉ định
+Sparky*cmdMenu*assigncopyLabel:  Chép chỉ định
+Sparky*cmdMenu*assigndeleteLabel: Xóa chỉ định
+Sparky*cmdMenu*assignpasteLabel: Dán chỉ định
+Sparky*cmdMenu*assignpastelabelLabel: Dán & nhãn
+Sparky*cmdMenu*xdiagassigncopyLabel: Crossdiagonal chép chỉ định
+Sparky*cmdMenu*assignLabel:      Chỉ định...
+Sparky*cmdMenu*labelpeaksLabel:  Nhãn đỉnh chọn
+Sparky*cmdMenu*unlabelpeaksLabel: Xóa nhãn đỉnh chọn
+
+Sparky*cmdMenu*deleteresLabel:  Xóa cộng hưởng không dùng
+Sparky*cmdMenu*resonancew1Label: w1 đỉnh cộng hưởng
+Sparky*cmdMenu*resonancew2Label: w2 đỉnh cộng hưởng
+Sparky*cmdMenu*resonancew3Label: w3 đỉnh cộng hưởng
+Sparky*cmdMenu*resonancew4Label: w4 đỉnh cộng hưởng
+Sparky*cmdMenu*resassignLabel:  cộng hưởng chỉ định...
+
+Sparky*cmdMenu*integrateCascadeLabel: Hợp thành
+Sparky*cmdMenu*integrateLabel:  Hợp thành...
+Sparky*cmdMenu*boxLabel:        Cách sum over box 
+Sparky*cmdMenu*ellipseLabel:    Cách sum over ellipse
+Sparky*cmdMenu*gaussianLabel:    Cách Gaussian fit 
+Sparky*cmdMenu*lorentzianLabel:  Cách Lorentzian fit
+Sparky*cmdMenu*voigtLabel:        Cách Pseudo-Voigt fit
+Sparky*cmdMenu*integpeakLabel:  Hợp các đỉnh chọn
+Sparky*cmdMenu*unintegrateLabel: Tháo đỉnh hợp
+
+Sparky*cmdMenu*editCascadeLabel: Chỉnh
+Sparky*cmdMenu*copyCascadeLabel: Chép ornament
+Sparky*cmdMenu*ocopyLabel:      Dán Ornament
+Sparky*cmdMenu*opasteLabel:      Ornament 
+Sparky*cmdMenu*xocopyLabel:      Chép crossdiagonal ornament 
+
+Sparky*cmdMenu*peakCascadeLabel: Đỉnh 
+Sparky*cmdMenu*centerLabel:      Đỉnh trung tâm
+Sparky*cmdMenu*colorLabel:      Tô màu ornaments
+Sparky*cmdMenu*linewidthLabel:  Ước tính băng thông
+Sparky*cmdMenu*groupLabel:      Nhóm đỉnh
+Sparky*cmdMenu*heightLabel:      Cập nhật độ cao
+Sparky*cmdMenu*labelpeakLabel:  Dán nhãn đỉnh
+Sparky*cmdMenu*listselectedLabel: Danh sách các đỉnh chọn
+Sparky*cmdMenu*lockLabel:        khóa đỉnh
+Sparky*cmdMenu*osizeLabel:      Ornament kích thước
+Sparky*cmdMenu*unlockLabel:      Mở khóa đỉnh
+Sparky*cmdMenu*undoLabel:        Ngược lại
+
+Sparky*cmdMenu*moreCascadeLabel: Nữa 
+Sparky*cmdMenu*extensionsCascadeLabel: Mở Thêm
+
+Sparky*cmdMenu*popupHeadingLabel: Xem menu
+
+Sparky*helpMenu.manualLabel:    Hiển thị hướng dẫn
+Sparky*helpMenu.introLabel:      Giới thiệu
+Sparky*helpMenu.filesLabel:      Tập tin
+Sparky*helpMenu.spectraLabel:    Xem quang phổ
+Sparky*helpMenu.peaksLabel:      Đỉnh và Vật Chỉ Định
+Sparky*helpMenu.extensionsLabel: Phần mở rộng trong Python
+Sparky*helpMenu.nmrfamLabel:      Phần mở rộng của NMRFAM 
+Sparky*helpMenu.commandidxLabel:  Lệnh cắt ngắn
+
+!
+! View window configuration.
+!
+Sparky*View.peakPanel.text.text: Vị trí đỉnh / Độ cao / Băng thông
+
+!
+! General dialog properties
+!
+Sparky*controls.ok.text:       Ok
+Sparky*controls.apply.text:     Ứng dụng
+Sparky*controls.update.text:   Cập nhật
+Sparky*controls.save.text:     Lưu...
+Sparky*controls.load.text:     Tải...
+Sparky*controls.close.text:     Đóng
+Sparky*controls.help.text:     Giúp
+
+!
+! View/Spectrum/Molecule/Condition/Resonance selection
+!
+Sparky*viewMenu.label.text:  Nhìn: 
+Sparky*spectrumMenu.label.text:  Quang phổ: 
+Sparky*resField.resEdit.title.text: Cộng hưởng: 
+Sparky*resField.resMolCond.title.text: Phân tử / Tình trạng: 
+
+!
+! Pointer Mode dialog
+!
+Sparky.mode.title:                      Chế độ con trỏ
+Sparky.mode.buttons.select.text:        F1    lựa
+Sparky.mode.buttons.center.text:        F2    đặt giữa
+Sparky.mode.buttons.addGridBoth.text:   F3    thêm lưới cả hai
+Sparky.mode.buttons.addGridHorz.text:   F4    thêm lưới ngang
+Sparky.mode.buttons.addGridVert.text:   F5    thêm lưới dọc
+Sparky.mode.buttons.addLabel.text:      F6    thêm chỉ định
+Sparky.mode.buttons.addLine.text:       F7    thêm đường 
+Sparky.mode.buttons.findAddPeak.text:   F8    tím/thêm đỉnh
+Sparky.mode.buttons.integrate.text:     F10   hợp
+Sparky.mode.buttons.zoom.text:          F11   phóng
+Sparky.mode.buttons.duplicateZoom.text: F12   bản sao & phóng
+Sparky.mode.buttons.assignCopy.text:    sh-F1 chép chỉ định
+Sparky.mode.buttons.assignGuess.text:   sh-F2 đoán vật chỉ định
+
+!
+! Label dialog
+!
+Sparky.labelDialog.title:            Nhãn
+Sparky.labelDialog*type.label.text:   Loại: 
+Sparky.labelDialog*label.title.text: Nhãn: 
+
+!
+! View settings dialog
+!
+Sparky.viewDialog.aspect.title.text:              Aspect (ppm): 
+Sparky.viewDialog.assignFormat.title.text:         Khuôn dạng chỉ định: 
+Sparky.viewDialog.depth.text:                     Đặt độ sâu thấy (vz) ...
+Sparky.viewDialog*units.label.text:                Đơn vị trục:
+Sparky.viewDialog.switches.ornaments.text:         Ornaments (os)
+Sparky.viewDialog.switches.labels.text:            Nhãn (ls)
+Sparky.viewDialog.switches.peaks.text:            Đỉnh (ps)
+Sparky.viewDialog.switches.peakGroups.text:         Nhóm Đỉnh (xs)
+Sparky.viewDialog.switches.grids.text:            Lưới (gs)
+Sparky.viewDialog.switches.lines.text:            Đường (is)
+Sparky.viewDialog.switches.atomNames.text:         Tên Nguyên Tử Trục (xa)
+Sparky.viewDialog.switches.crosshair.text:         Crosshair (hh)
+Sparky.viewDialog.switches.transposeCrosshair.text: Chuyển vị Crosshair (ht)
+Sparky.viewDialog.switches.crosshairOther.text:     Crosshair từ điểm khác (ho)
+Sparky.viewDialog.switches.scales.text:            Quy mô trục (vs)
+Sparky.viewDialog.switches.scrollbars.text:         Thanh cuộn (vb)
+Sparky.viewDialog.switches.resonancePanels.text:    Bảng cộng hưởng (vR)
+Sparky.viewDialog.switches.resFilter.text:         Lọc bảng cộng hưởng (rf)
+Sparky.viewDialog.switches.slicePanels.text:       Cắt Lát Bảng (vS)
+Sparky.viewDialog.switches.scaleSlices.text:       Tự quy mô lát (sa)
+Sparky.viewDialog.switches.sliceSubtract.text:     Trừ đỉnh trong lát (sf)
+Sparky.viewDialog.switches.peakInfo.text:           Bảng thông tin đỉnh (vp)
+Sparky.viewDialog.switches.contourScale.text:       Quy mô nét (vC)
+Sparky.viewDialog.switches.subtractPeaks.text:     Trừ đỉnh phù hợp (vf)
+Sparky.viewDialog.switches.inversebgcolor.text:     Màu nền ngược (ci)
+Sparky.viewDialog.switches.curpos.text:     Tần số trên con trỏ (fc)
+
+
+!
+! Peak List dialog
+!
+Sparky.PeakListDialog.search.title.text:     Tìm kiếm: 
+Sparky.PeakListDialog.controls.options.text: Tùy chọn...
+
+!
+! Peak List Options dialog
+!
+Sparky.peakListOptionsDialog.switches.assignmentName.text:  Vật chỉ định
+Sparky.peakListOptionsDialog.switches.userName.text:       Nhãn người dùng
+Sparky.peakListOptionsDialog.switches.frequency.text:       Tần số (ppm)
+Sparky.peakListOptionsDialog.switches.frequencyHz.text:     Tần số (Hz)
+Sparky.peakListOptionsDialog.switches.resonanceDev.text:    Độ lệch cộng hưởng
+Sparky.peakListOptionsDialog.switches.volume.text:         Âm lượng
+Sparky.peakListOptionsDialog.switches.volumeError.text:     Lỗi âm lượng
+Sparky.peakListOptionsDialog.switches.transVolume.text:     Khối lượng chuyển đổi
+Sparky.peakListOptionsDialog.switches.fitResidual.text:     Làm vừa residual
+Sparky.peakListOptionsDialog.switches.fitHeight.text:       Làm vừa height
+Sparky.peakListOptionsDialog.switches.dataHeight.text:     Chiều cao dữ liệu
+Sparky.peakListOptionsDialog.switches.noise.text:           Tín hiệu / Tiếng ồn
+Sparky.peakListOptionsDialog.switches.linewidth.text:       Băng Thông
+Sparky.peakListOptionsDialog.switches.resFreq.text:         Tần số trục cộng hưởng
+Sparky.peakListOptionsDialog.switches.resDev.text:         Sai lệch trục cộng hưởng
+Sparky.peakListOptionsDialog.switches.spectrumName.text:    Tên phổ
+Sparky.peakListOptionsDialog.switches.assignmentDistance.text: Khoảng cách chỉ định
+Sparky.peakListOptionsDialog.switches.mardigras.text:       Khuôn dạng Mardigras 
+Sparky.peakListOptionsDialog.switches.diana.text:           khuôn dạng Dyana 
+Sparky.peakListOptionsDialog.switches.note.text:           Ghi chú
+Sparky.peakListOptionsDialog.sortBy.label.text:            Sắp theo: 
+Sparky.peakListOptionsDialog.sortAxis.title.text:           Sắp trục: 
+Sparky.peakListOptionsDialog.sortPairX.text:               Ghép đỉnh crossdiagonal?
+Sparky.peakListOptionsDialog.assignFormat.title.text:       Khuôn dạng chỉ định: 
+Sparky.peakListOptionsDialog*noSortLabel:                  không vật gì
+Sparky.peakListOptionsDialog*assignmentNameSortLabel:       Vật chỉ định
+Sparky.peakListOptionsDialog*userNameSortLabel:            Nhãn người dùng
+Sparky.peakListOptionsDialog*frequencySortLabel:           Tần số
+Sparky.peakListOptionsDialog*resonanceNameSortLabel:       Tên cộng hưởng
+Sparky.peakListOptionsDialog*volumeSortLabel:              Âm lượng
+Sparky.peakListOptionsDialog*dataHeightSortLabel:          Chiều cao dữ liệu
+Sparky.peakListOptionsDialog*noteSortLabel:                 Ghi chú
+Sparky.peakListOptionsDialog*assignmentDistanceSortLabel:   Khoảng cách chỉ định
+
+!
+! Resonance List dialog
+!
+Sparky.resonanceListDialog.condition.label.text: Phân tử / Tình trạng: 
+
+!
+! Contour dialog
+!
+Sparky.contourDialog.title:            Mức Độ Nét 
+Sparky.contourDialog.levels.r0c1.text: Thấp nhất
+Sparky.contourDialog.levels.r0c2.text: Cấp
+Sparky.contourDialog.levels.r0c3.text: Thừa số
+Sparky.contourDialog.levels.r0c4.text: Màu
+Sparky.contourDialog.levels.r1c0.text: Tích cực 
+Sparky.contourDialog.levels.r2c0.text: Tiêu cực
+
+!
+! Region dialog
+!
+Sparky.regionDialog.name.title.text:         Tên
+Sparky.regionDialog.accel.title.text:         Accelerator 
+Sparky.regionDialog.ranges.r0c1.text:         Hướng Trên
+Sparky.regionDialog.ranges.r0c2.text:         Hướng Dưới
+Sparky.regionDialog.curWor.current.text:     Hiện Tại
+Sparky.regionDialog.curWor.world.text:       Thế Giới
+Sparky.regionDialog*listHeading.text:         Vùng Có Tên
+Sparky.regionDialog.addDel.add.text:         Thêm
+Sparky.regionDialog.addDel.delete.text:       Bỏ
+Sparky.regionDialog.controls.applyMode.text: Áp Dụng Chế Độ
+Sparky.regionDialog.controls.goto.text:       Goto
+
+!
+! Assignment dialog
+!
+Sparky.assignDialog.axes.r0c0.text:       Trục
+Sparky.assignDialog.axes.r0c1.text:       Nhóm
+Sparky.assignDialog.axes.r0c2.text:       Nguyên Tử
+Sparky.assignDialog.axes.r0c3.text:       Cộng Hưởng
+Sparky.assignDialog.axes.r0c4.text:       Đỉnh
+Sparky.assignDialog.resList.listHeading.text: Cộng Hưởng
+Sparky.assignDialog.resPeaks.text:      Đỉnh Cộng Hưởng ... 
+Sparky.assignDialog.guess.guessOpt.text: Đang Đoán ... 
+Sparky.assignDialog.guess.guesses.text:  Dự Đoán 
+
+!
+! Assignment copy dialog
+!
+Sparky.assignCopyDialog.pmHeading.text:  Chế độ con trỏ chép chỉ định
+Sparky.assignCopyDialog.copyFrom.label.text: Chép từ phổ: 
+
+!
+! Assignment guessing options dialog
+!
+Sparky.resonanceTableDialog.title:                     Bảng Chỉ Định
+Sparky.resonanceTableDialog.condition.label.text:       Phân tử / Tình trạng: 
+Sparky.resonanceTableDialog.switches.chemShifts.text:   Hiển chemical shifts?
+Sparky.resonanceTableDialog.switches.standardDev.text: Hiển độ lệch chuẩn?
+Sparky.resonanceTableDialog.switches.counts.text:       Hiển số lượng chỉ định?
+Sparky.resonanceTableDialog.switches.predefined.text:   Hiển cộng hưởng xác định trước?
+
+!
+! Assignment guessing options dialog
+!
+Sparky.guessDialog.settings.r0c1.text:  Nhóm
+Sparky.guessDialog.settings.r0c2.text:  Nguyên Tử
+Sparky.guessDialog.settings.r0c3.text:  Phạm Vi(ppm)
+Sparky.guessDialog.useFilter.text:      Dùng Bộ Lọc Chỉ Định? 
+Sparky.guessDialog.filterFile.title.text: Tập Bộ Lọc Chỉ Định: 
+Sparky.guessDialog.settings*menu.noneLabel: Không Vật gì
+Sparky.guessDialog.settings*menu.anyLabel: Bất Kì
+
+!
+! Print dialog
+!
+Sparky.printDialog.table.r0c2.text: Hướng Dưới
+Sparky.printDialog.table.r0c3.text: Hướng Trên
+Sparky.printDialog.table.r0c4.text: Trang
+Sparky.printDialog.table.r0c5.text: ppm / cm
+Sparky.printDialog.table.r0c6.text: Khoảng Cách Nhãn (ppm)
+Sparky.printDialog.settings.peakGroups.text: Nhóm Định
+Sparky.printDialog.settings.blackLabels.text: Nhãn Đen
+Sparky.printDialog.settings.landscape.text: Cảnh
+Sparky.printDialog.settings.banner.text: Phướn
+Sparky.printDialog.settings.grids.text:  Lưới
+Sparky.printDialog.settings.peaks.text:  Định
+Sparky.printDialog.printCommand.title.text: Lệnh In
+Sparky.printDialog.filename.title.text:  Tên Tệp
+Sparky.printDialog.bannerTitle.title.text: Tên Phướn
+Sparky.printDialog.controls.print.text:  In
+Sparky.printDialog.controls.preview.text: Xem Trước
+
+!
+! Ornament Properties dialog
+!
+Sparky.ornamentDialog.title:                      Ornament Đặc Sắc
+Sparky.ornamentDialog.peakProps.r0c0.text: 
+Sparky.ornamentDialog.peakProps.r1c0.text:         Vị Trí
+Sparky.ornamentDialog.peakProps.r2c0.text:         Băng Thông
+Sparky.ornamentDialog.peakProps.r3c0.text:         Âm lượng
+Sparky.ornamentDialog.peakProps.r4c0.text:         Lỗi Âm Lượng %
+Sparky.ornamentDialog.lock.text:                  Khóa Vị Trí 
+Sparky.ornamentDialog.properties.color.text:       Màu ...
+Sparky.ornamentDialog.properties.note.text:         Ghi Chú...
+Sparky.ornamentDialog.properties.sizes.text:       kích Thước ...
+Sparky.ornamentDialog.properties.planes.text:       Hiển Thị ...
+
+!
+! Ornament Properties dialog
+!
+Sparky.ornamentSizeDialog.heading.text:             Ornament cỡ với w1 ppm đơn vị
+Sparky.ornamentSizeDialog.labelSize.title.text:     Cỡ Nhãn: 
+Sparky.ornamentSizeDialog.peakSize.title.text:     Cỡ Định:
+Sparky.ornamentSizeDialog.peakGroupSize.title.text: Cỡ Nhóm Định: 
+Sparky.ornamentSizeDialog.lineSize.title.text:     Độ dày đường: 
+
+!
+! View depth dialog
+!
+Sparky.viewDepthDialog.heading.text: Mặt Thấy Được Thêm
+
+!
+! Ornament color dialog
+!
+Sparky.colorDialog.title:           Ornament Màu
+
+!
+! Ornament note dialog
+!
+Sparky.noteDialog.title:            Ornament Ghi Chú
+Sparky.noteDialog.note.title.text:   Ghi Chú
+
+!
+! Peak picking dialog
+!
+Sparky.pickDialog.linewidthtitle.text:               Băng Thông Tối Thiểu (hz)
+
+!
+! Integration methods dialog
+!
+Sparky.integrationDialog.method.label.text:           Cách Tích Hợp 
+Sparky.integrationDialog.switches.allowMotion.text:   Cho định chuyển động?
+Sparky.integrationDialog.switches.adjustLinewidths.text: Điều chỉnh băng thông?
+Sparky.integrationDialog.switches.baselineFit.text:   Phù hợp đường cơ sở?
+Sparky.integrationDialog.switches.subtractPeaks.text: Trừ đỉnh phù hợp?
+Sparky.integrationDialog.switches.contouredData.text: Dụng liệu trên viền thấp nhất?
+Sparky.integrationDialog.switches.rectangleData.text: Dụng liệu trong chữ nhật?
+Sparky.integrationDialog.switches.contourGroup.text:  Nhóm đỉnh trong ranh giới viền?
+Sparky.integrationDialog.switches.distanceGroup.text: Nhóm đỉnh gần?
+Sparky.integrationDialog.ranges.r1c0.text:       Chuyển động tối đa (ppm)
+Sparky.integrationDialog.ranges.r2c0.text:       Băng thông tối thiểu (Hz)
+Sparky.integrationDialog.ranges.r3c0.text:       Băng thông tối đa (Hz)
+Sparky.integrationDialog.ranges.r4c0.text:       Phạm vi nhóm (Hz)
+Sparky.integrationDialog.maxStep.title.text:     Bước tối thiểu hóa tối đa 
+Sparky.integrationDialog.tolerance.title.text:   Giảm thiểu chịu(%) 
+Sparky.integrationDialog.voigtMixing.title.text: Gaussian-to-Voigt trộn (%) 
+!
+! Spectrum dialog
+!
+Sparky.spectrumDialog.rename.title.text: Đổi Tên: 
+Sparky.spectrumDialog.noise.title.text:  Ước tính ồn: 
+Sparky.spectrumDialog*noisebutton.text:  Tính lại
+Sparky.spectrumDialog*noisecount.title.text: Ồn như trung bình của
+Sparky.spectrumDialog.recomplabel.text: mẫu ngẫu nhiên độ cao liệu tuyệt đối.
+
+!
+! Synchronize views dialog
+!
+Sparky.syncDialog.title:              Xem được đồng bộ 
+Sparky.syncDialog.viewTable.r0c1.text: w1  
+Sparky.syncDialog.viewTable.r0c2.text: w2  
+Sparky.syncDialog.viewTable.r0c3.text: w3  
+Sparky.syncDialog.viewTable.r0c4.text: w4  
+Sparky.syncDialog.controls.synchronize.text: Đồng bộ
+Sparky.syncDialog.controls.unsynchronize.text: Không đồng bộ
+
+!
+! Database dialog
+!
+Sparky.databaseDialog.title:   Mục cơ sở dữ liệu
+
+!
+! Project views dialog
+!
+Sparky.viewListDialog.title:             Xem danh sách
+Sparky.viewListDialog.controls.show.text:  Hiện
+Sparky.viewListDialog.controls.hide.text:  Giấu
+
+!
+! Predefined resonances dialog
+!
+Sparky.predefinedResonanceDialog.title:                   Cộng Hưởng Định Trước
+Sparky.predefinedResonanceDialog.fromMolCond.label.text:  Từ Phân tử / Tình trạng: 
+Sparky.predefinedResonanceDialog.toMolCond.label.text:    Tới Phân tử / Tình trạng: 
+Sparky.predefinedResonanceDialog.controls.copy.text:      Chép
+
+!
+! Preferences dialog
+!
+Sparky.preferenceDialog.title:                    Sự Ưa
+Sparky.preferenceDialog.switches.savePrompt.text:   Nhắc khi ghi lưu tập?
+Sparky.preferenceDialog.switches.resizeViews.text:  Đổi kích thước cửa xem bảng cộng hưởng?
+Sparky.preferenceDialog.switches.disregardBorders.text: Bỏ kích thước viền cửa xem cài đặt?
+
+Sparky.preferenceDialog.switches.contourGraying.text: Xám phổ khi vẽ viền lại?
+Sparky.preferenceDialog.autoBackup.title.text:  Tự lưu tập (thời gian tính bằng phút): 
+Sparky.preferenceDialog.keyTimeout.title.text:  Thời gian tối đa giữa phím tăng tốc (giây): 
+Sparky.preferenceDialog.cacheSize.title.text:   NMR độ lớn bộ đệm dữ liệu (Mbytes): 
+
+!
+! Rename resonances dialog
+!
+Sparky.renameDialog.title:              Đổi Tên Cộng Hưởng
+Sparky.renameDialog.gaTable.r0c1.text:   Nhóm
+Sparky.renameDialog.gaTable.r0c2.text:   Nguyên Tử
+Sparky.renameDialog.gaTable.r1c0.text:   Từ: 
+Sparky.renameDialog.gaTable.r2c0.text:   Tới:
+Sparky.renameDialog.controls.rename.text: Đổi Tên
+Sparky.renameDialog.controls.merge.text: Phối Hợp
+Sparky.renameDialog.controls.swap.text:  Đổi
+
+!
+! Change data location dialog
+!
+Sparky.dataLocationDialog.title:               Đổi đường dữ liệu
+Sparky.dataLocationDialog.file.title.text:    Đường dữ liệu mới: 
+Sparky.dataLocationDialog.controls.browse.text: Duyệt...
+Sparky.dataLocationDialog.controls.cancel.text: Hủy Tải
+
+!
+! View overlay dialog
+!
+Sparky.overlayDialog.title:               Xem Lớp Phủ
+Sparky.overlayDialog*listHeading.text:    Từ Quan Điểm              Đến Quan Điểm
+Sparky.overlayDialog.fromView.label.text: Từ Quan Điểm: 
+Sparky.overlayDialog.ontoView.label.text: Đến Quan Điểm: 
+Sparky.overlayDialog.controls.add:      Thêm
+Sparky.overlayDialog.controls.remove:    Bỏ
+
+!
+! Midas molecular display dialog
+!
+Sparky.midasDialog.colors.label.text: Màu Đường: 
+Sparky.midasDialog.switches.allAssignments.text: Hiển tất cả vật chỉ định?
+Sparky.midasDialog.pdbFile.title.text: PDB file: 
+Sparky.midasDialog.controls.file.text: PDB File
+
+!
+! Choice dialog (implements queries, warnings, wait messages
+! Query dialog
+! Working dialog
+! Warning dialog
+!
+Sparky.queryDialog.title:  Câu Hỏi
+Sparky.workingDialog.title:  Đang Làm ...
+Sparky.warningDialog.title:  Cảnh Báo

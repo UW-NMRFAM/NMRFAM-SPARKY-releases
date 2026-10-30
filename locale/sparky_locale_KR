@@ -1,0 +1,607 @@
+!
+! NMRFAM-SPARKY Localization - Korean
+! Contributed by Woonghee Lee
+!
+! Menus
+!
+Sparky*fileMenuButton.text:		파일
+Sparky*viewMenuButton.text:		뷰
+Sparky*peakMenuButton.text:		피크
+Sparky*windowsMenuButton.text:		창
+Sparky*nmrfamMenuButton.text:		NMRFAM
+Sparky*extensionMenuButton.text:	확장
+Sparky*helpMenuButton.text:		도움말
+
+Sparky*cmdMenu*openLabel:		열기...
+Sparky*cmdMenu*saveLabel:		저장
+Sparky*cmdMenu*saveAsLabel:		파일지정저장...
+Sparky*cmdMenu*projHeadingLabel:	프로젝트
+Sparky*cmdMenu*projOpenLabel:		열기...
+Sparky*cmdMenu*projSaveLabel:		저장
+Sparky*cmdMenu*projSaveAsLabel:		파일지정저장...
+Sparky*cmdMenu*projCloseLabel:		닫기
+Sparky*cmdMenu*printLabel:		출력...
+Sparky*cmdMenu*preferencesLabel:	설정...
+Sparky*cmdMenu*iconifyLabel:		아이콘화
+Sparky*cmdMenu*quitLabel:		종료
+
+Sparky*cmdMenu*toolsCascadeLabel:	도구
+Sparky*cmdMenu*assignLabel:		어싸인...
+Sparky*cmdMenu*acopymodeLabel:		복사 모드...
+Sparky*cmdMenu*assignguessLabel:	어싸인먼트 추측...
+Sparky*cmdMenu*assigntableLabel:	어싸인먼트 테이블...
+Sparky*cmdMenu*contourLabel:		등고 레벨...
+Sparky*cmdMenu*midasLabel:		Midas...
+Sparky*cmdMenu*newlistLabel:		새로운 피크 리스트...
+Sparky*cmdMenu*noteLabel:		노트...
+Sparky*cmdMenu*ornamentLabel:		오나먼트...
+Sparky*cmdMenu*overlayLabel:		창 겹침...
+Sparky*cmdMenu*peaklistLabel:		피크 리스트...
+Sparky*cmdMenu*peakpickLabel:		추출...
+Sparky*cmdMenu*crosshairLabel:		십자선...
+Sparky*cmdMenu*predefinedLabel:		미리 지정된 공명...
+Sparky*cmdMenu*projectviewsLabel:	뷰 리스트...
+Sparky*cmdMenu*reslistLabel:		공명 리스트...
+Sparky*cmdMenu*renameresonLabel:	공명 새 명칭...
+Sparky*cmdMenu*spectrumLabel:		스펙트럼...
+Sparky*cmdMenu*synchronizeLabel:	동기화...
+
+Sparky*cmdMenu*axesCascadeLabel:	축
+Sparky*cmdMenu*ppmLabel:		ppm 단위 보이기
+Sparky*cmdMenu*hzLabel:			Hertz 단위 보이기
+Sparky*cmdMenu*dataLabel:		인덱스 단위 보이기
+Sparky*cmdMenu*atomsLabel:		핵종 보이기
+Sparky*cmdMenu*rollLabel:		축 굴리기
+Sparky*cmdMenu*transposeLabel:		축 바꾸기
+Sparky*cmdMenu*originLabel:		ppm 원점 지정하기
+Sparky*cmdMenu*shiftaxesLabel:		ppm 축 이동...
+
+Sparky*cmdMenu*crosshairsCascadeLabel:	십자선
+Sparky*cmdMenu*xhairLabel:		십자선
+Sparky*cmdMenu*transxhairLabel:		십자선 바꾸기
+Sparky*cmdMenu*otherxhairLabel:		다른창 십자선
+
+Sparky*cmdMenu*regionCascadeLabel:	영역
+Sparky*cmdMenu*gotoCascadeLabel:	가기
+Sparky*cmdMenu*centerviewLabel:		피크를 중앙에 놓기
+Sparky*cmdMenu*gotoLabel:		X 영역 가기
+Sparky*cmdMenu*regionLabel:		영역 명하기...
+
+Sparky*cmdMenu*resonanceCascadeLabel:	공명
+Sparky*cmdMenu*viewCascadeLabel:	창
+Sparky*cmdMenu*edgePanelsCascadeLabel:	가장자리 패널
+Sparky*cmdMenu*resonanceLabel:		공명
+Sparky*cmdMenu*resfilterLabel:		공명 필터링
+Sparky*cmdMenu*sliceLabel:		슬라이스
+Sparky*cmdMenu*slicescaleLabel:		자동 슬라이스 스케일
+Sparky*cmdMenu*slicesubtractLabel:	슬라이스 덜기 핏
+Sparky*cmdMenu*peakinfoLabel:		피크 정보
+Sparky*cmdMenu*contourscaleLabel:	등고 스케일
+Sparky*cmdMenu*axisscaleLabel:		축 스케일
+Sparky*cmdMenu*inversebgcolorLabel:	배경 색상 전환
+Sparky*cmdMenu*scrollbarsLabel:		스크롤 바
+
+Sparky*cmdMenu*selectCascadeLabel:	선택
+Sparky*cmdMenu*selectallLabel:		모든 피크 선택
+Sparky*cmdMenu*selectfassignLabel:	전체 어싸인된 피크 선택
+Sparky*cmdMenu*selectpassignLabel:	부분 어싸인된 피크 선택
+Sparky*cmdMenu*selectuassignLabel:	어싸인 안된 피크 선택
+Sparky*cmdMenu*selectcolorLabel:	색상으로 피크 선택
+Sparky*cmdMenu*selectinvertLabel:	피크 선택 반전
+Sparky*cmdMenu*selectaliasedLabel:	별칭된 피크 선택
+Sparky*cmdMenu*selectintraLabel:	내부 잔기 선택
+Sparky*cmdMenu*selectseqLabel:		연결 잔기 피크 선택
+Sparky*cmdMenu*selectmediumLabel:	중위 잔기 피크 선택
+Sparky*cmdMenu*selectlongLabel:		장거리 피크 선택
+
+Sparky*cmdMenu*showCascadeLabel:	보이기
+Sparky*cmdMenu*showallLabel:		모든 오나먼트
+Sparky*cmdMenu*showpeakLabel:		피크
+Sparky*cmdMenu*showpeakgpLabel:		피크 그룹
+Sparky*cmdMenu*showgridLabel:		그리드
+Sparky*cmdMenu*showlabelLabel:		레이블
+Sparky*cmdMenu*showlineLabel:		선
+
+Sparky*cmdMenu*dupviewLabel:		복제
+Sparky*cmdMenu*hideviewLabel:		뷰 감추기
+Sparky*cmdMenu*deleteviewLabel:		뷰 삭제
+Sparky*cmdMenu*refreshLabel:		뷰 다시 그리기
+Sparky*cmdMenu*renumberLabel:		뷰 다시 번호 붙이기
+Sparky*cmdMenu*viewLabel:		뷰 옵션...
+Sparky*cmdMenu*viewdepthLabel:		보이는 깊이...
+Sparky*cmdMenu*pointerModesLabel:	포인터 모드...
+
+
+Sparky*cmdMenu*subtractfitLabel:	피크 뺄셈 핏
+Sparky*cmdMenu*orthoLabel:		직교 뷰
+Sparky*cmdMenu*unoverlapLabel:		레이블 분산하기
+Sparky*cmdMenu*rightlabelsLabel:	레이블 우측으로
+Sparky*cmdMenu*centerlabelsLabel: 레이블 피크 중앙으로
+
+Sparky*cmdMenu*zoomCascadeLabel:	확대/축소
+Sparky*cmdMenu*zoomfullLabel:		전체 뷰
+Sparky*cmdMenu*zoominLabel:		확대
+Sparky*cmdMenu*zoomoutLabel:		축소
+Sparky*cmdMenu*zoomdownLabel:		아래 평면
+Sparky*cmdMenu*zoomupLabel:		윗 평면
+Sparky*cmdMenu*zoomprevLabel:		이전
+Sparky*cmdMenu*zoomnextLabel:		다음
+Sparky*cmdMenu*zoomrememberLabel:	기억하기
+Sparky*cmdMenu*zoomwheelLabel:	마우스휠 모드 전환
+
+Sparky*cmdMenu*aliasCascadeLabel:	별칭
+Sparky*cmdMenu*aliasaddw1Label:		Add w1 sweepwidth
+Sparky*cmdMenu*aliasaddw2Label:		Add w2 sweepwidth
+Sparky*cmdMenu*aliasaddw3Label:		Add w3 sweepwidth
+Sparky*cmdMenu*aliasaddw4Label:		Add w4 sweepwidth
+Sparky*cmdMenu*aliassubw1Label:		Subtract w1 sweepwidth
+Sparky*cmdMenu*aliassubw2Label:		Subtract w2 sweepwidth
+Sparky*cmdMenu*aliassubw3Label:		Subtract w3 sweepwidth
+Sparky*cmdMenu*aliassubw4Label:		Subtract w4 sweepwidth
+Sparky*cmdMenu*aliasdownw1Label:	Reflect w1 downfield
+Sparky*cmdMenu*aliasdownw2Label:	Reflect w2 downfield
+Sparky*cmdMenu*aliasdownw3Label:	Reflect w3 downfield
+Sparky*cmdMenu*aliasdownw4Label:	Reflect w4 downfield
+Sparky*cmdMenu*aliasupw1Label:		Reflect w1 upfield
+Sparky*cmdMenu*aliasupw2Label:		Reflect w2 upfield
+Sparky*cmdMenu*aliasupw3Label:		Reflect w3 upfield
+Sparky*cmdMenu*aliasupw4Label:		Reflect w4 upfield
+Sparky*cmdMenu*unaliasLabel:		Unalias selected peaks
+
+Sparky*cmdMenu*assignmentCascadeLabel:	어싸인먼트
+Sparky*cmdMenu*assigncopyLabel:		어싸인먼트 복사
+Sparky*cmdMenu*assigndeleteLabel:	어싸인먼트 삭제
+Sparky*cmdMenu*assignpasteLabel:	어싸인먼트 붙이기
+Sparky*cmdMenu*assignpastelabelLabel:	붙이고 레이블
+Sparky*cmdMenu*xdiagassigncopyLabel:	Crossdiagonal assignment copy
+Sparky*cmdMenu*assignLabel:		어싸인...
+Sparky*cmdMenu*labelpeaksLabel:		선택된 피크 레이블 하기
+Sparky*cmdMenu*unlabelpeaksLabel:	선택된 피크 레이블 지우기
+
+Sparky*cmdMenu*deleteresLabel:		사용되지 않은 공명 지우기
+Sparky*cmdMenu*resonancew1Label:	w1 공명 피크
+Sparky*cmdMenu*resonancew2Label:	w2 공명 피크
+Sparky*cmdMenu*resonancew3Label:	w3 공명 피크
+Sparky*cmdMenu*resonancew4Label:	w4 공명 피크
+Sparky*cmdMenu*resassignLabel:		공명 어싸인 보기...
+
+Sparky*cmdMenu*integrateCascadeLabel:	적분
+Sparky*cmdMenu*integrateLabel:		적분...
+Sparky*cmdMenu*boxLabel:		박스로 더하기
+Sparky*cmdMenu*ellipseLabel:		타원으로 더하기
+Sparky*cmdMenu*gaussianLabel:		가우스 핏
+Sparky*cmdMenu*lorentzianLabel:		로렌지안 핏
+Sparky*cmdMenu*voigtLabel:  가짜 보이트 핏
+Sparky*cmdMenu*integpeakLabel:		선택된 피크 적분
+Sparky*cmdMenu*unintegrateLabel:	적분 풀기
+
+Sparky*cmdMenu*editCascadeLabel:	편집
+Sparky*cmdMenu*copyCascadeLabel:	복사
+Sparky*cmdMenu*ocopyLabel:		오나먼트 복사
+Sparky*cmdMenu*opasteLabel:		오나먼트 붙이기
+Sparky*cmdMenu*xocopyLabel:		크로스대각 오나먼트 복사
+
+Sparky*cmdMenu*peakCascadeLabel:	피크
+Sparky*cmdMenu*centerLabel:		피크 중앙으로
+Sparky*cmdMenu*colorLabel:		오나먼트 색상
+Sparky*cmdMenu*linewidthLabel:		선폭 평가하기
+Sparky*cmdMenu*groupLabel:		피크 그룹하기
+Sparky*cmdMenu*heightLabel:		높이 업데이트
+Sparky*cmdMenu*labelpeakLabel:		피크 레이블
+Sparky*cmdMenu*listselectedLabel:	선택된 피크 리스트
+Sparky*cmdMenu*lockLabel:		피크 고정
+Sparky*cmdMenu*osizeLabel:		오나먼트 크기
+Sparky*cmdMenu*unlockLabel:		피크 고정풀기
+Sparky*cmdMenu*undoLabel:		실행취소
+
+Sparky*cmdMenu*moreCascadeLabel:	좀 더
+Sparky*cmdMenu*nmrfamCascadeLabel:	NMRFAM
+Sparky*cmdMenu*extensionsCascadeLabel:	확장플러그인
+
+Sparky*cmdMenu*popupHeadingLabel:	뷰 메뉴
+
+Sparky*helpMenu.manualLabel:		매뉴얼 보이기
+Sparky*helpMenu.introLabel:		소개
+Sparky*helpMenu.filesLabel:		파일
+Sparky*helpMenu.spectraLabel:		스펙트럼 뷰
+Sparky*helpMenu.peaksLabel:		피크와 어싸인먼트
+Sparky*helpMenu.extensionsLabel:	파이썬 확장
+Sparky*helpMenu.nmrfamLabel:    NMRFAM 확장
+Sparky*helpMenu.commandidxLabel:  단축키
+
+!
+! View window configuration.
+!
+Sparky*View.peakPanel.text.text:	피크 위치 / 높이 / 선폭
+
+!
+! General dialog properties
+!
+Sparky*controls.ok.text:	확인
+Sparky*controls.apply.text:	적용
+Sparky*controls.update.text:	업데이트
+Sparky*controls.save.text:	저장...
+Sparky*controls.load.text:	로드...
+Sparky*controls.close.text:	닫기
+Sparky*controls.help.text:	도움말
+
+!
+! View/Spectrum/Molecule/Condition/Resonance selection
+!
+Sparky*viewMenu.label.text:		뷰: 
+Sparky*spectrumMenu.label.text:		스펙트럼: 
+Sparky*resField.resEdit.title.text:	공명: 
+Sparky*resField.resMolCond.title.text:	분자 / 상태: 
+
+!
+! Pointer Mode dialog
+!
+Sparky.mode.title:			                포인터 모드
+Sparky.mode.buttons.select.text:	      F1    선택 
+Sparky.mode.buttons.center.text:	      F2    중심
+Sparky.mode.buttons.addGridBoth.text:	  F3    양축 그리드 추가
+Sparky.mode.buttons.addGridHorz.text:	  F4    가로 그리드 추가
+Sparky.mode.buttons.addGridVert.text:	  F5    세로 그리드 추가
+Sparky.mode.buttons.addLabel.text:	    F6    레이블 추가       
+Sparky.mode.buttons.addLine.text:	      F7    선 추가
+Sparky.mode.buttons.findAddPeak.text:	  F8    피크 찾기/더하기
+Sparky.mode.buttons.integrate.text:	    F10   적분
+Sparky.mode.buttons.zoom.text:		      F11   확대
+Sparky.mode.buttons.duplicateZoom.text: F12   복제 & 확대
+Sparky.mode.buttons.assignCopy.text:	  sh-F1 어싸인먼트 복사  
+Sparky.mode.buttons.assignGuess.text:	  sh-F2 어싸인먼트 추측
+
+!
+! Label dialog
+!
+Sparky.labelDialog.title:		          레이블
+Sparky.labelDialog*type.label.text:	  타입: 
+Sparky.labelDialog*label.title.text:	레이블: 
+
+!
+! View settings dialog
+!
+Sparky.viewDialog.aspect.title.text:		            비율 (ppm): 
+Sparky.viewDialog.assignFormat.title.text:	        어싸인먼트 포맷: 
+Sparky.viewDialog.depth.text:			                  보이는 깊이 설정 (vz) ...
+Sparky.viewDialog*units.label.text:		              축 단위:
+Sparky.viewDialog.switches.ornaments.text:	        오나먼트 (os)
+Sparky.viewDialog.switches.labels.text:		          레이블 (ls)
+Sparky.viewDialog.switches.peaks.text:		          피크 (ps)
+Sparky.viewDialog.switches.peakGroups.text:	        피크 그룹 (xs)
+Sparky.viewDialog.switches.grids.text:		          그리드 (gs)
+Sparky.viewDialog.switches.lines.text:		          라인 (is)
+Sparky.viewDialog.switches.atomNames.text:	        축 원자 이름 (xa)
+Sparky.viewDialog.switches.crosshair.text:	        십자선 (hh)
+Sparky.viewDialog.switches.transposeCrosshair.text: 십자선 바꾸기 (ht)
+Sparky.viewDialog.switches.crosshairOther.text:     다른뷰 십자선 (ho)
+Sparky.viewDialog.switches.scales.text:		          축 스케일 (vs)
+Sparky.viewDialog.switches.scrollbars.text:	        스크롤바 (vb)
+Sparky.viewDialog.switches.resonancePanels.text:    공명 패널 (vR)
+Sparky.viewDialog.switches.resFilter.text:	        공명 패널 필터 (rf)
+Sparky.viewDialog.switches.slicePanels.text:	      슬라이스 패널 (vS)
+Sparky.viewDialog.switches.scaleSlices.text:	      자동 스케일 슬라이스 (sa)
+Sparky.viewDialog.switches.sliceSubtract.text:	    슬라이스에서 뺄셈 피크 (sf)
+Sparky.viewDialog.switches.peakInfo.text:	          피크 정보 패널 (vp)
+Sparky.viewDialog.switches.contourScale.text:	      등고 스케일 (vC)
+Sparky.viewDialog.switches.subtractPeaks.text:	    뺄셈 피크 핏 (vf)
+Sparky.viewDialog.switches.inversebgcolor.text:	    배경색 반전 (ci)
+Sparky.viewDialog.switches.curpos.text:             커서 프리퀀시 (fc)
+
+
+!
+! Peak List dialog
+!
+Sparky.PeakListDialog.search.title.text:	    검색: 
+Sparky.PeakListDialog.controls.options.text:	옵션...
+
+!
+! Peak List Options dialog
+!
+Sparky.peakListOptionsDialog.switches.assignmentName.text:  어싸인먼트
+Sparky.peakListOptionsDialog.switches.userName.text:	      유저 레이블
+Sparky.peakListOptionsDialog.switches.frequency.text:	      프리퀀시 (ppm)
+Sparky.peakListOptionsDialog.switches.frequencyHz.text:	    프리퀀시 (Hz)
+Sparky.peakListOptionsDialog.switches.resonanceDev.text:    공명 편차
+Sparky.peakListOptionsDialog.switches.volume.text:	        볼륨
+Sparky.peakListOptionsDialog.switches.volumeError.text:	    볼륨 에러
+Sparky.peakListOptionsDialog.switches.transVolume.text:	    볼륨 바꾸기
+Sparky.peakListOptionsDialog.switches.fitResidual.text:	    핏 잔해 높이
+Sparky.peakListOptionsDialog.switches.fitHeight.text:	      핏 높이
+Sparky.peakListOptionsDialog.switches.dataHeight.text:	    데이터 높이
+Sparky.peakListOptionsDialog.switches.noise.text:	          신호 노이즈 비
+Sparky.peakListOptionsDialog.switches.linewidth.text:	      선폭
+Sparky.peakListOptionsDialog.switches.resFreq.text:	        공명 축 프리퀀시
+Sparky.peakListOptionsDialog.switches.resDev.text:	        공명 축 편차
+Sparky.peakListOptionsDialog.switches.spectrumName.text:    스펙트럼 이름
+Sparky.peakListOptionsDialog.switches.assignmentDistance.text:	어싸인먼트 거리
+Sparky.peakListOptionsDialog.switches.mardigras.text:	      Mardigras 포맷
+Sparky.peakListOptionsDialog.switches.diana.text:	          Dyana 포맷
+Sparky.peakListOptionsDialog.switches.note.text:	          노트
+Sparky.peakListOptionsDialog.sortBy.label.text:		          정렬 순: 
+Sparky.peakListOptionsDialog.sortAxis.title.text:	          정렬 축: 
+Sparky.peakListOptionsDialog.sortPairX.text:	              Pair crossdiagonal peaks?
+Sparky.peakListOptionsDialog.assignFormat.title.text:	      어싸인먼트 포맷: 
+Sparky.peakListOptionsDialog*noSortLabel:		                해당없음
+Sparky.peakListOptionsDialog*assignmentNameSortLabel:	      어싸인먼트
+Sparky.peakListOptionsDialog*userNameSortLabel:		          유저 레이블
+Sparky.peakListOptionsDialog*frequencySortLabel:	          프리퀀시
+Sparky.peakListOptionsDialog*resonanceNameSortLabel:	      공명 이름
+Sparky.peakListOptionsDialog*volumeSortLabel:		            볼륨
+Sparky.peakListOptionsDialog*dataHeightSortLabel:		        데이터 높이
+Sparky.peakListOptionsDialog*noteSortLabel:                 노트
+Sparky.peakListOptionsDialog*assignmentDistanceSortLabel:	  어싸인먼트 거리
+
+!
+! Resonance List dialog
+!
+Sparky.resonanceListDialog.condition.label.text:	분자 / 상태: 
+
+!
+! Contour dialog
+!
+Sparky.contourDialog.title:		등고 레벨
+Sparky.contourDialog.levels.r0c1.text:	최저
+Sparky.contourDialog.levels.r0c2.text:	레벨
+Sparky.contourDialog.levels.r0c3.text:	요인
+Sparky.contourDialog.levels.r0c4.text:	색상
+Sparky.contourDialog.levels.r1c0.text:	양수 
+Sparky.contourDialog.levels.r2c0.text:	음수 
+
+!
+! Region dialog
+!
+Sparky.regionDialog.name.title.text:	이름 
+Sparky.regionDialog.accel.title.text:	단축키 
+Sparky.regionDialog.ranges.r0c1.text:	윗 자장
+Sparky.regionDialog.ranges.r0c2.text:	아래 자장
+Sparky.regionDialog.curWor.current.text:	현재
+Sparky.regionDialog.curWor.world.text:	세계
+Sparky.regionDialog*listHeading.text:	명명된 지역
+Sparky.regionDialog.addDel.add.text:	더하기
+Sparky.regionDialog.addDel.delete.text:	빼기
+Sparky.regionDialog.controls.applyMode.text:	적용 모드
+Sparky.regionDialog.controls.goto.text:	가기
+
+!
+! Assignment dialog
+!
+Sparky.assignDialog.axes.r0c0.text:	축
+Sparky.assignDialog.axes.r0c1.text:	그룸
+Sparky.assignDialog.axes.r0c2.text:	원자
+Sparky.assignDialog.axes.r0c3.text:	공명
+Sparky.assignDialog.axes.r0c4.text:	피크  
+Sparky.assignDialog.resList.listHeading.text:	공명
+Sparky.assignDialog.resPeaks.text:		공명 피크 ... 
+Sparky.assignDialog.guess.guessOpt.text:	추측 설정... 
+Sparky.assignDialog.guess.guesses.text:		추측치
+
+!
+! Assignment copy dialog
+!
+Sparky.assignCopyDialog.pmHeading.text:		어싸인먼트 복사 포인터 모드
+Sparky.assignCopyDialog.copyFrom.label.text:	이 스펙트럼에서: 
+
+!
+! Assignment guessing options dialog
+!
+Sparky.resonanceTableDialog.title:	어싸인먼트 테이블
+Sparky.resonanceTableDialog.condition.label.text:	분자 / 상태: 
+Sparky.resonanceTableDialog.switches.chemShifts.text:	케미컬 쉬프트 보이기
+Sparky.resonanceTableDialog.switches.standardDev.text:	표준편차 보이기
+Sparky.resonanceTableDialog.switches.counts.text:	어싸인먼트 숫자 보이기
+Sparky.resonanceTableDialog.switches.predefined.text:	미리 정의된 공명 보이기
+
+!
+! Assignment guessing options dialog
+!
+Sparky.guessDialog.settings.r0c1.text:		그룹
+Sparky.guessDialog.settings.r0c2.text:		원자
+Sparky.guessDialog.settings.r0c3.text:	  범위 (ppm)
+Sparky.guessDialog.useFilter.text:		어싸인먼트 필터 사용? 
+Sparky.guessDialog.filterFile.title.text:	어싸인먼트 필터 파일: 
+Sparky.guessDialog.settings*menu.noneLabel:	해당없음
+Sparky.guessDialog.settings*menu.anyLabel:	아무나
+
+!
+! Print dialog
+!
+Sparky.printDialog.table.r0c2.text:	하위 자장
+Sparky.printDialog.table.r0c3.text:	상위 자장
+Sparky.printDialog.table.r0c4.text:	페이지
+Sparky.printDialog.table.r0c5.text:	ppm / cm
+Sparky.printDialog.table.r0c6.text:	레이블 공백 (ppm)
+Sparky.printDialog.settings.peakGroups.text:	피크 그룹
+Sparky.printDialog.settings.blackLabels.text:	블랙 레이블
+Sparky.printDialog.settings.landscape.text:	가로
+Sparky.printDialog.settings.banner.text:	배너
+Sparky.printDialog.settings.grids.text:		그리드
+Sparky.printDialog.settings.peaks.text:		피크
+Sparky.printDialog.printCommand.title.text:	출력 명령행
+Sparky.printDialog.filename.title.text:		파일 이름 
+Sparky.printDialog.bannerTitle.title.text:	배너 타이틀 
+Sparky.printDialog.controls.print.text:		프린트
+Sparky.printDialog.controls.preview.text:	미리보기
+
+!
+! Ornament Properties dialog
+!
+Sparky.ornamentDialog.title:		오나먼트 특성
+Sparky.ornamentDialog.peakProps.r0c0.text:	
+Sparky.ornamentDialog.peakProps.r1c0.text:	포지션 
+Sparky.ornamentDialog.peakProps.r2c0.text:	선폭
+Sparky.ornamentDialog.peakProps.r3c0.text:	볼륨
+Sparky.ornamentDialog.peakProps.r4c0.text:	볼륨 에러 %
+Sparky.ornamentDialog.lock.text:		위치 고정
+Sparky.ornamentDialog.properties.color.text:	색상 ...
+Sparky.ornamentDialog.properties.note.text:	노트 ...
+Sparky.ornamentDialog.properties.sizes.text:	크기 ...
+Sparky.ornamentDialog.properties.planes.text:	시각화 ...
+
+!
+! Ornament Properties dialog
+!
+Sparky.ornamentSizeDialog.heading.text:	w1 ppm 단위로 오나먼트 사이즈
+Sparky.ornamentSizeDialog.labelSize.title.text:	레이블 크기: 
+Sparky.ornamentSizeDialog.peakSize.title.text:	피크 크기: 
+Sparky.ornamentSizeDialog.peakGroupSize.title.text: 피크 그룹 크기: 
+Sparky.ornamentSizeDialog.lineSize.title.text:	라인 굵기: 
+
+!
+! View depth dialog
+!
+Sparky.viewDepthDialog.heading.text:		여분으로 보이는 플레인 수
+
+!
+! Ornament color dialog
+!
+Sparky.colorDialog.title:			오나먼트 색상
+
+!
+! Ornament note dialog
+!
+Sparky.noteDialog.title:		오나먼트 노트
+Sparky.noteDialog.note.title.text:	노트 
+
+!
+! Peak picking dialog
+!
+Sparky.pickDialog.linewidthtitle.text:	최소 선폭 (hz)
+
+!
+! Integration methods dialog
+!
+Sparky.integrationDialog.method.label.text:	적분 방법: 
+Sparky.integrationDialog.switches.allowMotion.text: \
+피크 움직임 허용하기?
+Sparky.integrationDialog.switches.adjustLinewidths.text: \
+선폭 조절?
+Sparky.integrationDialog.switches.baselineFit.text: \
+베이스라인에 핏?
+Sparky.integrationDialog.switches.subtractPeaks.text: \
+핏 피크 빼버리기?
+Sparky.integrationDialog.switches.contouredData.text: \
+최소 등고 데이터 사용?
+Sparky.integrationDialog.switches.rectangleData.text: \
+사각형 안 데이터 사용?
+Sparky.integrationDialog.switches.contourGroup.text: \
+등고 경계 피크 그룹하기?
+Sparky.integrationDialog.switches.distanceGroup.text: \
+가까운 피크 그룹하기?
+Sparky.integrationDialog.ranges.r1c0.text:	최대움직임 (ppm)
+Sparky.integrationDialog.ranges.r2c0.text:	최소선폭 (Hz)
+Sparky.integrationDialog.ranges.r3c0.text:	최대선폭 (Hz)
+Sparky.integrationDialog.ranges.r4c0.text:	그루핑 레인지 (Hz)
+
+Sparky.integrationDialog.maxStep.title.text:	Maximum minimization steps 
+Sparky.integrationDialog.tolerance.title.text:	Minimization tolerance (%) 
+Sparky.integrationDialog.voigtMixing.title.text:	Gaussian-to-Voigt mixing (%) 
+!
+! Spectrum dialog
+!
+Sparky.spectrumDialog.rename.title.text:	재명명: 
+Sparky.spectrumDialog.noise.title.text:		노이즈 추측: 
+Sparky.spectrumDialog*noisebutton.text:		재계산
+Sparky.spectrumDialog*noisecount.title.text:	중간값을 노이즈 레벨로
+Sparky.spectrumDialog.recomplabel.text:	랜덤으로 추출한 데이터 높이의 절대값
+
+!
+! Synchronize views dialog
+!
+Sparky.syncDialog.title:		뷰 싱크하기
+Sparky.syncDialog.viewTable.r0c1.text:	w1  
+Sparky.syncDialog.viewTable.r0c2.text:	w2  
+Sparky.syncDialog.viewTable.r0c3.text:	w3  
+Sparky.syncDialog.viewTable.r0c4.text:	w4  
+Sparky.syncDialog.controls.synchronize.text:	싱크하기
+Sparky.syncDialog.controls.unsynchronize.text:	싱크풀기
+
+!
+! Database dialog
+!
+Sparky.databaseDialog.title:			Database Entries
+
+!
+! Project views dialog
+!
+Sparky.viewListDialog.title:			뷰 리스트
+Sparky.viewListDialog.controls.show.text:		보이기
+Sparky.viewListDialog.controls.hide.text:		가리기
+
+!
+! Predefined resonances dialog
+!
+Sparky.predefinedResonanceDialog.title:	선 정의 공명
+Sparky.predefinedResonanceDialog.fromMolCond.label.text: \
+From 분자 / 상태: 
+Sparky.predefinedResonanceDialog.toMolCond.label.text: \
+To 분자 / 상태: 
+Sparky.predefinedResonanceDialog.controls.copy.text: 복사
+
+!
+! Preferences dialog
+!
+Sparky.preferenceDialog.title:		환경설정
+Sparky.preferenceDialog.switches.savePrompt.text: \
+덧씌워 저장할때 물어보기?
+Sparky.preferenceDialog.switches.resizeViews.text: \
+공명 패널 더할 때 뷰 윈도우 크기 바꾸기?
+Sparky.preferenceDialog.switches.disregardBorders.text: \
+뷰 설정에서 윈도우창 테두리 크기 무시하기?
+Sparky.preferenceDialog.switches.contourGraying.text: \
+등고선 그릴때 회색덧칠하기?
+Sparky.preferenceDialog.autoBackup.title.text: \
+분 당 자동 파일 백업 : 
+Sparky.preferenceDialog.keyTimeout.title.text: \
+단축키간 최대 시간 (sec): 
+Sparky.preferenceDialog.cacheSize.title.text: \
+NMR 데이터 캐시 사이즈 (Mbytes): 
+
+!
+! Rename resonances dialog
+!
+Sparky.renameDialog.title:		공명 재명칭하기
+Sparky.renameDialog.gaTable.r0c1.text:	그룹
+Sparky.renameDialog.gaTable.r0c2.text:	원자
+Sparky.renameDialog.gaTable.r1c0.text:	From: 
+Sparky.renameDialog.gaTable.r2c0.text:	To: 
+Sparky.renameDialog.gaTable.Entry.width:	8
+Sparky.renameDialog.controls.rename.text:	재명칭
+Sparky.renameDialog.controls.merge.text:	합하기
+Sparky.renameDialog.controls.swap.text:		스왑
+
+!
+! Change data location dialog
+!
+Sparky.dataLocationDialog.title:	데이터 경로 바꾸기
+Sparky.dataLocationDialog.file.title.text:		새로운 데이터 경로: 
+Sparky.dataLocationDialog.controls.browse.text:	찾기...
+Sparky.dataLocationDialog.controls.cancel.text:	로드 취소
+
+!
+! View overlay dialog
+!
+Sparky.overlayDialog.title:	뷰 겹치기
+Sparky.overlayDialog*listHeading.text: 올리는 뷰           올라가는 뷰
+Sparky.overlayDialog.fromView.label.text:	올리는 뷰: 
+Sparky.overlayDialog.ontoView.label.text:	올라가는 뷰: 
+Sparky.overlayDialog.controls.add.text:		더하기
+Sparky.overlayDialog.controls.remove.text:		제거
+
+!
+! Midas molecular display dialog
+!
+Sparky.midasDialog.colors.label.text:	라인 색상: 
+Sparky.midasDialog.switches.allAssignments.text: 모든 어싸인먼트를 보일까요?
+Sparky.midasDialog.pdbFile.title.text:	PDB 파일: 
+Sparky.midasDialog.controls.file.text:	PDB 파일
+
+!
+! Choice dialog (implements queries, warnings, wait messages
+! Query dialog
+! Working dialog
+! Warning dialog
+!
+Sparky.queryDialog.title:		물음말
+Sparky.workingDialog.title:		일하는 중 ...
+Sparky.warningDialog.title:		경고

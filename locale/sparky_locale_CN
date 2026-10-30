@@ -1,0 +1,580 @@
+﻿!
+! NMRFAM-SPARKY Localization - CN chinese
+! Contributed by Huan Du (Kaifeng Hu group @ Kunming Institute of Botany, CAS)
+!
+! Menus
+!
+Sparky*fileMenuButton.text:      文件
+Sparky*viewMenuButton.text:      视图
+Sparky*peakMenuButton.text:      谱峰
+Sparky*windowsMenuButton.text:   窗口
+Sparky*extensionMenuButton.text: 扩展程序
+Sparky*helpMenuButton.text:      帮助
+
+Sparky*cmdMenu*openLabel:        打开...
+Sparky*cmdMenu*saveLabel:        保存
+Sparky*cmdMenu*saveAsLabel:      另存为...
+Sparky*cmdMenu*projHeadingLabel: 项目
+Sparky*cmdMenu*projOpenLabel:    打开...
+Sparky*cmdMenu*projSaveLabel:    保存
+Sparky*cmdMenu*projSaveAsLabel:  另存为...
+Sparky*cmdMenu*projCloseLabel:   关闭
+Sparky*cmdMenu*printLabel:       打印...
+Sparky*cmdMenu*preferencesLabel: 首选项...
+Sparky*cmdMenu*iconifyLabel:     图标显示
+Sparky*cmdMenu*quitLabel:        退出
+
+Sparky*cmdMenu*toolsCascadeLabel: 工具
+Sparky*cmdMenu*assignLabel:      归属
+Sparky*cmdMenu*acopymodeLabel:   复制模式...
+Sparky*cmdMenu*assignguessLabel: 归属猜测...
+Sparky*cmdMenu*assigntableLabel: 归属峰列表...
+Sparky*cmdMenu*contourLabel:     等高线水平...
+Sparky*cmdMenu*midasLabel:       Midas...
+Sparky*cmdMenu*newlistLabel:     新峰列表...
+Sparky*cmdMenu*noteLabel:        注释...
+Sparky*cmdMenu*ornamentLabel:    标签形式...
+Sparky*cmdMenu*overlayLabel:     重叠视图...
+Sparky*cmdMenu*peaklistLabel:    峰列表...
+Sparky*cmdMenu*peakpickLabel:    取峰...
+Sparky*cmdMenu*crosshairLabel:   十字准线...
+Sparky*cmdMenu*predefinedLabel:  预定义共振信号...
+Sparky*cmdMenu*projectviewsLabel: 查看列表...
+Sparky*cmdMenu*reslistLabel:     共振信号列表...
+Sparky*cmdMenu*renameresonLabel: 共振信号重命名...
+Sparky*cmdMenu*spectrumLabel:    谱图...
+Sparky*cmdMenu*synchronizeLabel: 同步化...
+
+Sparky*cmdMenu*axesCascadeLabel: 坐标轴 
+Sparky*cmdMenu*ppmLabel:         ppm单位
+Sparky*cmdMenu*hzLabel:          赫兹单位
+Sparky*cmdMenu*dataLabel:        指标单位 
+Sparky*cmdMenu*atomsLabel:       原子核类型 
+Sparky*cmdMenu*rollLabel:        滚动轴 
+Sparky*cmdMenu*transposeLabel:   转置轴 
+Sparky*cmdMenu*originLabel:      设置ppm原点 
+Sparky*cmdMenu*shiftaxesLabel:   移动ppm坐标轴...
+
+Sparky*cmdMenu*crosshairsCascadeLabel: 十字准线 
+Sparky*cmdMenu*xhairLabel:       十字准线 
+Sparky*cmdMenu*transxhairLabel:  转置十字准线 
+Sparky*cmdMenu*otherxhairLabel:  十字准线其他视图方式
+Sparky*cmdMenu*regionCascadeLabel: 区域 
+Sparky*cmdMenu*gotoCascadeLabel: 跳转 
+Sparky*cmdMenu*centerviewLabel:  峰居中显示
+Sparky*cmdMenu*gotoLabel:        跳至X区域
+Sparky*cmdMenu*regionLabel:      区域命名...
+
+Sparky*cmdMenu*resonanceCascadeLabel: 共振信号 
+Sparky*cmdMenu*viewCascadeLabel:  视图 
+Sparky*cmdMenu*edgePanelsCascadeLabel: 边缘面板 
+Sparky*cmdMenu*resonanceLabel:    共振信号 
+Sparky*cmdMenu*resfilterLabel:    共振信号筛选 
+Sparky*cmdMenu*sliceLabel:        条带
+Sparky*cmdMenu*slicescaleLabel:   自动缩放条带
+Sparky*cmdMenu*slicesubtractLabel: 扣减条带拟合 
+Sparky*cmdMenu*peakinfoLabel:     谱峰信息 
+Sparky*cmdMenu*contourscaleLabel: 等高线比例 
+Sparky*cmdMenu*axisscaleLabel:    坐标轴尺度 
+Sparky*cmdMenu*inversebgcolorLabel: 反转背景颜色
+Sparky*cmdMenu*curposLabel:       光标指示频率
+Sparky*cmdMenu*scrollbarsLabel:   滚动条 
+
+Sparky*cmdMenu*selectCascadeLabel:  选择 
+Sparky*cmdMenu*selectallLabel:      选择全部峰 
+Sparky*cmdMenu*selectfassignLabel:  选择完全归属
+Sparky*cmdMenu*selectpassignLabel:  选择部分归属  
+Sparky*cmdMenu*selectuassignLabel:  未归属峰选择
+Sparky*cmdMenu*selectcolorLabel:    通过颜色选择峰 
+Sparky*cmdMenu*selectinvertLabel:   反向峰选择 
+Sparky*cmdMenu*selectaliasedLabel:  选择折叠谱峰
+Sparky*cmdMenu*selectintraLabel:    选择残基内部的
+Sparky*cmdMenu*selectseqLabel:      选择前后相邻的
+Sparky*cmdMenu*selectmediumLabel:   选择中程的 
+Sparky*cmdMenu*selectlongLabel:     选择远程的
+
+Sparky*cmdMenu*showCascadeLabel:    显示 
+Sparky*cmdMenu*showallLabel:        全部标签形式 
+Sparky*cmdMenu*showpeakLabel:    峰 
+Sparky*cmdMenu*showpeakgpLabel:  峰组
+Sparky*cmdMenu*showgridLabel:    网格线 
+Sparky*cmdMenu*showlabelLabel:   标签 
+Sparky*cmdMenu*showlineLabel:    线条 
+
+Sparky*cmdMenu*dupviewLabel:     复制 
+Sparky*cmdMenu*hideviewLabel:    隐藏视图 
+Sparky*cmdMenu*deleteviewLabel:  删除视图 
+Sparky*cmdMenu*refreshLabel:     重现视图 
+Sparky*cmdMenu*renumberLabel:    重新编号视图 
+Sparky*cmdMenu*viewLabel:        视图选项 
+Sparky*cmdMenu*viewdepthLabel:   可视深度...
+Sparky*cmdMenu*pointerModesLabel: 指针模式... 
+
+
+Sparky*cmdMenu*subtractfitLabel:  扣减拟合峰 
+Sparky*cmdMenu*orthoLabel:        正交视图 
+Sparky*cmdMenu*unoverlapLabel:    标签不重叠 
+Sparky*cmdMenu*rightlabelsLabel:  右移标签 
+Sparky*cmdMenu*centerlabelsLabel: 将标签移至谱峰中心 
+
+Sparky*cmdMenu*zoomCascadeLabel:  缩放 
+Sparky*cmdMenu*zoomfullLabel:     全视图 
+Sparky*cmdMenu*zoominLabel:       放大 
+Sparky*cmdMenu*zoomoutLabel:      缩小  
+Sparky*cmdMenu*zoomdownLabel:     向下平面 
+Sparky*cmdMenu*zoomupLabel:       向上平面 
+Sparky*cmdMenu*zoomprevLabel:     上一步 
+Sparky*cmdMenu*zoomnextLabel:     下一步 
+Sparky*cmdMenu*zoomrememberLabel: 存储 
+Sparky*cmdMenu*zoomwheelLabel:    启用/禁用鼠标滚轮缩放 
+
+Sparky*cmdMenu*aliasCascadeLabel: 折叠谱峰
+Sparky*cmdMenu*aliasaddw1Label:   增加 w1 扫频宽度
+Sparky*cmdMenu*aliasaddw2Label:   增加 w2 扫频宽度
+Sparky*cmdMenu*aliasaddw3Label:   增加 w3 扫频宽度
+Sparky*cmdMenu*aliasaddw4Label:   增加 w4 扫频宽度
+Sparky*cmdMenu*aliassubw1Label:   减去 w1 扫频宽度
+Sparky*cmdMenu*aliassubw2Label:   减去 w2 扫频宽度
+Sparky*cmdMenu*aliassubw3Label:   减去 w3 扫频宽度
+Sparky*cmdMenu*aliassubw4Label:   减去 w4 扫频宽度
+Sparky*cmdMenu*aliasdownw1Label: w1 低场反射 
+Sparky*cmdMenu*aliasdownw2Label: w2 低场反射
+Sparky*cmdMenu*aliasdownw3Label: w3 低场反射
+Sparky*cmdMenu*aliasdownw4Label: w4 低场反射
+Sparky*cmdMenu*aliasupw1Label:   w1 高场反射 
+Sparky*cmdMenu*aliasupw2Label:   w2 高场反射   
+Sparky*cmdMenu*aliasupw3Label:   w3 高场反射
+Sparky*cmdMenu*aliasupw4Label:   w4 高场反射
+Sparky*cmdMenu*unaliasLabel:    删除选择峰
+
+Sparky*cmdMenu*assignmentCascadeLabel: 归属 
+Sparky*cmdMenu*assigncopyLabel:   复制归属 
+Sparky*cmdMenu*assigndeleteLabel: 删除归属 
+Sparky*cmdMenu*assignpasteLabel:  粘贴归属
+Sparky*cmdMenu*assignpastelabelLabel: 粘贴并标签
+Sparky*cmdMenu*xdiagassigncopyLabel: 复制对角峰归属
+Sparky*cmdMenu*assignLabel:      归属...
+Sparky*cmdMenu*labelpeaksLabel:  标记选定谱峰 
+Sparky*cmdMenu*unlabelpeaksLabel: 不标记选定谱峰
+
+Sparky*cmdMenu*deleteresLabel:   删除未被使用的共振信号 
+Sparky*cmdMenu*resonancew1Label: w1 共振峰
+Sparky*cmdMenu*resonancew2Label: w2 共振峰
+Sparky*cmdMenu*resonancew3Label: w3 共振峰
+Sparky*cmdMenu*resonancew4Label: w4 共振峰
+Sparky*cmdMenu*resassignLabel:  共振归属...
+
+Sparky*cmdMenu*integrateCascadeLabel: 积分 
+Sparky*cmdMenu*integrateLabel:  			积分... 
+Sparky*cmdMenu*boxLabel:              矩形加和法 
+Sparky*cmdMenu*ellipseLabel:          椭圆加和法
+Sparky*cmdMenu*gaussianLabel:         高斯峰型拟合法
+Sparky*cmdMenu*lorentzianLabel:       洛伦兹峰型拟合法
+Sparky*cmdMenu*voigtLabel:            Pseudo-Voigt拟合法
+Sparky*cmdMenu*integpeakLabel:        积分选择的谱峰 
+Sparky*cmdMenu*unintegrateLabel:      峰去积分 
+
+Sparky*cmdMenu*editCascadeLabel:      编辑 
+Sparky*cmdMenu*copyCascadeLabel:      复制 
+Sparky*cmdMenu*ocopyLabel:            复制标签形式 
+Sparky*cmdMenu*opasteLabel:           粘贴标签形式 
+Sparky*cmdMenu*xocopyLabel:           复制对角峰标签形式
+
+Sparky*cmdMenu*peakCascadeLabel:      谱峰 
+Sparky*cmdMenu*centerLabel:           谱峰居中
+Sparky*cmdMenu*colorLabel:            颜色标签形式  
+Sparky*cmdMenu*linewidthLabel:        谱宽估算
+Sparky*cmdMenu*groupLabel:            峰组
+Sparky*cmdMenu*heightLabel:           更新峰高 
+Sparky*cmdMenu*labelpeakLabel:        标记峰
+Sparky*cmdMenu*listselectedLabel:     选择的谱峰列表
+Sparky*cmdMenu*lockLabel:             谱峰锁定 
+Sparky*cmdMenu*osizeLabel:            标签字体大小 
+Sparky*cmdMenu*unlockLabel:           取消谱峰锁定 
+Sparky*cmdMenu*undoLabel:             撤销 
+
+Sparky*cmdMenu*moreCascadeLabel:      更多
+Sparky*cmdMenu*extensionsCascadeLabel: 扩展程序 
+
+Sparky*cmdMenu*popupHeadingLabel: 视图菜单 
+
+Sparky*helpMenu.manualLabel:      查看手册 
+Sparky*helpMenu.introLabel:       介绍 
+Sparky*helpMenu.filesLabel:       文件 
+Sparky*helpMenu.spectraLabel:     谱图显示 
+Sparky*helpMenu.peaksLabel:       谱峰和归属 
+Sparky*helpMenu.extensionsLabel:  Python扩展 
+Sparky*helpMenu.nmrfamLabel:      NMRFAM扩展 
+Sparky*helpMenu.commandidxLabel:  快捷命令 
+	
+!
+! View window configuration.
+!
+Sparky*View.peakPanel.text.text: 谱峰位置 / 高度 / 线宽                               
+!
+! General dialog properties
+!
+Sparky*controls.ok.text:       确定
+Sparky*controls.apply.text:    应用 
+Sparky*controls.update.text:   更新 
+Sparky*controls.save.text:     保存...  
+Sparky*controls.load.text:     加载...  
+Sparky*controls.close.text:    关闭   
+Sparky*controls.help.text:     帮助   
+
+!
+! View/Spectrum/Molecule/Condition/Resonance selection
+!
+Sparky*viewMenu.label.text:    查看:
+Sparky*spectrumMenu.label.text:  谱图:
+Sparky*resField.resEdit.title.text: 共振信号信号:
+Sparky*resField.resMolCond.title.text: 分子 / 条件:
+
+!
+! Pointer Mode dialog
+!
+Sparky.mode.title:                   指针模式
+Sparky.mode.buttons.select.text:        F1    选择 
+Sparky.mode.buttons.center.text:        F2    居中 
+Sparky.mode.buttons.addGridBoth.text:   F3    添加网格线 
+Sparky.mode.buttons.addGridHorz.text:   F4    添加水平网格线 
+Sparky.mode.buttons.addGridVert.text:   F5    添加垂直网格线 
+Sparky.mode.buttons.addLabel.text:      F6    添加标签 
+Sparky.mode.buttons.addLine.text:       F7    添加线条 
+Sparky.mode.buttons.findAddPeak.text:   F8    查找/添加谱峰 
+Sparky.mode.buttons.integrate.text:     F10   积分 
+Sparky.mode.buttons.zoom.text:          F11   缩放 
+Sparky.mode.buttons.duplicateZoom.text: F12   复制并缩放 
+Sparky.mode.buttons.assignCopy.text:    sh-F1 归属复制 
+Sparky.mode.buttons.assignGuess.text:   sh-F2 归属猜测 
+
+!
+! Label dialog
+!
+Sparky.labelDialog.title:            标签 
+Sparky.labelDialog*type.label.text:  类型:
+Sparky.labelDialog*label.title.text: 标签:
+
+!
+! View settings dialog
+!
+Sparky.viewDialog.aspect.title.text:              面 (ppm):
+Sparky.viewDialog.assignFormat.title.text:        归属格式:
+Sparky.viewDialog.depth.text:                     设置峰可见深度(vz) ...
+Sparky.viewDialog*units.label.text:               坐标轴的单位:
+Sparky.viewDialog.switches.ornaments.text:        标签形式 (os)
+Sparky*cmdMenu*overlayLabel:                      重叠视图... 
+Sparky.viewDialog.switches.labels.text:           标签 (ls)
+Sparky.viewDialog.switches.peaks.text:            谱峰 (ps)
+Sparky.viewDialog.switches.peakGroups.text:       峰组 (xs) 
+Sparky.viewDialog.switches.grids.text:            网格线 (gs)
+Sparky.viewDialog.switches.lines.text:            线条 (is)
+Sparky.viewDialog.switches.atomNames.text:        坐标轴原子名称 (xa)
+Sparky.viewDialog.switches.crosshair.text:        十字准线 (hh)
+Sparky.viewDialog.switches.transposeCrosshair.text: 转置十字线 (ht) 
+Sparky.viewDialog.switches.crosshairOther.text:   十字准线其他视图方式 (ho)
+Sparky.viewDialog.switches.scales.text:           坐标轴比例 (vs)
+Sparky.viewDialog.switches.scrollbars.text:       滚动条 (vb)
+Sparky.viewDialog.switches.resonancePanels.text:  共振信号面板 (vR)
+Sparky.viewDialog.switches.resFilter.text:        筛选共振信号面板 (rf)
+Sparky.viewDialog.switches.slicePanels.text:      条带面板 (vS)
+Sparky.viewDialog.switches.scaleSlices.text:      自动缩放条带 (sa)
+Sparky.viewDialog.switches.sliceSubtract.text:    扣减条带中的峰 (sf)
+Sparky.viewDialog.switches.peakInfo.text:         峰信息面板 (vp)
+Sparky.viewDialog.switches.contourScale.text:     等高线比例 (vC) 
+Sparky.viewDialog.switches.subtractPeaks.text:    扣减拟合峰 (vf)
+Sparky.viewDialog.switches.inversebgcolor.text:   反转背景颜色 (ci)
+Sparky.viewDialog.switches.curpos.text:           光标频率 (fc)
+
+!
+! Peak List dialog
+!
+Sparky.PeakListDialog.search.title.text:     搜索:
+Sparky.PeakListDialog.controls.options.text: 选项... 
+
+!
+! Peak List Options dialog
+!
+Sparky.peakListOptionsDialog.switches.assignmentName.text:  归属
+Sparky.peakListOptionsDialog.switches.userName.text:        用户标签 
+Sparky.peakListOptionsDialog.switches.frequency.text:       频率 （ppm）
+Sparky.peakListOptionsDialog.switches.frequencyHz.text:     频率 （Hz）
+Sparky.peakListOptionsDialog.switches.resonanceDev.text:    共振偏差
+Sparky.peakListOptionsDialog.switches.volume.text:          峰体积
+Sparky.peakListOptionsDialog.switches.volumeError.text:     峰体积误差
+Sparky.peakListOptionsDialog.switches.transVolume.text:     转置峰体积
+Sparky.peakListOptionsDialog.switches.fitResidual.text:     拟合残差
+Sparky.peakListOptionsDialog.switches.fitHeight.text:       拟合高度
+Sparky.peakListOptionsDialog.switches.dataHeight.text:      数据高度
+Sparky.peakListOptionsDialog.switches.noise.text:           信噪比
+Sparky.peakListOptionsDialog.switches.linewidth.text:       谱宽
+Sparky.peakListOptionsDialog.switches.resFreq.text:         共振轴频率
+Sparky.peakListOptionsDialog.switches.resDev.text:          共振轴偏差
+Sparky.peakListOptionsDialog.switches.spectrumName.text:    谱图名称
+Sparky.peakListOptionsDialog.switches.assignmentDistance.text: 距离归属
+Sparky.peakListOptionsDialog.switches.mardigras.text:       Mardigras 模式输出
+Sparky.peakListOptionsDialog.switches.diana.text:           Dyana 模式输出
+Sparky.peakListOptionsDialog.switches.note.text:            注释 
+Sparky.peakListOptionsDialog.sortBy.label.text:             排序依据:
+Sparky.peakListOptionsDialog.sortAxis.title.text:           坐标轴排序:
+Sparky.peakListOptionsDialog.sortPairX.text:                是否匹配对角峰？
+Sparky.peakListOptionsDialog.assignFormat.title.text:       归属格式:
+Sparky.peakListOptionsDialog*noSortLabel:                   无
+Sparky.peakListOptionsDialog*assignmentNameSortLabel:       归属 
+Sparky.peakListOptionsDialog*userNameSortLabel:             用户标签 
+Sparky.peakListOptionsDialog*frequencySortLabel:            频率 
+Sparky.peakListOptionsDialog*resonanceNameSortLabel:        共振名称 
+Sparky.peakListOptionsDialog*volumeSortLabel:               体积
+Sparky.peakListOptionsDialog*dataHeightSortLabel:           数据高度
+Sparky.peakListOptionsDialog*noteSortLabel:                 注释 
+Sparky.peakListOptionsDialog*assignmentDistanceSortLabel:   距离归属
+!
+! Resonance List dialog
+!
+Sparky.resonanceListDialog.condition.label.text:  分子 / 条件:
+!
+! Contour dialog
+!
+Sparky.contourDialog.title:            等高线水平
+Sparky.contourDialog.levels.r0c1.text: 最低 
+Sparky.contourDialog.levels.r0c2.text: 水平 
+Sparky.contourDialog.levels.r0c3.text: 比例因子 
+Sparky.contourDialog.levels.r0c4.text: 颜色 
+Sparky.contourDialog.levels.r1c0.text: 正谱峰 
+Sparky.contourDialog.levels.r2c0.text: 负谱峰
+
+!
+! Region dialog
+!
+Sparky.regionDialog.name.title.text:   名称 
+Sparky.regionDialog.accel.title.text:  加速
+Sparky.regionDialog.ranges.r0c1.text:  高场 
+Sparky.regionDialog.ranges.r0c2.text:  低场 
+Sparky.regionDialog.curWor.current.text: 当前 
+Sparky.regionDialog.curWor.world.text:   世界
+Sparky.regionDialog*listHeading.text:    已命名区域 
+Sparky.regionDialog.addDel.add.text:     添加 
+Sparky.regionDialog.addDel.delete.text:  删除 
+Sparky.regionDialog.controls.applyMode.text: 应用模式  
+Sparky.regionDialog.controls.goto.text:  跳转  
+
+!
+! Assignment dialog
+!
+Sparky.assignDialog.axes.r0c0.text:       坐标轴 
+Sparky.assignDialog.axes.r0c1.text:       组别 
+Sparky.assignDialog.axes.r0c2.text:       原子 
+Sparky.assignDialog.axes.r0c3.text:       共振信号 
+Sparky.assignDialog.axes.r0c4.text:       峰 
+Sparky.assignDialog.resList.listHeading.text: 共振信号 
+Sparky.assignDialog.resPeaks.text:      共振峰 ... 
+Sparky.assignDialog.guess.guessOpt.text: 猜测中 ... 
+Sparky.assignDialog.guess.guesses.text:  猜测 
+
+!
+! Assignment copy dialog
+!
+Sparky.assignCopyDialog.pmHeading.text:  归属复制指标模式
+Sparky.assignCopyDialog.copyFrom.label.text:    从谱图上复制:
+!
+! Assignment guessing options dialog
+!
+Sparky.resonanceTableDialog.title:       归属列表
+Sparky.resonanceTableDialog.condition.label.text: 分子 / 条件:                                
+Sparky.resonanceTableDialog.switches.chemShifts.text:   显示化学位移？
+Sparky.resonanceTableDialog.switches.standardDev.text:  显示标准偏差？
+Sparky.resonanceTableDialog.switches.counts.text:       显示归属个数？
+Sparky.resonanceTableDialog.switches.predefined.text:   显示预定义共振信号？
+
+!
+! Assignment guessing options dialog
+!
+Sparky.guessDialog.settings.r0c1.text:  组 
+Sparky.guessDialog.settings.r0c2.text:  原子 
+Sparky.guessDialog.settings.r0c3.text:  范围 (ppm) 
+Sparky.guessDialog.useFilter.text:      采用归属过滤？
+Sparky.guessDialog.filterFile.title.text: 归属过滤文件:
+Sparky.guessDialog.settings*menu.noneLabel: 无  
+Sparky.guessDialog.settings*menu.anyLabel:  任何	
+
+!
+! Print dialog
+!
+Sparky.printDialog.table.r0c2.text: 低场 
+Sparky.printDialog.table.r0c3.text: 高场 
+Sparky.printDialog.table.r0c4.text: 页  
+Sparky.printDialog.table.r0c5.text: ppm / cm
+Sparky.printDialog.table.r0c6.text: 标签间距 （ppm）
+Sparky.printDialog.settings.peakGroups.text: 峰组
+Sparky.printDialog.settings.blackLabels.text: 黑色标签  
+Sparky.printDialog.settings.landscape.text: 横向 
+Sparky.printDialog.settings.banner.text: 标题 
+Sparky.printDialog.settings.grids.text:  网格线 
+Sparky.printDialog.settings.peaks.text:  峰 
+Sparky.printDialog.printCommand.title.text: 打印命令 
+Sparky.printDialog.filename.title.text:  		文件名称 
+Sparky.printDialog.bannerTitle.title.text:  标题名称
+Sparky.printDialog.controls.print.text:     打印 
+Sparky.printDialog.controls.preview.text:   打印预览
+
+!
+! Ornament Properties dialog
+!
+Sparky.ornamentDialog.title:            标签属性     
+Sparky.ornamentDialog.peakProps.r0c0.text: 
+Sparky.ornamentDialog.peakProps.r1c0.text:   位置
+Sparky.ornamentDialog.peakProps.r2c0.text:   线宽
+Sparky.ornamentDialog.peakProps.r3c0.text:   峰体积
+Sparky.ornamentDialog.peakProps.r4c0.text:   峰体积误差 %
+Sparky.ornamentDialog.lock.text:             锁场位置
+Sparky.ornamentDialog.properties.color.text: 颜色 ... 
+Sparky.ornamentDialog.properties.note.text:  注释 ...
+Sparky.ornamentDialog.properties.sizes.text: 大小 ... 
+Sparky.ornamentDialog.properties.planes.text: 可视度 ...
+
+!
+! Ornament Properties dialog
+!
+Sparky.ornamentSizeDialog.heading.text:             在w1维以ppm单位显示标签大小
+Sparky.ornamentSizeDialog.labelSize.title.text:     标签大小:
+Sparky.ornamentSizeDialog.peakSize.title.text:      谱峰大小:
+Sparky.ornamentSizeDialog.peakGroupSize.title.text: 峰组大小:
+Sparky.ornamentSizeDialog.lineSize.title.text:      线条粗细:
+
+!
+! View depth dialog
+!
+Sparky.viewDepthDialog.heading.text:      额外可见平面 
+                                                             
+!
+! Ornament color dialog                   标签颜色对话框
+!
+Sparky.colorDialog.title:                 标签颜色 
+
+!
+! Ornament note dialog                    标签注释对话框
+!
+Sparky.noteDialog.title:                  标签注释 
+Sparky.noteDialog.note.title.text:        注释 
+
+!
+! Peak picking dialog
+!
+Sparky.pickDialog.linewidthtitle.text:    最小线宽 (hz) 
+! 
+! Integration methods dialog
+!
+Sparky.integrationDialog.method.label.text: 积分方法:
+Sparky.integrationDialog.switches.allowMotion.text: 允许峰移动？
+Sparky.integrationDialog.switches.adjustLinewidths.text: 调整线宽？
+Sparky.integrationDialog.switches.baselineFit.text:   基线拟合？            
+Sparky.integrationDialog.switches.subtractPeaks.text: 扣减拟合峰？
+Sparky.integrationDialog.switches.contouredData.text: 使用最低等高线（阈值）以上数据？
+Sparky.integrationDialog.switches.rectangleData.text: 使用矩形框内的数据？
+Sparky.integrationDialog.switches.contourGroup.text:  对轮廓线内谱峰编组？
+Sparky.integrationDialog.switches.distanceGroup.text: 对临近谱峰编组？
+Sparky.integrationDialog.ranges.r1c0.text:     允许最大峰偏移 (ppm)
+Sparky.integrationDialog.ranges.r2c0.text:     线宽最小值 (Hz)
+Sparky.integrationDialog.ranges.r3c0.text:     线宽最大值 (Hz)
+Sparky.integrationDialog.ranges.r4c0.text:     编组范围 (Hz) 
+Sparky.integrationDialog.maxStep.title.text:   最大优化(最小化)步骤 
+Sparky.integrationDialog.tolerance.title.text: 优化(最小化)宽容度 (%)
+Sparky.integrationDialog.voigtMixing.title.text:  高斯峰形与-Voigt拟合混合比例 (%)
+! Spectrum dialog
+!
+Sparky.spectrumDialog.rename.title.text: 重命名:
+Sparky.spectrumDialog.noise.title.text:  噪音估计值:
+Sparky.spectrumDialog*noisebutton.text:  重新计算 
+Sparky.spectrumDialog*noisecount.title.text: 取…中值为噪音
+Sparky.spectrumDialog.recomplabel.text:  随机采样的绝对数据值
+!
+! Synchronize views dialog
+!
+Sparky.syncDialog.title:              同步化显示 
+Sparky.syncDialog.viewTable.r0c1.text: w1
+Sparky.syncDialog.viewTable.r0c2.text: w2
+Sparky.syncDialog.viewTable.r0c3.text: w3
+Sparky.syncDialog.viewTable.r0c4.text: w4
+Sparky.syncDialog.controls.synchronize.text: 同步化 
+Sparky.syncDialog.controls.unsynchronize.text: 取消同步化 
+
+!
+! Database dialog
+!
+Sparky.databaseDialog.title:  数据库条目
+
+!
+! Project views dialog
+!
+Sparky.viewListDialog.title:               查看列表 
+Sparky.viewListDialog.controls.show.text:  显示 
+Sparky.viewListDialog.controls.hide.text:  隐藏  
+
+!
+! Predefined resonances dialog
+!
+Sparky.predefinedResonanceDialog.title:    预定义共振信号
+Sparky.predefinedResonanceDialog.fromMolCond.label.text:  从分子 / 条件
+Sparky.predefinedResonanceDialog.toMolCond.label.text:    到分子 / 条件
+Sparky.predefinedResonanceDialog.controls.copy.text:      复制 
+
+!
+! Preferences dialog
+!
+Sparky.preferenceDialog.title:                    首选项 
+Sparky.preferenceDialog.switches.savePrompt.text: 覆盖保存文件时提示?
+Sparky.preferenceDialog.switches.resizeViews.text:  增加共振面板时调整视窗大小？
+Sparky.preferenceDialog.switches.disregardBorders.text: 视图设置忽略窗口边框大小吗？
+Sparky.preferenceDialog.switches.contourGraying.text: 重画等高线时谱图变灰？
+Sparky.preferenceDialog.autoBackup.title.text:  自动备份文件周期（分钟）:
+Sparky.preferenceDialog.keyTimeout.title.text:  加速键之间的最大间隔时间（秒）:
+Sparky.preferenceDialog.cacheSize.title.text:   NMR数据缓冲大小（兆）
+
+!
+! Rename resonances dialog
+!
+Sparky.renameDialog.title:              重命名共振信号  
+Sparky.renameDialog.gaTable.r0c1.text:   峰组
+Sparky.renameDialog.gaTable.r0c2.text:   原子
+Sparky.renameDialog.gaTable.r1c0.text:   来自:
+Sparky.renameDialog.gaTable.r2c0.text:   送达:
+Sparky.renameDialog.controls.rename.text: 重命名 
+Sparky.renameDialog.controls.merge.text: 合并
+Sparky.renameDialog.controls.swap.text:  互换
+
+!
+! Change data location dialog
+!
+Sparky.dataLocationDialog.title:              修改数据路径
+Sparky.dataLocationDialog.file.title.text:    新的数据路径:
+Sparky.dataLocationDialog.controls.browse.text: 浏览...
+Sparky.dataLocationDialog.controls.cancel.text: 取消加载
+
+!
+! View overlay dialog
+!
+Sparky.overlayDialog.title:               显示叠加
+Sparky.overlayDialog*listHeading.text:    来自视图           叠加至视图
+Sparky.overlayDialog.fromView.label.text: 来自视图
+Sparky.overlayDialog.ontoView.label.text: 叠加至视图
+Sparky.overlayDialog.controls.add:       增加
+Sparky.overlayDialog.controls.remove:    去掉
+
+!
+! Midas molecular display dialog
+!
+Sparky.midasDialog.colors.label.text: 线条颜色:
+Sparky.midasDialog.switches.allAssignments.text:  显示全部归属？
+Sparky.midasDialog.pdbFile.title.text: PDB file:	PDB文件
+Sparky.midasDialog.controls.file.text: PDB File		PDB文件
+
+!
+! Choice dialog (implements queries, warnings, wait messages
+! Query dialog
+! Working dialog
+! Warning dialog
+!
+Sparky.queryDialog.title:    疑问
+Sparky.workingDialog.title:  工作中...
+Sparky.warningDialog.title:  警告
+

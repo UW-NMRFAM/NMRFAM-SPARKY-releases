@@ -1,0 +1,588 @@
+!
+! NMRFAM-SPARKY Localization - India Hindi 
+! Contributed by Adilakshmi Dwarasala (Lee group @ NMRFAM)
+!
+! Menus
+!
+Sparky*fileMenuButton.text:      संचिका
+Sparky*viewMenuButton.text:      दर्शन
+Sparky*peakMenuButton.text:      शिखर
+Sparky*windowsMenuButton.text:   खिड़कियाँ
+Sparky*extensionMenuButton.text: विस्तार
+Sparky*helpMenuButton.text:      सहायता 
+
+Sparky*cmdMenu*openLabel:       खोलना ...
+Sparky*cmdMenu*saveLabel:       रक्षित करें                         
+Sparky*cmdMenu*saveAsLabel:     के रूप रक्षित करें ...
+Sparky*cmdMenu*projHeadingLabel: परियोजना
+Sparky*cmdMenu*projOpenLabel:    खोलना...
+Sparky*cmdMenu*projSaveLabel:    रक्षित करें   
+Sparky*cmdMenu*projSaveAsLabel:  के रूप रक्षित करें...
+Sparky*cmdMenu*projCloseLabel:  बन्द करें
+Sparky*cmdMenu*printLabel:      मुद्रित करें ...
+Sparky*cmdMenu*preferencesLabel:प्राथमिकताएँ ...
+Sparky*cmdMenu*iconifyLabel:    प्रतिमूर्ति बनायें
+Sparky*cmdMenu*quitLabel:       छोड़ना
+
+Sparky*cmdMenu*toolsCascadeLabel: उपकरण
+Sparky*cmdMenu*assignLabel:     समनुदेशित करें ...
+Sparky*cmdMenu*acopymodeLabel:  प्रतिलिपि प्रणाली...
+Sparky*cmdMenu*assignguessLabel:समनुदेशन का अंदाज़ा लगाना...
+Sparky*cmdMenu*assigntableLabel:समनुदेशन तालिका...
+Sparky*cmdMenu*contourLabel:    परिरेखीय स्तर...
+Sparky*cmdMenu*midasLabel:      मध्य का...
+Sparky*cmdMenu*newlistLabel:    नया शिखर सूची...
+Sparky*cmdMenu*noteLabel:        टिप्पणी...
+Sparky*cmdMenu*ornamentLabel:    आभूषण...
+Sparky*cmdMenu*overlayLabel:     आवरण दर्शन...
+Sparky*cmdMenu*peaklistLabel:    शिखर सूची...
+Sparky*cmdMenu*peakpickLabel:     चयन...
+Sparky*cmdMenu*crosshairLabel:  रेखाजालक...
+Sparky*cmdMenu*predefinedLabel: पूर्वनिर्धारित अनुनाद ...
+Sparky*cmdMenu*projectviewsLabel:दर्शन सूची...
+Sparky*cmdMenu*reslistLabel:    अनुनाद सूची...
+Sparky*cmdMenu*renameresonLabel: अनुनाद नाम परिवर्तन ...
+Sparky*cmdMenu*spectrumLabel:    वर्णक्रम...
+Sparky*cmdMenu*synchronizeLabel: समकालिक होना...
+
+Sparky*cmdMenu*axesCascadeLabel:अक्ष रेखाएं 
+Sparky*cmdMenu*ppmLabel:        ppm मात्रक दिखाना 
+Sparky*cmdMenu*hzLabel:         Hertz मात्रक दिखाना 
+Sparky*cmdMenu*dataLabel:       index मात्रक दिखाना 
+Sparky*cmdMenu*atomsLabel:       नाभिक प्रकार दिखाना 
+Sparky*cmdMenu*rollLabel:       लुढ़क अक्ष रेखाएँ
+Sparky*cmdMenu*transposeLabel:  पक्षांतरित अक्ष रेखाएँ  
+Sparky*cmdMenu*originLabel:     ppm मूल स्थापित करें 
+Sparky*cmdMenu*shiftaxesLabel:  ppm अक्ष खिसकाएं ...
+
+Sparky*cmdMenu*crosshairsCascadeLabel:रेखाजालक
+Sparky*cmdMenu*xhairLabel:      रेखाजालक
+Sparky*cmdMenu*transxhairLabel:  पक्षांतरित रेखाजालक
+Sparky*cmdMenu*otherxhairLabel: अन्य दर्शन रेखाजालक
+
+Sparky*cmdMenu*regionCascadeLabel: क्षेत्र 
+Sparky*cmdMenu*gotoCascadeLabel: के लिए जाओ
+Sparky*cmdMenu*centerviewLabel:  शिखर पर केंद्र दृश्य
+Sparky*cmdMenu*gotoLabel:        क्षेत्र  X पर जाएं
+Sparky*cmdMenu*regionLabel:      क्षेत्रों  का नाम रखें ...
+
+Sparky*cmdMenu*resonanceCascadeLabel: अनुनाद 
+Sparky*cmdMenu*viewCascadeLabel: दृश्य
+Sparky*cmdMenu*edgePanelsCascadeLabel:  सिरे वाले फलक 
+Sparky*cmdMenu*resonanceLabel:  अनुनाद 
+Sparky*cmdMenu*resfilterLabel:  अनुनाद छानन 
+Sparky*cmdMenu*sliceLabel:      अंश 
+Sparky*cmdMenu*slicescaleLabel:   अंश स्वपैमाना 
+Sparky*cmdMenu*slicesubtractLabel:  अंश व्यवकलन fit 
+Sparky*cmdMenu*peakinfoLabel:    शिखर जानकारी
+Sparky*cmdMenu*contourscaleLabel:  परिरेखा पैमाना 
+Sparky*cmdMenu*axisscaleLabel:  अक्ष पैमाना
+Sparky*cmdMenu*inversebgcolorLabel:  पृष्ठभूमि रंग प्रतिलोम
+Sparky*cmdMenu*curposLabel: कर्सर पर आवृत्तियाँ 
+Sparky*cmdMenu*scrollbarsLabel:   सूचीपत्र पट्टी 
+
+Sparky*cmdMenu*selectCascadeLabel:  चयन करें
+Sparky*cmdMenu*selectallLabel:  सभी शिखरों का चयन करें
+Sparky*cmdMenu*selectfassignLabel: पूर्ण समनुदेशित का चयन करें  
+Sparky*cmdMenu*selectpassignLabel: आंशिक समनुदेशित का चयन करें 
+Sparky*cmdMenu*selectuassignLabel: बिना समुनदेशित का चयन करें
+Sparky*cmdMenu*selectcolorLabel: रंग से शिखरों का चयन करें
+Sparky*cmdMenu*selectinvertLabel: उलटा शिखर चयन
+Sparky*cmdMenu*selectaliasedLabel: उपनाम की गई शिखरों का चयन करें
+Sparky*cmdMenu*selectintraLabel: अंतरा-अवशेष का चयन करें 
+Sparky*cmdMenu*selectseqLabel:  अनुक्रमिक का चयन करें
+Sparky*cmdMenu*selectmediumLabel: मध्यम परास का चयन करें 
+Sparky*cmdMenu*selectlongLabel:  दीर्घ परास के शिखरों का चयन करें
+
+Sparky*cmdMenu*showCascadeLabel:  दिखायें 
+Sparky*cmdMenu*showallLabel:     सभी आभूषण 
+Sparky*cmdMenu*showpeakLabel:    शिखर 
+Sparky*cmdMenu*showpeakgpLabel: शिखर समूह 
+Sparky*cmdMenu*showgridLabel:    जालिका
+Sparky*cmdMenu*showlabelLabel:   सूचक पत्र 
+Sparky*cmdMenu*showlineLabel:    रेखाएँ
+
+Sparky*cmdMenu*dupviewLabel:     नक़ल करें
+Sparky*cmdMenu*hideviewLabel:   दृश्य छुपाएँ 
+Sparky*cmdMenu*deleteviewLabel: दृश्य हटाएं
+Sparky*cmdMenu*refreshLabel:   दृश्य पुनः बनायें 
+Sparky*cmdMenu*renumberLabel:   दृश्य को फिर से संख्या दें 
+Sparky*cmdMenu*viewLabel:        विकल्प देखें ...
+Sparky*cmdMenu*viewdepthLabel:  प्रत्यक्ष गहराई ...
+Sparky*cmdMenu*pointerModesLabel:  सूचक प्रणाली...
+
+
+Sparky*cmdMenu*subtractfitLabel: fit शिखर घटाएं 
+Sparky*cmdMenu*orthoLabel:       लम्बकोणतः  दृश्य
+Sparky*cmdMenu*unoverlapLabel:   सूचकपत्रों का अतिव्यापन हटाएँ 
+Sparky*cmdMenu*rightlabelsLabel: दाहिने प्रतिसंतुलित सूचकपत्र 
+Sparky*cmdMenu*centerlabelsLabel: सूचक पत्रों को शिखर के केंद्रों पर ले जाएं
+
+Sparky*cmdMenu*zoomCascadeLabel:  आकार वर्धन 
+Sparky*cmdMenu*zoomfullLabel:     पूरा दृश्य
+Sparky*cmdMenu*zoominLabel:       में
+Sparky*cmdMenu*zoomoutLabel:     बाहर
+Sparky*cmdMenu*zoomdownLabel:    निचला तल
+Sparky*cmdMenu*zoomupLabel:       ऊपरी तल
+Sparky*cmdMenu*zoomprevLabel:      पिछला 
+Sparky*cmdMenu*zoomnextLabel:     अगला
+Sparky*cmdMenu*zoomrememberLabel: याद रखना
+Sparky*cmdMenu*zoomwheelLabel:    माउस चक्र आकार वर्धन सक्षम/अक्षम करें
+
+Sparky*cmdMenu*aliasCascadeLabel:  उपनाम
+Sparky*cmdMenu*aliasaddw1Label:   w1 सीमा चौडाई जोड़ें
+Sparky*cmdMenu*aliasaddw2Label:   w2 सीमा चौडाई जोड़ें
+Sparky*cmdMenu*aliasaddw3Label:   w3 सीमा चौडाई जोड़ें
+Sparky*cmdMenu*aliasaddw4Label:   w4 सीमा चौडाई जोड़ें
+Sparky*cmdMenu*aliassubw1Label:   w1 सीमा चौडाई घटाएँ
+Sparky*cmdMenu*aliassubw2Label:   w2 सीमा चौडाई घटाएँ
+Sparky*cmdMenu*aliassubw3Label:   w3 सीमा चौडाई घटाएँ
+Sparky*cmdMenu*aliassubw4Label:   w4 सीमा चौडाई घटाएँ
+Sparky*cmdMenu*aliasdownw1Label:  नीचेक्षेत्र को w1 प्रतिबिंबित करें
+Sparky*cmdMenu*aliasdownw2Label:  नीचेक्षेत्र को w2 प्रतिबिंबित करें
+Sparky*cmdMenu*aliasdownw3Label:  नीचेक्षेत्र को w3 प्रतिबिंबित करें
+Sparky*cmdMenu*aliasdownw4Label:  नीचेक्षेत्र को w4 प्रतिबिंबित करें
+Sparky*cmdMenu*aliasupw1Label:   ऊपरक्षेत्र को w1 प्रतिबिंबित करें
+Sparky*cmdMenu*aliasupw2Label:   ऊपरक्षेत्र को w2 प्रतिबिंबित करें
+Sparky*cmdMenu*aliasupw3Label:    ऊपरक्षेत्र को w3 प्रतिबिंबित करें
+Sparky*cmdMenu*aliasupw4Label:  ऊपरक्षेत्र को w4 प्रतिबिंबित करें
+Sparky*cmdMenu*unaliasLabel:     उपनाम रहित चयनित शिखर 
+
+Sparky*cmdMenu*assignmentCascadeLabel:समनुदेशन  
+Sparky*cmdMenu*assigncopyLabel:  समनुदेशन प्रतिलिपि
+Sparky*cmdMenu*assigndeleteLabel:   समनुदेशन हटाएं
+Sparky*cmdMenu*assignpasteLabel: समनुदेशन लगाएं 
+Sparky*cmdMenu*assignpastelabelLabel: लगाएं एवं नामित करें 
+Sparky*cmdMenu*xdiagassigncopyLabel:  पार विकर्ण समनुदेशन प्रतिलिपि
+Sparky*cmdMenu*assignLabel:       निर्दिष्ट करना...
+Sparky*cmdMenu*labelpeaksLabel:   चयनित शिखर नामित करें 
+Sparky*cmdMenu*unlabelpeaksLabel: चयनित शिखर अनामित करें  
+
+Sparky*cmdMenu*deleteresLabel:    अप्रयुक्त अनुनाद को हटा दें                 
+Sparky*cmdMenu*resonancew1Label:  w1 अनुनाद  शिखर 
+Sparky*cmdMenu*resonancew2Label:   w2 अनुनाद  शिखर 
+Sparky*cmdMenu*resonancew3Label:   w3 अनुनाद  शिखर 
+Sparky*cmdMenu*resonancew4Label:   w4 अनुनाद  शिखर 
+Sparky*cmdMenu*resassignLabel:    अनुनाद समनुदेशन...
+
+Sparky*cmdMenu*integrateCascadeLabel:    समाकलन 
+Sparky*cmdMenu*integrateLabel:   समाकलन करें ...
+Sparky*cmdMenu*boxLabel:         पेटी विधि पर योग
+Sparky*cmdMenu*ellipseLabel:    दीर्घवृत्त विधि पर योग
+Sparky*cmdMenu*gaussianLabel:     Gaussian fit विधि
+Sparky*cmdMenu*lorentzianLabel:  Lorentzian fit विधि
+Sparky*cmdMenu*voigtLabel:         Pseudo-Voigt fit विधि
+Sparky*cmdMenu*integpeakLabel:   चयनित शिखरों को समाकलन करें
+Sparky*cmdMenu*unintegrateLabel:    शिखर का समाकलन हटाएं    
+
+Sparky*cmdMenu*editCascadeLabel:   संपादन करना
+Sparky*cmdMenu*copyCascadeLabel:  प्रतिलिपि 
+Sparky*cmdMenu*ocopyLabel:       आभूषण प्रतिलिपि    
+Sparky*cmdMenu*opasteLabel:       आभूषण लगाना
+Sparky*cmdMenu*xocopyLabel:      पार विकर्ण आभूषण प्रतिलिपि
+
+Sparky*cmdMenu*peakCascadeLabel:   शिखर
+Sparky*cmdMenu*centerLabel:         केंद्र शिखर 
+Sparky*cmdMenu*colorLabel:        आभूषणों को रंगे 
+Sparky*cmdMenu*linewidthLabel:    linewidth का अंदाज़ लगाएं
+Sparky*cmdMenu*groupLabel:          शिखरों का समूह बनायें 
+Sparky*cmdMenu*heightLabel:       ऊंचाई का अद्यतन करें 
+Sparky*cmdMenu*labelpeakLabel:     शिखर को नामित करें 
+Sparky*cmdMenu*listselectedLabel:  चयनित शिखरों की सूची बनायें   
+Sparky*cmdMenu*lockLabel:          शिखर पाश लगाएं 
+Sparky*cmdMenu*osizeLabel:       आभूषण का आकार
+Sparky*cmdMenu*unlockLabel:        शिखर को विपाश करें
+Sparky*cmdMenu*undoLabel:        पूर्ववत करें 
+
+Sparky*cmdMenu*moreCascadeLabel:   अधिक 
+Sparky*cmdMenu*extensionsCascadeLabel:  विस्तार
+
+Sparky*cmdMenu*popupHeadingLabel:   दृश्य सूची
+
+Sparky*helpMenu.manualLabel:      नियमावली दिखाएं
+Sparky*helpMenu.introLabel:       परिचय
+Sparky*helpMenu.filesLabel:        संचिका
+Sparky*helpMenu.spectraLabel:      वर्णक्रम दृश्य
+Sparky*helpMenu.peaksLabel:       शिखर एवं समनुदेशन 
+Sparky*helpMenu.extensionsLabel:   python मे विस्तार 
+Sparky*helpMenu.nmrfamLabel:        NMRFAM विस्तार 
+Sparky*helpMenu.commandidxLabel:   संक्षिप्त रूप आदेश 
+
+!
+! View window configuration.
+!
+Sparky*View.peakPanel.text.text:    शिखर स्थान/ ऊंचाई / linewidth
+
+!
+! General dialog properties
+!
+Sparky*controls.ok.text:          ठीक
+Sparky*controls.apply.text:       लागू करें
+Sparky*controls.update.text:    अद्यतन करें
+Sparky*controls.save.text:      रक्षित करें ...
+Sparky*controls.load.text:    	लादे ...
+Sparky*controls.close.text:    बन्द करें
+Sparky*controls.help.text:     सहायता 
+
+!
+! View/Spectrum/Molecule/Condition/Resonance selection
+!
+Sparky*viewMenu.label.text:  दर्शन:
+Sparky*spectrumMenu.label.text:   वर्णक्रम:
+Sparky*resField.resEdit.title.text:  अनुनाद:
+Sparky*resField.resMolCond.title.text:  अणु / शर्त:
+
+!
+! Pointer Mode dialog
+!
+Sparky.mode.title:                     सूचक प्रणाली
+Sparky.mode.buttons.select.text:         F1 चयन
+Sparky.mode.buttons.center.text:         F2 केंद्र
+Sparky.mode.buttons.addGridBoth.text:    F3 दोनों को जालिका से जोड़ें
+Sparky.mode.buttons.addGridHorz.text:   F4  जालिका क्षितिज जोड़ें
+Sparky.mode.buttons.addGridVert.text:   F5  जालिका सीधा जोड़ें         
+Sparky.mode.buttons.addLabel.text:      F6 सूचक पत्र जोड़ें  
+Sparky.mode.buttons.addLine.text:        F7 रेखा जोड़ें  
+Sparky.mode.buttons.findAddPeak.text:   F8 खोज / शिखर जोड़ें  
+Sparky.mode.buttons.integrate.text:     F10 समाकलन करना
+Sparky.mode.buttons.zoom.text:           F11 आकार वर्धन
+Sparky.mode.buttons.duplicateZoom.text:  F12 नक़ल एवं आकार वर्धन
+Sparky.mode.buttons.assignCopy.text:     sh-F1 समनुदेशन प्रतिलिपि
+Sparky.mode.buttons.assignGuess.text:   sh-F2 समनुदेशन अंदाजा
+
+!
+! Label dialog
+!
+Sparky.labelDialog.title:             सूचक पत्र
+Sparky.labelDialog*type.label.text:    प्रकार :
+Sparky.labelDialog*label.title.text:   सूचक पत्र :
+
+!
+! View settings dialog
+!
+Sparky.viewDialog.aspect.title.text:               पहलू (ppm) :      
+Sparky.viewDialog.assignFormat.title.text:        समनुदेशन प्रारूप  :
+Sparky.viewDialog.depth.text:                      प्रत्यक्ष गहराई स्थापित करें  (vz)...
+Sparky.viewDialog*units.label.text:                अक्ष मात्रक
+Sparky.viewDialog.switches.ornaments.text:          आभूषण (os)     
+Sparky.viewDialog.switches.labels.text:             सूचक पत्र  (ls)
+Sparky.viewDialog.switches.peaks.text:             शिखर (ps)
+Sparky.viewDialog.switches.peakGroups.text:         शिखर समूह (xs)
+Sparky.viewDialog.switches.grids.text:            जालिका (gs)
+Sparky.viewDialog.switches.lines.text:            रेखाएँ (is)
+Sparky.viewDialog.switches.atomNames.text:         अक्ष परमाणु नाम (xa)
+Sparky.viewDialog.switches.crosshair.text:          रेखाजालक (hh)
+Sparky.viewDialog.switches.transposeCrosshair.text:  पक्षांतरित रेखाजालक  (ht)
+Sparky.viewDialog.switches.crosshairOther.text:      अन्य दृष्टिकोण से रेखाजालक (ho)
+Sparky.viewDialog.switches.scales.text:              अक्षीय पैमानें (vs)
+Sparky.viewDialog.switches.scrollbars.text:           सूचीपत्र पट्टी  (vb)
+Sparky.viewDialog.switches.resonancePanels.text:      अनुनाद फलक  (vR)
+Sparky.viewDialog.switches.resFilter.text:          अनुनाद फलकों का छानन  (rf)
+Sparky.viewDialog.switches.slicePanels.text:        अंश फलक (vS)
+Sparky.viewDialog.switches.scaleSlices.text:        अंशो को स्वपैमानित करें (sa)
+Sparky.viewDialog.switches.sliceSubtract.text:     अंशों में शिखरों को घटाएं (sf)
+Sparky.viewDialog.switches.peakInfo.text:            शिखर जानकारी पैनल (vp)
+Sparky.viewDialog.switches.contourScale.text:        परिरेखा पैमाना   (vC)
+Sparky.viewDialog.switches.subtractPeaks.text:      fit शिखरों का व्यवकलन (vf)
+Sparky.viewDialog.switches.inversebgcolor.text:     पृष्ठभूमि रंग प्रतिलोम (ci)
+Sparky.viewDialog.switches.curpos.text:       कर्सर पर आवृत्तियों (fc)
+
+
+!
+! Peak List dialog
+!
+Sparky.PeakListDialog.search.title.text:       निम्न को खोजें
+Sparky.PeakListDialog.controls.options.text: विकल्प...
+
+!
+! Peak List Options dialog
+!
+Sparky.peakListOptionsDialog.switches.assignmentName.text:   समनुदेशन
+Sparky.peakListOptionsDialog.switches.userName.text:       उपयोगकर्ता सूचक पत्र
+Sparky.peakListOptionsDialog.switches.frequency.text:       आवृत्ति (ppm)
+Sparky.peakListOptionsDialog.switches.frequencyHz.text:     आवृत्ति (Hz)
+Sparky.peakListOptionsDialog.switches.resonanceDev.text:     अनुनाद विचलन
+Sparky.peakListOptionsDialog.switches.volume.text:          आयतन
+Sparky.peakListOptionsDialog.switches.volumeError.text:     आयतन त्रुटि
+Sparky.peakListOptionsDialog.switches.transVolume.text:      पक्षांतरित आयतन
+Sparky.peakListOptionsDialog.switches.fitResidual.text:      Fit अवशिष्ट
+Sparky.peakListOptionsDialog.switches.fitHeight.text:       Fit ऊंचाई
+Sparky.peakListOptionsDialog.switches.dataHeight.text:      आंकड़े की ऊंचाई 
+Sparky.peakListOptionsDialog.switches.noise.text:           संकेत / शोर
+Sparky.peakListOptionsDialog.switches.linewidth.text:        linewidth
+Sparky.peakListOptionsDialog.switches.resFreq.text:           अनुनाद अक्ष की आवृत्ति
+Sparky.peakListOptionsDialog.switches.resDev.text:            अनुनाद अक्ष का विचलन
+Sparky.peakListOptionsDialog.switches.spectrumName.text:     वर्णक्रम नाम
+Sparky.peakListOptionsDialog.switches.assignmentDistance.text:  समनुदेशन की दूरी 
+Sparky.peakListOptionsDialog.switches.mardigras.text:         Mardigras प्रारूप
+Sparky.peakListOptionsDialog.switches.diana.text:             Dyana प्रारूप
+Sparky.peakListOptionsDialog.switches.note.text:            ध्यान दें
+Sparky.peakListOptionsDialog.sortBy.label.text:              इसके अनुसार क्रमबद्ध करें :
+Sparky.peakListOptionsDialog.sortAxis.title.text:            अक्ष को क्रमबद्ध करें :
+Sparky.peakListOptionsDialog.sortPairX.text:               crossdiagonal शिखरों को युग्मित करें ?
+Sparky.peakListOptionsDialog.assignFormat.title.text:      समनुदेशन प्रारूप :
+Sparky.peakListOptionsDialog*noSortLabel:                   कोई नहीं
+Sparky.peakListOptionsDialog*assignmentNameSortLabel:        समनुदेशन
+Sparky.peakListOptionsDialog*userNameSortLabel:            उपयोगकर्ता सूचक पत्र
+Sparky.peakListOptionsDialog*frequencySortLabel:            आवृत्ति
+Sparky.peakListOptionsDialog*resonanceNameSortLabel:       अनुनाद नाम
+Sparky.peakListOptionsDialog*volumeSortLabel:             आयतन
+Sparky.peakListOptionsDialog*dataHeightSortLabel:          डेटा ऊंचाई
+Sparky.peakListOptionsDialog*noteSortLabel:                 ध्यान दें
+Sparky.peakListOptionsDialog*assignmentDistanceSortLabel:   समनुदेशन की दूरी
+
+!
+! Resonance List dialog
+!
+Sparky.resonanceListDialog.condition.label.text:  अणु/स्थिति  :
+
+!
+! Contour dialog
+!
+Sparky.contourDialog.title:             परिरेखा स्तर 
+Sparky.contourDialog.levels.r0c1.text:   न्यूनतम 
+Sparky.contourDialog.levels.r0c2.text:  स्तर 
+Sparky.contourDialog.levels.r0c3.text:   कारक
+Sparky.contourDialog.levels.r0c4.text:   रंग
+Sparky.contourDialog.levels.r1c0.text:  धनात्मक 
+Sparky.contourDialog.levels.r2c0.text: ऋणात्मक 
+
+!
+! Region dialog
+!
+Sparky.regionDialog.name.title.text:         नाम
+Sparky.regionDialog.accel.title.text:        त्वरक
+Sparky.regionDialog.ranges.r0c1.text:       ऊपरक्षेत्र 
+Sparky.regionDialog.ranges.r0c2.text:        नीचेक्षेत्र 
+Sparky.regionDialog.curWor.current.text:    वर्तमान
+Sparky.regionDialog.curWor.world.text:      विश्व
+Sparky.regionDialog*listHeading.text:       नामित क्षेत्र
+Sparky.regionDialog.addDel.add.text:         जोड़ना
+Sparky.regionDialog.addDel.delete.text:       हटाएं
+Sparky.regionDialog.controls.applyMode.text: प्रकार लागू करें
+Sparky.regionDialog.controls.goto.text:       के लिए जाओ
+
+!
+! Assignment dialog
+!
+Sparky.assignDialog.axes.r0c0.text:       अक्ष
+Sparky.assignDialog.axes.r0c1.text:       समूह
+Sparky.assignDialog.axes.r0c2.text:      परमाणु
+Sparky.assignDialog.axes.r0c3.text:       अनुनाद
+Sparky.assignDialog.axes.r0c4.text:       शिखर
+Sparky.assignDialog.resList.listHeading.text: अनुनाद 
+Sparky.assignDialog.resPeaks.text:        अनुनाद के शिखर ...
+Sparky.assignDialog.guess.guessOpt.text:  अनुमानित हो रहा है ...
+Sparky.assignDialog.guess.guesses.text:   अनुमान
+
+!
+! Assignment copy dialog
+!
+Sparky.assignCopyDialog.pmHeading.text:   समनुदेशन सूचक प्रकार प्रतिलिपि 
+Sparky.assignCopyDialog.copyFrom.label.text:  वर्णक्रम से प्रतिलिपि करें :
+
+!
+! Assignment guessing options dialog
+!
+Sparky.resonanceTableDialog.title:                     समनुदेशन तालिका 
+Sparky.resonanceTableDialog.condition.label.text:         अणु / स्थिति  :
+Sparky.resonanceTableDialog.switches.chemShifts.text:    रासायनिक सृति दिखाएं ?
+Sparky.resonanceTableDialog.switches.standardDev.text:  मानक विचलन दिखाएं ?
+Sparky.resonanceTableDialog.switches.counts.text:       समनुदेशन अभियोग दिखाएं ? 
+Sparky.resonanceTableDialog.switches.predefined.text:   पूर्वनिर्धारित अनुनादों दिखाएं ?
+
+!
+! Assignment guessing options dialog
+!
+Sparky.guessDialog.settings.r0c1.text:    समूह
+Sparky.guessDialog.settings.r0c2.text:   परमाणु
+Sparky.guessDialog.settings.r0c3.text:     परास (ppm)
+Sparky.guessDialog.useFilter.text:      समनुदेशन छानन का उपयोग करें?
+Sparky.guessDialog.filterFile.title.text:   समनुदेशन छानन संचिका  :
+Sparky.guessDialog.settings*menu.noneLabel:   कोई नहीं
+Sparky.guessDialog.settings*menu.anyLabel:  कोई भी
+
+!
+! Print dialog
+!
+Sparky.printDialog.table.r0c2.text:  नीचेक्षेत्र
+Sparky.printDialog.table.r0c3.text:  ऊपरक्षेत्र 
+Sparky.printDialog.table.r0c4.text:   पृष्ठ 
+Sparky.printDialog.table.r0c5.text:  ppm /cm
+Sparky.printDialog.table.r0c6.text: सूचक पत्र रिक्ति (ppm)
+Sparky.printDialog.settings.peakGroups.text:    शिखर समूह
+Sparky.printDialog.settings.blackLabels.text:  काला सूचक पत्र
+Sparky.printDialog.settings.landscape.text: भूदृश्य
+Sparky.printDialog.settings.banner.text: पताका
+Sparky.printDialog.settings.grids.text:   जालिका 
+Sparky.printDialog.settings.peaks.text:  शिखर
+Sparky.printDialog.printCommand.title.text: मुद्रण आदेश 
+Sparky.printDialog.filename.title.text:   संचिका नाम
+Sparky.printDialog.bannerTitle.title.text:   पताका शीर्षक
+Sparky.printDialog.controls.print.text:   मुद्रण  
+Sparky.printDialog.controls.preview.text: पूर्वावलोकन
+
+!
+! Ornament Properties dialog
+!
+Sparky.ornamentDialog.title:                       आभूषण के गुण
+Sparky.ornamentDialog.peakProps.r0c0.text: 
+Sparky.ornamentDialog.peakProps.r1c0.text:         स्थान 
+Sparky.ornamentDialog.peakProps.r2c0.text:         linewidth
+Sparky.ornamentDialog.peakProps.r3c0.text:         आयतन
+Sparky.ornamentDialog.peakProps.r4c0.text:        आयतन त्रुटि %
+Sparky.ornamentDialog.lock.text:                  स्थान पाश लगाएं 
+Sparky.ornamentDialog.properties.color.text:       रंग ...
+Sparky.ornamentDialog.properties.note.text:         ध्यान दें ...
+Sparky.ornamentDialog.properties.sizes.text:        आकार  ...            
+Sparky.ornamentDialog.properties.planes.text:      दृश्यता...
+
+!
+! Ornament Properties dialog
+!
+Sparky.ornamentSizeDialog.heading.text:            आभूषण का आकार W1 ppm इकाइयों में  
+Sparky.ornamentSizeDialog.labelSize.title.text:       आकार को नामित करें :
+Sparky.ornamentSizeDialog.peakSize.title.text:       शिखर का आकार :
+Sparky.ornamentSizeDialog.peakGroupSize.title.text:  शिखर समूह का आकार :
+Sparky.ornamentSizeDialog.lineSize.title.text:       रेखा मोटाई :
+
+!
+! View depth dialog
+!
+Sparky.viewDepthDialog.heading.text:   अतिरिक्त दृश्य स्तर 
+
+!
+! Ornament color dialog
+!
+Sparky.colorDialog.title:           आभूषण का रंग
+
+!
+! Ornament note dialog
+!
+Sparky.noteDialog.title:            आभूषण टिप्पणी 
+Sparky.noteDialog.note.title.text:   टिप्पणी 
+
+!
+! Peak picking dialog
+!
+Sparky.pickDialog.linewidthtitle.text:               न्यूनतम Linewidth (hz)
+
+!
+! Integration methods dialog
+!
+Sparky.integrationDialog.method.label.text:             समाकलन विधि :
+Sparky.integrationDialog.switches.allowMotion.text:    शिखर गति की अनुमति दें
+Sparky.integrationDialog.switches.adjustLinewidths.text:   Linewidth को समायोजित करें ?
+Sparky.integrationDialog.switches.baselineFit.text:   आधार रेखा को fit करें ?
+Sparky.integrationDialog.switches.subtractPeaks.text:   fit शिखरों को घटाएं ?
+Sparky.integrationDialog.switches.contouredData.text:    निम्नतम परिरेखा के ऊपर डेटा का उपयोग करें ?
+Sparky.integrationDialog.switches.rectangleData.text:   आयत के भीतर डेटा का उपयोग करें ?
+Sparky.integrationDialog.switches.contourGroup.text:    परिरेखीय सीमा के शिखरों को समूह में करें?
+Sparky.integrationDialog.switches.distanceGroup.text:   निकट शिखरों  को समूह में करें?
+Sparky.integrationDialog.ranges.r1c0.text:        अधिकतम गति (ppm)
+Sparky.integrationDialog.ranges.r2c0.text:        न्यूनतम linewidth (Hz)
+Sparky.integrationDialog.ranges.r3c0.text:        अधिकतम linewidth (Hz)
+Sparky.integrationDialog.ranges.r4c0.text:          समूहीकरण परास (Hz)
+Sparky.integrationDialog.maxStep.title.text:       अधिकतम अल्पीकरण चरण
+Sparky.integrationDialog.tolerance.title.text:     न्यूनतम सहिष्णुता (%)
+Sparky.integrationDialog.voigtMixing.title.text:    Gaussian से Voigt मिश्रण (%)
+!
+! Spectrum dialog
+!
+Sparky.spectrumDialog.rename.title.text:  नया नाम देना :
+Sparky.spectrumDialog.noise.title.text:   अनुमानित शोर :
+Sparky.spectrumDialog*noisebutton.text:   पुन: परिकलन करें 
+Sparky.spectrumDialog*noisecount.title.text:    के मध्यमा के रूप में शोर
+Sparky.spectrumDialog.recomplabel.text:  बेतरतीब ढंग से रूपित पूर्ण आंकड़ा ऊँचाईयाँ .
+
+!
+! Synchronize views dialog
+!
+Sparky.syncDialog.title:                दृश्यों को समकालिक करें     
+Sparky.syncDialog.viewTable.r0c1.text: w1  
+Sparky.syncDialog.viewTable.r0c2.text: w2  
+Sparky.syncDialog.viewTable.r0c3.text: w3  
+Sparky.syncDialog.viewTable.r0c4.text: w4  
+Sparky.syncDialog.controls.synchronize.text: समकालिक करें
+Sparky.syncDialog.controls.unsynchronize.text:  समकालिक करना हटाएं 
+
+!
+! Database dialog
+!
+Sparky.databaseDialog.title:   आंकड़ाकोष प्रविष्टियाँ 
+
+!
+! Project views dialog
+!
+Sparky.viewListDialog.title:               सूची देखें
+Sparky.viewListDialog.controls.show.text:  दिखाएं
+Sparky.viewListDialog.controls.hide.text:  छुपाएं
+
+!
+! Predefined resonances dialog
+!
+Sparky.predefinedResonanceDialog.title:                    पूर्वनिर्धारित अनुनाद 
+Sparky.predefinedResonanceDialog.fromMolCond.label.text:    अणु / शर्त से :
+Sparky.predefinedResonanceDialog.toMolCond.label.text:      अणु / शर्त को :
+Sparky.predefinedResonanceDialog.controls.copy.text:        प्रतिलिपि बनायें 
+
+!
+! Preferences dialog
+!
+Sparky.preferenceDialog.title:                     प्राथमिकताएँ 
+Sparky.preferenceDialog.switches.savePrompt.text:      रक्षित संचिकाओं के उपरिलेखन पर संवाद करें  ?
+Sparky.preferenceDialog.switches.resizeViews.text:   अनुनाद पैनल जोड़ते समय दृश्य विंडो का आकार बदलें ?
+Sparky.preferenceDialog.switches.disregardBorders.text:  दृश्य सेटिंग्स के लिए विंडो बॉर्डर आकार की उपेक्षा करें ?
+
+Sparky.preferenceDialog.switches.contourGraying.text:   परिरेखा को दोबारा खींचते समय वर्णक्रम को धूसर कर दें ?
+Sparky.preferenceDialog.autoBackup.title.text:    संचिकाओं का स्वचालित रक्षण (मिनटों में अवधि) :
+Sparky.preferenceDialog.keyTimeout.title.text:   त्वरक कुंजियों के बीच अधिकतम समय (सेकण्ड) :
+Sparky.preferenceDialog.cacheSize.title.text:    NMR डेटा कैश आकार (Mbytes)
+
+!
+! Rename resonances dialog
+!
+Sparky.renameDialog.title:               अनुनादों को पुनर्नामित करें  
+Sparky.renameDialog.gaTable.r0c1.text:     समूह
+Sparky.renameDialog.gaTable.r0c2.text:   परमाणु
+Sparky.renameDialog.gaTable.r1c0.text:   से :
+Sparky.renameDialog.gaTable.r2c0.text:   तक :
+Sparky.renameDialog.controls.rename.text: पुनर्नामित करें
+Sparky.renameDialog.controls.merge.text:   मिलाये 
+Sparky.renameDialog.controls.swap.text:  विनिमय करें 
+
+!
+! Change data location dialog
+!
+Sparky.dataLocationDialog.title:                 आंकड़ा पथ बदलें
+Sparky.dataLocationDialog.file.title.text:    नया आंकड़ा पथ  :
+Sparky.dataLocationDialog.controls.browse.text:  ब्राउज़ ...
+Sparky.dataLocationDialog.controls.cancel.text:   लादना रद्द करें
+
+!
+! View overlay dialog
+!
+Sparky.overlayDialog.title:               आवरण देखें 
+Sparky.overlayDialog*listHeading.text:      दृश्य से            दृश्य पर
+Sparky.overlayDialog.fromView.label.text:  दृश्य से :
+Sparky.overlayDialog.ontoView.label.text:  दृश्य पर :
+Sparky.overlayDialog.controls.add.text:     जोड़ें 
+Sparky.overlayDialog.controls.remove.text:   हटाएं 
+
+!
+! Midas molecular display dialog
+!
+Sparky.midasDialog.colors.label.text:  रेखा का रंग :
+Sparky.midasDialog.switches.allAssignments.text:   सभी समनुदेशन दिखाएं ?
+Sparky.midasDialog.pdbFile.title.text:  PDB संचिका :
+Sparky.midasDialog.controls.file.text:  PDB संचिका
+
+!
+! Choice dialog (implements queries, warnings, wait messages
+! Query dialog
+! Working dialog
+! Warning dialog
+!
+Sparky.queryDialog.title:  प्रश्न
+Sparky.workingDialog.title:  कार्यरत...
+Sparky.warningDialog.title:  कार्यरत

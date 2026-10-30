@@ -1,0 +1,2481 @@
+<sparky save file>
+<version 3.133>
+<user>
+set mode 0
+set saveprompt 0
+set saveinterval 0
+set resizeViews 0
+set keytimeout 3000
+set cachesize 4
+set contourgraying 1
+default print command lpr
+default print file 
+default print options 2 27 1.000000 1.000000
+<end user>
+<spectrum>
+molecule 13C_Reference
+name 13C_Reference
+pathname ../data/ref_13C_empty.ucsf
+dimension 2
+shift 0.000000 0.000000
+points 200 200
+assignMultiAxisGuess 3
+assignGuessThreshold 0.000000
+assignRelation 1 1 
+assignRelation 2 1 
+assignRange 1 0.000000
+assignRange 2 0.000000
+assignFormat %a1-%a2
+listTool sortBy label
+listTool nameType assignment
+listTool sortAxis w1
+listTool showFlags frequency
+integrate.overlapped_sep 120.000 30.000
+integrate.methods 1 0 1
+integrate.allow_motion 1
+integrate.adjust_linewidths 1
+integrate.motion_range 0.040 0.010
+integrate.min_linewidth 0.0200 0.0200
+integrate.max_linewidth 2.0000 2.0000
+integrate.fit_baseline 0
+integrate.subtract_peaks 0
+integrate.contoured_data 1
+integrate.rectangle_data 0
+integrate.maxiterations 10000
+integrate.tolerance 0.001000
+integrate.pseudo_voigt_mixing 0.500000
+peak.pick 0.000000 0.000000 0.000000 0.000000 0
+peak.pick-minimum-linewidth 0.000000 0.000000
+peak.pick-minimum-dropoff 0.00
+noise.sigma 1.000000
+ornament.label.size 2.500000
+ornament.line.size 0.400000
+ornament.peak.size 0.000250
+ornament.grid.size 0.400000
+ornament.peakgroup.size 0.800000
+ornament.selectsize 0.500000
+ornament.pointersize 0.500000
+ornament.lineendsize 0.500000
+<attached data>
+<end attached data>
+<view>
+name 13C_Reference
+precision 0
+precision_by_units 0 0 0
+viewmode 0
+show 1 label line peak grid peakgroup
+axistype 2
+flags crosshair crosshair2 noscales inversebgcolor
+contour.pos 0 1e+08 1.400000 0.000000 red
+contour.neg 14 -10 1.400000 0.000000 green
+<params>
+orientation 1 0
+location 300 238
+size 540 745
+offset 54.100796 46.475400
+scale 1.000000 0.500000
+zoom 8.189633
+flags 0
+<end params>
+<params>
+orientation 1 0
+location 300 238
+size 540 745
+offset 54.100796 46.475400
+scale 1.000000 0.500000
+zoom 8.189633
+flags 0
+<end params>
+<params>
+orientation 1 0
+location 300 238
+size 540 745
+offset 54.100796 46.475400
+scale 1.000000 0.500000
+zoom 8.189633
+flags 0
+<end params>
+<end view>
+<ornament>
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 53.190 0.250
+label CA
+xy 53.190,0.175 0.520,53.108
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 51.220 0.325
+tr 55.160 0.325
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 51.220 0.325
+tr 51.220 0.175
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 55.160 0.325
+tr 55.160 0.175
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 18.970 0.250
+label CB
+xy 18.970,0.175 0.523,19.251
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 17.180 0.325
+tr 20.760 0.325
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 17.180 0.325
+tr 17.180 0.175
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 20.760 0.325
+tr 20.760 0.175
+ends 0
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 56.820 0.750
+label CA
+xy 56.820,0.675 0.614,56.747
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 54.510 0.825
+tr 59.130 0.825
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 54.510 0.825
+tr 54.510 0.675
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 59.130 0.825
+tr 59.130 0.675
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 30.650 0.750
+label CB
+xy 30.650,0.675 0.618,30.649
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 28.820 0.825
+tr 32.480 0.825
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 28.820 0.825
+tr 28.820 0.675
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 32.480 0.825
+tr 32.480 0.675
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 27.210 0.750
+label CG
+xy 27.210,0.675 0.591,27.103
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 26.040 0.825
+tr 28.380 0.825
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 26.040 0.825
+tr 26.040 0.675
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 28.380 0.825
+tr 28.380 0.675
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 43.160 0.750
+label CD
+xy 43.160,0.675 0.609,43.229
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 42.270 0.825
+tr 44.050 0.825
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 42.270 0.825
+tr 42.270 0.675
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 44.050 0.825
+tr 44.050 0.675
+ends 0
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 54.710 1.250
+label CA
+xy 54.710,1.175 1.105,54.709
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 52.660 1.325
+tr 56.760 1.325
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 52.660 1.325
+tr 52.660 1.175
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 56.760 1.325
+tr 56.760 1.175
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 40.870 1.250
+label CB
+xy 40.870,1.175 1.091,40.692
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 39.250 1.325
+tr 42.490 1.325
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 39.250 1.325
+tr 39.250 1.175
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 42.490 1.325
+tr 42.490 1.175
+ends 0
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 53.570 1.750
+label CA
+xy 53.570,1.675 1.623,53.533
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 51.680 1.825
+tr 55.460 1.825
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 51.680 1.825
+tr 51.680 1.675
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 55.460 1.825
+tr 55.460 1.675
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 38.690 1.750
+label CB
+xy 38.690,1.675 1.644,38.371
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 37.030 1.825
+tr 40.350 1.825
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 37.030 1.825
+tr 37.030 1.675
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 40.350 1.825
+tr 40.350 1.675
+ends 0
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 58.290 2.250
+label CA
+xy 58.290,2.175 2.604,57.381
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 54.910 2.325
+tr 61.670 2.325
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 54.910 2.325
+tr 54.910 2.175
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 61.670 2.325
+tr 61.670 2.175
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 32.660 2.250
+label CB
+xy 32.660,2.175 2.100,32.130
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 26.530 2.325
+tr 38.790 2.325
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 26.530 2.325
+tr 26.530 2.175
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 38.790 2.325
+tr 38.790 2.175
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 55.290 2.825
+tr 59.450 2.825
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 55.290 2.825
+tr 55.290 2.675
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 59.450 2.825
+tr 59.450 2.675
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 29.980 2.750
+label CB
+xy 29.980,2.675 2.644,29.838
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 28.280 2.825
+tr 31.680 2.825
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 28.280 2.825
+tr 28.280 2.675
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 31.680 2.825
+tr 31.680 2.675
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 36.110 2.750
+label CG
+xy 36.110,2.675 2.627,36.144
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 34.930 2.825
+tr 37.290 2.825
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 34.930 2.825
+tr 34.930 2.675
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 37.290 2.825
+tr 37.290 2.675
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 54.490 3.325
+tr 58.770 3.325
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 54.490 3.325
+tr 54.490 3.175
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 58.770 3.325
+tr 58.770 3.175
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 29.160 3.250
+label CB
+xy 29.160,3.175 3.127,29.229
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 27.350 3.325
+tr 30.970 3.325
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 27.350 3.325
+tr 27.350 3.175
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 30.970 3.325
+tr 30.970 3.175
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 33.760 3.250
+label CG
+xy 33.760,3.175 3.083,33.441
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 32.650 3.325
+tr 34.870 3.325
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 32.650 3.325
+tr 32.650 3.175
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 34.870 3.325
+tr 34.870 3.175
+ends 0
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 45.360 3.750
+label CA
+xy 45.360,3.675 3.627,45.323
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 44.080 3.825
+tr 46.640 3.825
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 44.080 3.825
+tr 44.080 3.675
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 46.640 3.825
+tr 46.640 3.675
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 54.220 4.325
+tr 58.880 4.325
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 54.220 4.325
+tr 54.220 4.175
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 58.880 4.325
+tr 58.880 4.175
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 30.220 4.250
+label CB
+xy 30.220,4.175 4.132,30.257
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 28.150 4.325
+tr 32.290 4.325
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 28.150 4.325
+tr 28.150 4.175
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 32.290 4.325
+tr 32.290 4.175
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 58.980 4.825
+tr 64.380 4.825
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 58.980 4.825
+tr 58.980 4.675
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 64.380 4.825
+tr 64.380 4.675
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 38.580 4.750
+label CB
+xy 38.580,4.675 4.595,38.453
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 36.580 4.825
+tr 40.580 4.825
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 36.580 4.825
+tr 36.580 4.675
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 40.580 4.825
+tr 40.580 4.675
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 27.740 4.750
+label CG1
+xy 27.740,4.675 4.518,27.267
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 26.060 4.825
+tr 29.420 4.825
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 26.060 4.825
+tr 26.060 4.675
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 29.420 4.825
+tr 29.420 4.675
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 17.530 4.750
+label CG2
+xy 17.530,4.675 4.504,17.839
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 16.180 4.825
+tr 18.880 4.825
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 16.180 4.825
+tr 16.180 4.675
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 18.880 4.825
+tr 18.880 4.675
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 13.430 4.750
+label CD1
+xy 13.430,4.675 4.532,13.248
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 11.770 4.825
+tr 15.090 4.825
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 11.770 4.825
+tr 11.770 4.675
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 15.090 4.825
+tr 15.090 4.675
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 53.570 5.325
+tr 57.830 5.325
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 53.570 5.325
+tr 53.570 5.175
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 57.830 5.325
+tr 57.830 5.175
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 42.270 5.250
+label CB
+xy 42.270,5.175 5.105,42.107
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 40.420 5.325
+tr 44.120 5.325
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 40.420 5.325
+tr 40.420 5.175
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 44.120 5.325
+tr 44.120 5.175
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 26.780 5.250
+label CG
+xy 26.780,5.175 5.095,26.944
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 25.690 5.325
+tr 27.870 5.325
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 25.690 5.325
+tr 25.690 5.175
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 27.870 5.325
+tr 27.870 5.175
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 24.700 5.100
+label CD1
+xy 24.700,5.025 4.864,23.809
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 23.120 5.175
+tr 26.280 5.175
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 23.120 5.175
+tr 23.120 5.025
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 26.280 5.175
+tr 26.280 5.025
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 24.060 5.400
+label CD2
+xy 24.060,5.325 4.986,22.478
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 22.370 5.475
+tr 25.750 5.475
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 22.370 5.475
+tr 22.370 5.325
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 25.750 5.475
+tr 25.750 5.325
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 54.800 5.825
+tr 59.200 5.825
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 54.800 5.825
+tr 54.800 5.675
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 59.200 5.825
+tr 59.200 5.675
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 32.770 5.750
+label CB
+xy 32.770,5.675 5.609,32.698
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 31.000 5.825
+tr 34.540 5.825
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 31.000 5.825
+tr 31.000 5.675
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 34.540 5.825
+tr 34.540 5.675
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 24.900 5.750
+label CG
+xy 24.900,5.675 6.050,24.046
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 23.770 5.825
+tr 26.030 5.825
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 23.770 5.825
+tr 23.770 5.675
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 26.030 5.825
+tr 26.030 5.675
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 28.960 5.750
+label CD
+xy 28.960,5.675 5.609,28.960
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 27.870 5.825
+tr 30.050 5.825
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 27.870 5.825
+tr 27.870 5.675
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 30.050 5.825
+tr 30.050 5.675
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 41.890 5.750
+label CE
+xy 41.890,5.675 5.632,41.853
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 41.070 5.825
+tr 42.710 5.825
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 41.070 5.825
+tr 41.070 5.675
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 42.710 5.825
+tr 42.710 5.675
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 53.910 6.325
+tr 58.390 6.325
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 53.910 6.325
+tr 53.910 6.175
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 58.390 6.325
+tr 58.390 6.175
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 32.960 6.250
+label CB
+xy 32.960,6.175 6.127,34.288
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 30.750 6.325
+tr 35.170 6.325
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 30.750 6.325
+tr 30.750 6.175
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 35.170 6.325
+tr 35.170 6.175
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 32.030 6.100
+label CG
+xy 32.030,6.025 6.064,31.885
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 30.790 6.175
+tr 33.270 6.175
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 30.790 6.175
+tr 30.790 6.025
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 33.270 6.175
+tr 33.270 6.025
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 17.060 6.250
+label CE
+xy 17.060,6.175 6.114,16.914
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 15.640 6.325
+tr 18.480 6.325
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 15.640 6.325
+tr 15.640 6.175
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 18.480 6.325
+tr 18.480 6.175
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 55.570 6.825
+tr 60.730 6.825
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 55.570 6.825
+tr 55.570 6.675
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 60.730 6.825
+tr 60.730 6.675
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 39.950 6.750
+label CB
+xy 39.950,6.675 6.568,39.877
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 37.880 6.825
+tr 42.020 6.825
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 37.880 6.825
+tr 37.880 6.675
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 42.020 6.825
+tr 42.020 6.675
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 61.840 7.325
+tr 64.860 7.325
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 61.840 7.325
+tr 61.840 7.175
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 64.860 7.325
+tr 64.860 7.175
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 31.850 7.250
+label CB
+xy 31.850,7.175 7.059,31.740
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 30.680 7.325
+tr 33.020 7.325
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 30.680 7.325
+tr 30.680 7.175
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 33.020 7.325
+tr 33.020 7.175
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 27.190 7.250
+label CG
+xy 27.190,7.175 7.105,27.189
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 26.120 7.325
+tr 28.260 7.325
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 26.120 7.325
+tr 26.120 7.175
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 28.260 7.325
+tr 28.260 7.175
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 50.340 7.250
+label CD
+xy 50.340,7.175 7.096,50.339
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 49.350 7.325
+tr 51.330 7.325
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 49.350 7.325
+tr 49.350 7.175
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 51.330 7.325
+tr 51.330 7.175
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 56.670 7.825
+tr 60.850 7.825
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 56.670 7.825
+tr 56.670 7.675
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 60.850 7.825
+tr 60.850 7.675
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 63.790 7.750
+label CB
+xy 63.790,7.675 7.623,63.644
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 62.280 7.825
+tr 65.300 7.825
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 62.280 7.825
+tr 62.280 7.675
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 65.300 7.825
+tr 65.300 7.675
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 59.660 8.325
+tr 64.880 8.325
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 59.660 8.325
+tr 59.660 8.175
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 64.880 8.325
+tr 64.880 8.175
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 69.710 8.250
+label CB
+xy 69.710,8.175 8.105,69.637
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 67.890 8.325
+tr 71.530 8.325
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 67.890 8.325
+tr 67.890 8.175
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 71.530 8.325
+tr 71.530 8.175
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 21.560 8.250
+label CG2
+xy 21.560,8.175 8.041,21.450
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 20.460 8.325
+tr 22.660 8.325
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 20.460 8.325
+tr 20.460 8.175
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 22.660 8.325
+tr 22.660 8.175
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 55.130 8.825
+tr 60.310 8.825
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 55.130 8.825
+tr 55.130 8.675
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 60.310 8.825
+tr 60.310 8.675
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 29.980 8.750
+label CB
+xy 29.980,8.675 8.623,30.198
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 27.980 8.825
+tr 31.980 8.825
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 27.980 8.825
+tr 27.980 8.675
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 31.980 8.825
+tr 31.980 8.675
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 55.660 9.325
+tr 60.740 9.325
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 55.660 9.325
+tr 55.660 9.175
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 60.740 9.325
+tr 60.740 9.175
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 39.270 9.250
+label CB
+xy 39.270,9.175 9.059,39.160
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 37.130 9.325
+tr 41.410 9.325
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 37.130 9.325
+tr 37.130 9.175
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 41.410 9.325
+tr 41.410 9.175
+ends 0
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 62.570 9.750
+label CA
+xy 62.570,9.675 9.614,62.206
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 59.680 9.825
+tr 65.460 9.825
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 59.680 9.825
+tr 59.680 9.675
+ends 0
+type line
+color 0 4 0 red
+flags 0 0 0 0
+bl 65.460 9.825
+tr 65.460 9.675
+ends 0
+type label
+color 5 0 0 green
+flags 0 0 0 0
+mode 0
+pos 32.710 9.750
+label CB
+xy 32.710,9.675 9.586,32.746
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 30.930 9.825
+tr 34.490 9.825
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 30.930 9.825
+tr 30.930 9.675
+ends 0
+type line
+color 0 5 0 green
+flags 0 0 0 0
+bl 34.490 9.825
+tr 34.490 9.675
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 21.510 9.750
+label CG1
+xy 21.510,9.675 9.686,23.690
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 20.150 9.825
+tr 22.870 9.825
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 20.150 9.825
+tr 20.150 9.675
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 22.870 9.825
+tr 22.870 9.675
+ends 0
+type label
+color 3 0 0 gray
+flags 0 0 0 0
+mode 0
+pos 21.290 9.600
+label CG2
+xy 21.290,9.525 9.346,21.217
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 19.740 9.675
+tr 22.840 9.675
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 19.740 9.675
+tr 19.740 9.525
+ends 0
+type line
+color 0 3 0 gray
+flags 0 0 0 0
+bl 22.840 9.675
+tr 22.840 9.525
+ends 0
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label R
+id 1
+pos 59.085 0.772
+height 0.000 55333.996
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 59.085 0.772
+label R
+xy 55.195,-0.355 0.727,61.410
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label A
+id 2
+pos 55.195 0.245
+height 0.000 99425.922
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 55.195 0.245
+label A
+xy 55.195,-0.355 0.191,57.993
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label D
+id 3
+pos 56.795 1.227
+height 0.000 44879.031
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 56.795 1.227
+label D
+xy 56.795,0.627 1.145,59.665
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label N
+id 4
+pos 55.413 1.745
+height 0.000 44340.723
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 55.413 1.745
+label N
+xy 55.413,1.145 1.690,57.920
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label C
+id 5
+pos 61.774 2.226
+height 0.000 25961.539
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 61.774 2.226
+label C
+xy 61.774,1.626 2.090,63.772
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label E
+id 6
+pos 59.448 2.735
+height 0.000 98320.969
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 59.448 2.735
+label E
+xy 59.448,2.135 2.781,62.028
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label Q
+id 7
+pos 58.757 3.244
+height 0.000 65891.047
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 58.757 3.244
+label Q
+xy 58.757,2.644 3.308,61.228
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label H
+id 8
+pos 58.830 4.234
+height 0.000 21503.293
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 58.830 4.234
+label H
+xy 58.830,3.634 4.198,61.882
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label I
+id 9
+pos 64.355 4.752
+height 0.000 36868.887
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 64.355 4.752
+label I
+xy 64.355,4.152 4.725,65.771
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label L
+id 10
+pos 57.921 5.252
+height 0.000 85956.758
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 57.921 5.252
+label L
+xy 57.921,4.652 5.225,60.392
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label K
+id 11
+pos 59.303 5.734
+height 0.000 52931.266
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 59.303 5.734
+label K
+xy 59.303,5.134 5.797,61.882
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label M
+id 12
+pos 58.430 6.270
+height 0.000 31508.740
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 58.430 6.270
+label M
+xy 58.430,5.670 6.234,59.956
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label F
+id 13
+pos 60.720 6.752
+height 0.000 34010.078
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 60.720 6.752
+label F
+xy 60.720,6.152 6.715,62.755
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label P
+id 14
+pos 64.936 7.233
+height 0.000 60927.066
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 64.936 7.233
+label P
+xy 64.936,6.633 7.188,67.044
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label S
+id 15
+pos 65.445 7.733
+height 0.000 48115.855
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 65.445 7.733
+label S
+xy 65.445,7.133 7.542,67.916
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label T
+id 16
+pos 67.844 8.224
+height 0.000 48516.590
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 67.844 8.224
+label T
+xy 64.936,7.651 8.605,66.607
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label T
+id 17
+pos 64.936 8.251
+height 0.000 22423.371
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 64.936 8.251
+label T
+xy 64.936,7.651 8.605,66.607
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label S
+id 18
+pos 56.722 7.769
+height 0.000 64177.723
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 56.722 7.769
+label S
+xy 56.722,7.169 7.769,54.322
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label W
+id 19
+pos 60.357 8.742
+height 0.000 36632.891
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 60.357 8.742
+label W
+xy 60.357,8.142 8.796,62.282
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label Y
+id 20
+pos 60.829 9.260
+height 0.000 29370.520
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 60.829 9.260
+label Y
+xy 60.829,8.660 9.241,63.518
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label V
+id 21
+pos 59.775 9.741
+height 0.000 29157.910
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 59.775 9.741
+label V
+xy 59.775,9.141 9.850,57.375
+]
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 58.290 2.250
+label CA
+xy 58.290,2.175 3.141,56.836
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 58.290 2.250
+label CA
+xy 58.290,2.175 2.114,57.926
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 58.290 2.250
+label CA
+xy 58.290,2.175 7.102,63.378
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 58.290 2.250
+label CA
+xy 58.290,2.175 4.095,56.545
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 58.290 2.250
+label CA
+xy 58.290,2.175 4.613,61.597
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 58.290 2.250
+label CA
+xy 58.290,2.175 5.085,55.745
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 58.290 2.250
+label CA
+xy 58.290,2.175 5.567,56.981
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 58.290 2.250
+label CA
+xy 58.290,2.175 6.103,56.218
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 58.290 2.250
+label CA
+xy 58.290,2.175 6.594,58.108
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 58.290 2.250
+label CA
+xy 58.290,2.175 8.593,58.071
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 58.290 2.250
+label CA
+xy 58.290,2.175 7.611,58.944
+type label
+color 4 0 0 red
+flags 0 0 0 0
+mode 0
+pos 58.290 2.250
+label CA
+xy 58.290,2.175 8.093,62.033
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label P
+id 22
+pos 49.452 7.242
+height 0.000 56854.840
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 49.452 7.242
+label P
+xy 49.452,6.642 7.242,47.052
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label P
+id 23
+pos 28.189 7.233
+height 0.000 165742.297
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 28.189 7.233
+label P
+xy 30.733,6.642 7.215,29.060
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label P
+id 24
+pos 30.733 7.242
+height 0.000 53742.102
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 30.733 7.242
+label P
+xy 30.733,6.642 7.215,29.060
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label W
+id 25
+pos 27.971 8.751
+height 0.000 14604.811
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 27.971 8.751
+label W
+xy 27.971,8.151 8.751,25.571
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label V
+id 26
+pos 31.024 9.723
+height 0.000 66342.914
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 31.024 9.723
+label V
+xy 31.024,9.123 9.723,28.624
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label V
+id 27
+pos 20.229 9.668
+height 0.000 130813.562
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 20.229 9.668
+label V
+xy 20.229,9.068 9.768,18.301
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label T
+id 28
+pos 20.483 8.251
+height 0.000 36756.039
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 20.483 8.251
+label T
+xy 20.483,7.651 8.251,18.083
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label Y
+id 29
+pos 37.058 9.223
+height 0.000 31056.436
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 37.058 9.223
+label Y
+xy 37.058,8.623 9.223,34.658
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label M
+id 30
+pos 15.722 6.179
+height 0.000 42325.582
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 15.722 6.179
+label M
+xy 15.722,5.579 6.179,13.322
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label F
+id 31
+pos 37.930 6.679
+height 0.000 22637.471
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 37.930 6.679
+label F
+xy 37.930,6.079 6.679,35.530
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label K
+id 32
+pos 41.129 5.743
+height 0.000 36744.980
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 41.129 5.743
+label K
+xy 41.129,5.143 5.743,38.729
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label L
+id 33
+pos 44.203 5.229
+height 0.000 32385.697
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 44.203 5.229
+label L
+xy 44.203,4.629 5.242,46.004
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label I
+id 34
+pos 40.602 4.733
+height 0.000 32348.418
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 40.602 4.733
+label I
+xy 40.602,4.133 4.688,42.367
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label I
+id 35
+pos 15.050 4.719
+height 0.000 81388.398
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 15.050 4.719
+label I
+xy 16.178,4.124 5.138,15.415
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label I
+id 36
+pos 16.178 4.724
+height 0.000 52562.965
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 16.178 4.724
+label I
+xy 16.178,4.124 5.138,15.415
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label M
+id 37
+pos 35.146 6.252
+height 0.000 39887.070
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 35.146 6.252
+label M
+xy 35.146,5.652 6.220,36.311
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label M
+id 38
+pos 30.781 6.074
+height 0.000 99772.711
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 30.781 6.074
+label M
+xy 30.781,5.474 6.242,29.163
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label K
+id 39
+pos 34.546 5.738
+height 0.000 38194.293
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 34.546 5.738
+label K
+xy 34.546,5.138 5.674,36.165
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label K
+id 40
+pos 26.089 5.742
+height 0.000 64383.824
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 26.089 5.742
+label K
+xy 27.890,5.147 5.997,26.763
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label K
+id 41
+pos 27.890 5.747
+height 0.000 25656.834
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 27.890 5.747
+label K
+xy 27.890,5.147 5.997,26.763
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label H
+id 42
+pos 32.291 4.256
+height 0.000 40186.703
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 32.291 4.256
+label H
+xy 32.291,3.656 4.283,33.874
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label I
+id 43
+pos 29.399 4.747
+height 0.000 63459.070
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 29.399 4.747
+label I
+xy 29.399,4.147 4.751,31.509
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label L
+id 44
+pos 25.671 5.169
+height 0.000 202052.453
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 25.671 5.169
+label L
+xy 25.671,4.569 5.010,25.217
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label L
+id 45
+pos 22.434 5.360
+height 0.000 92284.727
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 22.434 5.360
+label L
+xy 22.434,4.760 5.360,20.034
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label Q
+id 46
+pos 27.284 3.268
+height 0.000 22663.229
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 27.284 3.268
+label Q
+xy 27.284,2.668 3.268,24.884
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label Q
+id 47
+pos 34.899 3.259
+height 0.000 122663.539
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 34.899 3.259
+label Q
+xy 34.899,2.659 3.286,36.412
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label E
+id 48
+pos 37.332 2.757
+height 0.000 124681.320
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 37.332 2.757
+label E
+xy 37.332,2.157 2.766,39.867
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label G
+id 49
+pos 46.639 3.753
+height 0.000 69115.680
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 46.639 3.753
+label G
+xy 46.639,3.153 3.679,48.268
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label E
+id 50
+pos 28.341 2.730
+height 0.000 34360.684
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 28.341 2.730
+label E
+xy 28.341,2.130 2.730,25.941
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label C
+id 51
+pos 26.614 2.237
+height 0.000 42466.551
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 26.614 2.237
+label C
+xy 26.614,1.637 2.237,24.214
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label N
+id 52
+pos 36.979 1.743
+height 0.000 31201.350
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 36.979 1.743
+label N
+xy 36.979,1.143 1.743,34.579
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label D
+id 53
+pos 39.235 1.249
+height 0.000 33037.062
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 39.235 1.249
+label D
+xy 39.235,0.649 1.249,36.835
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label R
+id 54
+pos 42.197 0.774
+height 0.000 30744.420
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 42.197 0.774
+label R
+xy 42.197,0.174 0.774,39.797
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label R
+id 55
+pos 27.248 0.826
+height 0.000 181352.062
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 27.248 0.826
+label R
+xy 29.223,0.632 1.170,28.691
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label R
+id 56
+pos 30.633 0.844
+height 0.000 138314.562
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 30.633 0.844
+label R
+xy 29.223,0.632 1.170,28.691
+]
+type peak
+color 0 2 0 white
+flags 0 0 0 0
+label A
+id 57
+pos 17.905 0.333
+height 0.000 96792.891
+[
+type label
+color 2 0 0 white
+flags 0 0 0 1
+mode 0
+pos 17.905 0.333
+label A
+xy 17.905,-0.267 0.633,15.999
+]
+<end ornament>
+<end spectrum>
